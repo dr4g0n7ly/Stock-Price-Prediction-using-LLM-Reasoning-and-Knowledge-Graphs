@@ -1,27 +1,46 @@
-from config import ALPACA_CREDS
-
-from lumibot.brokers import Alpaca
-from lumibot.backtesting import YahooDataBacktesting
-from lumibot.strategies.strategy import Strategy
-from lumibot.traders import Trader 
 from datetime import datetime
 
+from lumibot.backtesting import BacktestingBroker, YahooDataBacktesting
+from lumibot.strategies import Strategy
+from lumibot.traders import Trader
 
-class MLTrader(Strategy):
-    def initialize(self, symbol:str="SPY"):
+class TradeStrategy(Strategy):
+    def initialize(self, symbol:str="SPY", cash_at_risk:float=.5):
         self.symbol = symbol
-        pass
+        self.cash_at_risk = cash_at_risk
+        self.sleeptime = "24H"
+        self.last_trade = None
+
+    def position_sizing(self):
+        cash = self.get_cash()
+        last_price = self.get_last_price(self.symbol)
+        
     def on_trading_iteration(self):
-        pass
+        if self.last_trade==None:
+            order = self.create_order(
+                self.symbol,
+                10,
+                "buy",
+                type="market"
+            )
+            self.submit_order(order)
+            self.last_trade="buy"
 
-start_date = datetime(2023, 12, 15)
-end_date = datetime(2023, 12, 31)
 
-broker = Alpaca(ALPACA_CREDS)
-strategy = MLTrader(name='mlstrat', broker=broker,  parameters={"symbol":"SPY"})
-strategy.backtest(
-    YahooDataBacktesting,
-    start_date,
-    end_date,
-    parameters={}
+# Pick the dates that you want to start and end your backtest
+# and the allocated budget
+backtesting_start = datetime(2020, 11, 1)
+backtesting_end = datetime(2020, 12, 31)
+
+# Run the backtest
+trader = Trader(backtest=True)
+data_source = YahooDataBacktesting(
+    datetime_start=backtesting_start,
+    datetime_end=backtesting_end,
 )
+broker = BacktestingBroker(data_source)
+strat = TradeStrategy(
+    broker=broker
+)
+trader.add_strategy(strat)
+trader.run_all()
