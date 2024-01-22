@@ -26,11 +26,11 @@ class TradeStrategy(Strategy):
     def get_dates(self):
         today = self.get_datetime()
         three_days_prior = today - Timedelta(days=3)
-        return today.strfttime('%Y-%m-%d'), three_days_prior.strfttime('%Y-%m-%d')
+        return today.strftime('%Y-%m-%d'), three_days_prior.strftime('%Y-%m-%d')
     
     def get_news(self):
-        start_date, end_date = self.get_dates()
-        news = self.api.get_news(symbol=self.symbol, start=start_date, end=end_date)
+        today, p3_date = self.get_dates()
+        news = self.api.get_news(symbol=self.symbol, start=p3_date, end=today)
         news = [ev.__dict__["_raw"]["headline"] for ev in news]
         return news
     
@@ -54,7 +54,7 @@ class TradeStrategy(Strategy):
 
 # Pick the dates that you want to start and end your backtest
 # and the allocated budget
-backtesting_start = datetime(2020, 12, 1)
+backtesting_start = datetime(2020, 12, 21)
 backtesting_end = datetime(2020, 12, 31)
 
 # Run the backtest
