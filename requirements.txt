@@ -1,1 +1,2 @@
 lumibot==2.9.13
+alpaca-trade-api==3.1.1
