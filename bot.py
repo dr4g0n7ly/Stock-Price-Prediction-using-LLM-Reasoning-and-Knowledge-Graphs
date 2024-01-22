@@ -5,7 +5,7 @@ from lumibot.strategies import Strategy
 from lumibot.traders import Trader
 
 class TradeStrategy(Strategy):
-    def initialize(self, symbol:str="SPY", cash_at_risk:float=.5):
+    def initialize(self, symbol:str="UNH", cash_at_risk:float=.5):
         self.symbol = symbol
         self.cash_at_risk = cash_at_risk
         self.sleeptime = "24H"
@@ -29,8 +29,8 @@ class TradeStrategy(Strategy):
 
 # Pick the dates that you want to start and end your backtest
 # and the allocated budget
-backtesting_start = datetime(2020, 11, 1)
-backtesting_end = datetime(2020, 12, 31)
+backtesting_start = datetime(2020, 12, 12)
+backtesting_end = datetime(2020, 12, 21)
 
 # Run the backtest
 trader = Trader(backtest=True)
