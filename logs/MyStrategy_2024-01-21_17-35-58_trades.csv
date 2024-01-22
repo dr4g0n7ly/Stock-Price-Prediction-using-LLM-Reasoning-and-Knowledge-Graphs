@@ -1,3 +1,0 @@
-time,strategy,symbol,side,type,status,multiplier,time_in_force,asset.strike,asset.multiplier,asset.asset_type,price,filled_quantity,trade_cost
-2020-11-02 09:30:00-05:00,MyStrategy,AAPL,buy,market,new,1,gtc,0.0,1,stock,,,
-2020-11-02 09:30:00-05:00,MyStrategy,AAPL,buy,market,fill,1,gtc,0.0,1,stock,109.11000061035156,916.0,0.0
