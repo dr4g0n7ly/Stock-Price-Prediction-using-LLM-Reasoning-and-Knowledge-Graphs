@@ -1,8 +1,13 @@
-from datetime import datetime
+from config import API_KEY, API_SECRET, BASE_URL
 
 from lumibot.backtesting import BacktestingBroker, YahooDataBacktesting
 from lumibot.strategies import Strategy
 from lumibot.traders import Trader
+
+from alpaca_trade_api import REST
+
+from datetime import datetime
+from timedelta import Timedelta
 
 class TradeStrategy(Strategy):
     def initialize(self, symbol:str="SPY", cash_at_risk:float=.5):
@@ -10,6 +15,7 @@ class TradeStrategy(Strategy):
         self.cash_at_risk = cash_at_risk
         self.sleeptime = "24H"
         self.last_trade = None
+        self.api = REST(base_url=BASE_URL, key_id=API_KEY, secret_key=API_SECRET)
 
     def position_sizing(self):
         cash = self.get_cash()
@@ -17,11 +23,23 @@ class TradeStrategy(Strategy):
         quantity = round(cash * self.cash_at_risk / last_price)
         return cash, last_price, quantity
         
+    def get_dates(self):
+        today = self.get_datetime()
+        three_days_prior = today - Timedelta(days=3)
+        return today.strfttime('%Y-%m-%d'), three_days_prior.strfttime('%Y-%m-%d')
+    
+    def get_news(self):
+        start_date, end_date = self.get_dates()
+        news = self.api.get_news(symbol=self.symbol, start=start_date, end=end_date)
+        news = [ev.__dict__["_raw"]["headline"] for ev in news]
+        return news
+    
     def on_trading_iteration(self):
         cash, last_price, quantity = self.position_sizing()
-
         if cash > last_price:
             if self.last_trade==None:
+                news = self.get_news()
+                print(news)
                 order = self.create_order(
                     self.symbol,
                     quantity,
