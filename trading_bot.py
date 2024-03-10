@@ -14,8 +14,10 @@ ALPACA_CREDS = {
     "PAPER": True
 }
 
+stock = "TSLA"
+
 class MLTrader(Strategy): 
-    def initialize(self, symbol:str="SPY", cash_at_risk:float=.5): 
+    def initialize(self, symbol:str=stock, cash_at_risk:float=.5): 
         self.symbol = symbol
         self.sleeptime = "24H" 
         self.last_trade = None 
@@ -35,9 +37,7 @@ class MLTrader(Strategy):
 
     def get_sentiment(self): 
         today, three_days_prior = self.get_dates()
-        news = self.api.get_news(symbol=self.symbol, 
-                                 start=three_days_prior, 
-                                 end=today) 
+        news = self.api.get_news(symbol=stock, start="2023-06-08",end="2023-06-09", limit=10)
         news = [ev.__dict__["_raw"]["headline"] for ev in news]
         probability, sentiment = estimate_sentiment(news)
         return probability, sentiment 
@@ -82,7 +82,7 @@ strategy.backtest(
     YahooDataBacktesting, 
     start_date, 
     end_date,
-    benchmark_asset='SPY'
+    benchmark_asset=stock
 )
 # trader = Trader()
 # trader.add_strategy(strategy)
