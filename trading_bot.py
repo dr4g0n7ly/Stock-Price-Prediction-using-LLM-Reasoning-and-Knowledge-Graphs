@@ -37,7 +37,8 @@ class MLTrader(Strategy):
 
     def get_sentiment(self): 
         today, three_days_prior = self.get_dates()
-        news = self.api.get_news(symbol=stock, start="2023-06-08",end="2023-06-09", limit=10)
+        print("DATES: ", today, " - ", three_days_prior)
+        news = self.api.get_news(symbol=stock, start=three_days_prior,end=today, limit=10)
         news = [ev.__dict__["_raw"]["headline"] for ev in news]
         probability, sentiment = estimate_sentiment(news)
         return probability, sentiment 
@@ -74,7 +75,7 @@ class MLTrader(Strategy):
                 self.submit_order(order) 
                 self.last_trade = "sell"
 
-start_date = datetime(2020,1,1)
+start_date = datetime(2023,12,30)
 end_date = datetime(2023,12,31) 
 broker = Alpaca(ALPACA_CREDS) 
 strategy = MLTrader(name='mlstrat', broker=broker)

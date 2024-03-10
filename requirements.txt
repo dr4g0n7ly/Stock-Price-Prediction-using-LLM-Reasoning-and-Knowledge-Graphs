@@ -1,5 +1,5 @@
 lumibot==2.9.13
-alpaca-trade-api==3.1.1
+# alpaca-trade-api==3.1.1
 timedelta
 transformers==4.38.2
 torch
