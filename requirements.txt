@@ -1,7 +1,7 @@
 lumibot==2.9.13
 alpaca-trade-api==3.1.1
 timedelta
-transformers
+transformers==4.35.2
 torch
 torchvision
 torchaudio
