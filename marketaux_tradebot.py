@@ -40,14 +40,7 @@ class MLTrader(Strategy):
     def get_sentiment(self): 
         today, three_days_prior = self.get_dates()
 
-        news_data = get_news(api_token=MARKETAUX_KEY, symbols=stock, publish_date=today)
-
-        highlights = []
-        for item in news_data['data']:
-            for entity in item['entities']:
-                if entity['symbol'] == 'TSLA':
-                    for highlight in entity['highlights']:
-                        highlights.append(highlight['highlight'].replace('<em>', '').replace('</em>', ''))
+        highlights = get_news(api_token=MARKETAUX_KEY, symbols=stock, publish_date=today)
 
         probability, sentiment = estimate_sentiment(highlights)
         return probability, sentiment 
