@@ -18,7 +18,8 @@ api_token = MARKETAUX_KEY
 
 # Example usage:
 symbols = 'TSLA'
-news_data = get_news(api_token, symbols, publish_date='2024-01-02')
+publish_date='2024-01-02'
+news_data = get_news(api_token, symbols, publish_date)
 
 highlights = []
 
