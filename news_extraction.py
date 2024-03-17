@@ -5,8 +5,8 @@ from config import MARKETAUX_KEY
 
 api_token = MARKETAUX_KEY
 symbols = 'TSLA'
-start_date = datetime.strptime('2022-06-21', '%Y-%m-%d')
-num_days = 90
+start_date = datetime.strptime('2022-03-22', '%Y-%m-%d')
+num_days = 55
 
 try:
     df = pd.read_csv('tesla_news.csv')
