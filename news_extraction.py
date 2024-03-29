@@ -6,7 +6,7 @@ from config import MARKETAUX_KEY
 api_token = MARKETAUX_KEY
 symbols = 'TSLA'
 
-start_date = datetime.strptime('2023-02-20', '%Y-%m-%d')
+start_date = datetime.strptime('2023-05-26', '%Y-%m-%d')
 num_days = 95
 
 

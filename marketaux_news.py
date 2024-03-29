@@ -1,7 +1,7 @@
 import requests
 
-def get_news(api_token, symbols, publish_date, filter_entities=True, language='en'):
-    url = f"https://api.marketaux.com/v1/news/all?symbols={symbols}&filter_entities={filter_entities}&published_on={publish_date}&language={language}&api_token={api_token}"
+def get_news(api_token, symbols, publish_date, filter_entities=True, limit=5, language='en'):
+    url = f"https://api.marketaux.com/v1/news/all?symbols={symbols}&filter_entities={filter_entities}&published_on={publish_date}&language={language}&limit={limit}&api_token={api_token}"
     response = requests.get(url)
     
     if response.status_code == 200:
