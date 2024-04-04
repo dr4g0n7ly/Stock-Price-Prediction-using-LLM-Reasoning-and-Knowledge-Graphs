@@ -1,34 +1,32 @@
-import csv
-import json
-import networkx as nx
-from graphviz import Digraph
+from pyvis.network import Network
+import pandas as pd
 
-# Step 1: Read CSV file and parse JSON-formatted triplets
-triplets = []
-with open('triplets_for_all_dates.csv', 'r') as file:
-    reader = csv.DictReader(file)
-    for row in reader:
-        triplet = json.loads(row['triplets'])
-        triplets.append(triplet)
+# Step 1: Read CSV file and extract data
+df = pd.read_csv('CSV/triplets_for_all_dates_updated.csv')
 
-# Select the first 30 triplets for testing purposes
-triplets = triplets[:30]
+# Step 2: Select the first 30 rows and print head, relation, and tail
+# for index, row in df.head(200).iterrows():
+#     head = row['head']
+#     relation = row['relation']
+#     tail = row['tail']
+    
 
-# Step 2: Construct a directed graph using NetworkX
-G = nx.DiGraph()
+# Step 3: Create a Pyvis network
+net = Network()
 
-# Add edges to the graph
-for triplet in triplets:
-    head, relation, tail = triplet['head'], triplet['relation'], triplet['tail']
-    G.add_edge(head, tail, label=relation)
+# Add nodes and edges to the network
+for index, row in df.head(355).iterrows():
+    try:
+        head = row['head']
+        relation = row['relation']
+        tail = row['tail']
+        
+        net.add_node(head, label=head)
+        net.add_node(tail, label=tail)
+        net.add_edge(head, tail, label=relation)
+    except:
+        print(f"Row {index + 2}")
 
-# Step 3: Visualize the graph using Graphviz
-graph = Digraph(format='png')
-for node in G.nodes():
-    graph.node(node)
+# Step 4: Generate HTML file without opening it in the browser
+net.save_graph('knowledge_graph.html')
 
-for edge in G.edges(data=True):
-    source, target, label = edge
-    graph.edge(source, target, label=label['label'])
-
-graph.render('knowledge_graph', view=True)

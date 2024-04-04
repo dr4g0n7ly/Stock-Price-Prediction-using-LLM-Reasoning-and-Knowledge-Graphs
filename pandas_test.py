@@ -52,46 +52,29 @@
 # ==================================================
 # CHECK JSON FORMAT OF TRIPLETS IN CSV FILE
 
-import pandas as pd
-import json
+# import pandas as pd
+# import json
 
-def check_json_format(df):
-    count = 0
-    for index, row in df.iterrows():
-        try:
-            triplet_json = json.loads(row['triplet'])
-            if 'head' not in triplet_json or 'tail' not in triplet_json or 'relation' not in triplet_json:
-                print(f"Row {index + 1}: triplet doesn't contain head relation tail.")
-                if 'error' not in triplet_json:
-                    print("We have a problem: error is also not there")
-        except json.JSONDecodeError:
-            print(f"Row {index + 2}: Date - {row['date']}: LLM_Triplet is not in valid JSON format.")
-            count += 1
-    print("COUNT: ", count)
+# def check_json_format(df):
+#     count = 0
+#     for index, row in df.iterrows():
+#         try:
+#             triplet_json = json.loads(row['triplet'])
+#             if 'head' not in triplet_json or 'tail' not in triplet_json or 'relation' not in triplet_json:
+#                 print(f"Row {index + 1}: triplet doesn't contain head relation tail.")
+#                 if 'error' not in triplet_json:
+#                     print("We have a problem: error is also not there")
+#         except json.JSONDecodeError:
+#             print(f"Row {index + 2}: Date - {row['date']}: LLM_Triplet is not in valid JSON format.")
+#             count += 1
+#     print("COUNT: ", count)
 
-# Read the CSV file
-df = pd.read_csv('triplets_for_all_dates.csv')
 
-def remove_last_character(s):
-    if s:
-        return s[:-1]
-    return s
+# # Apply the function to the 'triplets' column
+# # df['triplet'] = df['triplet'].apply(process_triplet)
+# # Call the function to check JSON format
+# check_json_format(df)
 
-def process_triplet(triplet):
-    # Remove double quotes from the outside
-    triplet = triplet.strip('"')
-
-    # Replace single quotes with double quotes
-    triplet = triplet.replace("'", '"')
-
-    return triplet
-
-# Apply the function to the 'triplets' column
-# df['triplet'] = df['triplet'].apply(process_triplet)
-# Call the function to check JSON format
-check_json_format(df)
-
-df.to_csv('triplets_for_all_dates.csv', index=False)
 
 # ==================================================
 # PRINT TRIPLETS FOR SPECIFIC DATE
@@ -155,3 +138,34 @@ df.to_csv('triplets_for_all_dates.csv', index=False)
 # new_df.to_csv('triplets_for_all_dates.csv', index=False)
 
 
+#  EXTRACT HEAD RELATION AND ENTITY FROM TRIPLET
+
+import pandas as pd
+import json
+
+def extract_triplet_fields(df):
+    head_list = []
+    relation_list = []
+    tail_list = []
+    for index, row in df.iterrows():
+        try:
+            triplet_json = json.loads(row['triplet'])
+            head_list.append(triplet_json['head'])
+            relation_list.append(triplet_json['relation'])
+            tail_list.append(triplet_json['tail'])
+        except json.JSONDecodeError:
+            head_list.append(None)
+            relation_list.append(None)
+            tail_list.append(None)
+    df['head'] = head_list
+    df['relation'] = relation_list
+    df['tail'] = tail_list
+
+    # Update the CSV file with new columns
+    df.to_csv('triplets_for_all_dates_updated.csv', index=False)
+
+# Read the CSV file
+df = pd.read_csv('triplets_for_all_dates.csv')
+
+# Call the function to extract fields and update CSV
+extract_triplet_fields(df)
