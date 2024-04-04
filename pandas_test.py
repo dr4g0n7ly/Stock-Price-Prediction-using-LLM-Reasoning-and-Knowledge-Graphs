@@ -140,32 +140,39 @@
 
 #  EXTRACT HEAD RELATION AND ENTITY FROM TRIPLET
 
+# import pandas as pd
+# import json
+
+# def extract_triplet_fields(df):
+#     head_list = []
+#     relation_list = []
+#     tail_list = []
+#     for index, row in df.iterrows():
+#         try:
+#             triplet_json = json.loads(row['triplet'])
+#             head_list.append(triplet_json['head'])
+#             relation_list.append(triplet_json['relation'])
+#             tail_list.append(triplet_json['tail'])
+#         except json.JSONDecodeError:
+#             head_list.append(None)
+#             relation_list.append(None)
+#             tail_list.append(None)
+#     df['head'] = head_list
+#     df['relation'] = relation_list
+#     df['tail'] = tail_list
+
+#     # Update the CSV file with new columns
+#     df.to_csv('triplets_for_all_dates_updated.csv', index=False)
+
+# # Read the CSV file
+# df = pd.read_csv('triplets_for_all_dates.csv')
+
+# # Call the function to extract fields and update CSV
+# extract_triplet_fields(df)
+
 import pandas as pd
-import json
+df = pd.read_csv('CSV/triplets_for_all_dates_updated.csv')
 
-def extract_triplet_fields(df):
-    head_list = []
-    relation_list = []
-    tail_list = []
-    for index, row in df.iterrows():
-        try:
-            triplet_json = json.loads(row['triplet'])
-            head_list.append(triplet_json['head'])
-            relation_list.append(triplet_json['relation'])
-            tail_list.append(triplet_json['tail'])
-        except json.JSONDecodeError:
-            head_list.append(None)
-            relation_list.append(None)
-            tail_list.append(None)
-    df['head'] = head_list
-    df['relation'] = relation_list
-    df['tail'] = tail_list
-
-    # Update the CSV file with new columns
-    df.to_csv('triplets_for_all_dates_updated.csv', index=False)
-
-# Read the CSV file
-df = pd.read_csv('triplets_for_all_dates.csv')
-
-# Call the function to extract fields and update CSV
-extract_triplet_fields(df)
+# Step 2: Create the 'sentence' column
+df['sentence'] = df['head'] + ' ' + df['relation'] + ' ' + df['tail']
+df.to_csv('CSV/triplets_for_all_dates_updated.csv', index=False)
