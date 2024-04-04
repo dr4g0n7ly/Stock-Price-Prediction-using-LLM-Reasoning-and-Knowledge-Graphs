@@ -170,9 +170,23 @@
 # # Call the function to extract fields and update CSV
 # extract_triplet_fields(df)
 
-import pandas as pd
-df = pd.read_csv('CSV/triplets_for_all_dates_updated.csv')
+# import pandas as pd
+# df = pd.read_csv('CSV/triplets_for_all_dates_updated.csv')
 
-# Step 2: Create the 'sentence' column
-df['sentence'] = df['head'] + ' ' + df['relation'] + ' ' + df['tail']
-df.to_csv('CSV/triplets_for_all_dates_updated.csv', index=False)
+# # Step 2: Create the 'sentence' column
+# df['sentence'] = df['head'] + ' ' + df['relation'] + ' ' + df['tail']
+# df.to_csv('CSV/triplets_for_all_dates_updated.csv', index=False)
+
+import pandas as pd
+
+# Load the first CSV file
+df1 = pd.read_csv('triplet_embeddings.csv')
+
+# Load the second CSV file
+df2 = pd.read_csv('triplet_embeddings2.csv')
+
+# Merge the two dataframes
+merged_df = pd.concat([df1, df2], ignore_index=True)
+
+# Save the merged dataframe to a new CSV file
+merged_df.to_csv('merged_file.csv', index=False)
