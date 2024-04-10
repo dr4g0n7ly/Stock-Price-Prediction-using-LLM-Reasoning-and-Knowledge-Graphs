@@ -1,13 +1,13 @@
 import pandas as pd
 from marketaux_news import get_news
 from datetime import datetime, timedelta 
-from config import MARKETAUX_KEY_1
+from config import MARKETAUX_KEY_1, MARKETAUX_KEY_2
 
-api_token = MARKETAUX_KEY_1
+api_token = MARKETAUX_KEY_2
 symbols = 'NVDA'
 
-start_date = datetime.strptime('2022-05-01', '%Y-%m-%d')
-num_days = 50
+start_date = datetime.strptime('2023-03-31', '%Y-%m-%d')
+num_days = 95
 
 try:
     df = pd.read_csv('nvdia_news.csv')
