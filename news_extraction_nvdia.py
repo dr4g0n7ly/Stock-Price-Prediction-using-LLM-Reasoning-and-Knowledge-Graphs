@@ -3,10 +3,10 @@ from marketaux_news import get_news
 from datetime import datetime, timedelta 
 from config import MARKETAUX_KEY_1, MARKETAUX_KEY_2
 
-api_token = MARKETAUX_KEY_2
+api_token = MARKETAUX_KEY_1
 symbols = 'NVDA'
 
-start_date = datetime.strptime('2023-03-31', '%Y-%m-%d')
+start_date = datetime.strptime('2023-07-05', '%Y-%m-%d')
 num_days = 95
 
 try:
