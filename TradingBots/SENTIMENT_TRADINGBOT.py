@@ -1,38 +1,19 @@
+# change only this variable
+# change it to the file name of the csv file containing the news
+# make sure to NOT ADD .csv
+FILENAME = 'tesla_news'
+stock = "TSLA"
+
 from datetime import datetime
 
 from lumibot.backtesting import YahooDataBacktesting
 from lumibot.strategies import Strategy
 import pandas as pd
 
-from pathlib import Path
 
-# Get the current working directory as a Path object
-current_directory = Path.cwd()
+target_file = FILENAME+'_with_sentiment.csv'
+df = pd.read_csv(target_file)
 
-# Navigate to the CSV folder (assuming it's at the same level as the current directory)
-csv_folder = current_directory.parent / 'CSV'
-
-# Check if the CSV folder exists
-if csv_folder.exists():
-    # List all files and directories in the CSV folder
-    files_and_directories = csv_folder.iterdir()
-
-    # Print the list of files and directories
-    print("Files and directories in the CSV folder:")
-    for item in files_and_directories:
-        print(item)
-
-    # Check if the file exists in the CSV folder
-    target_file = csv_folder / 'tesla_news_with_sentiment.csv'
-    if target_file.exists():
-        print(f"The file {target_file.name} exists in the CSV folder.")
-        df = pd.read_csv(target_file)
-    else:
-        print(f"The file {target_file.name} does not exist in the CSV folder.")
-else:
-    print("The CSV folder does not exist.")
-
-stock = "TSLA"
 # A simple strategy that buys AAPL on the first day and hold it
 class MyStrategy(Strategy):
 
@@ -95,8 +76,8 @@ class MyStrategy(Strategy):
                 self.submit_order(order) 
                 self.last_trade = "sell"
 
-backtesting_start = datetime(2022, 1, 20)
-backtesting_end = datetime(2023, 8, 10)
+backtesting_start = datetime(2022, 1, 1)
+backtesting_end = datetime(2024, 3, 31)
 
 # Run the backtest
 MyStrategy.backtest(
