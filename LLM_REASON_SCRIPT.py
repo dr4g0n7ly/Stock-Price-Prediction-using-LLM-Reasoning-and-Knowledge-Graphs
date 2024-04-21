@@ -1,6 +1,6 @@
 # CHANGE STOCK NAME IN SYSTEM PROMPT 3 TIMES
 
-FILENAME = 'tesla_news'
+FILENAME = 'nvdia_news'
 
 import os
 import pandas as pd
@@ -40,7 +40,7 @@ def LLM_Response(news):
         return output
     except Exception as e:
         print(f"An error occurred: {e}\nfor news: {news}")
-        return '{reason: error, confidence: 2}' # Return ONLY_HIGH if an error occurs
+        return '{""reason"": ""error"", ""confidence"": 2}' # Return ONLY_HIGH if an error occurs
     
 
 # Load the CSV file into a pandas DataFrame
@@ -67,7 +67,7 @@ for i in range(start_index, len(df)):
   # Check if it's time to save the CSV file
   if (i + 1) % batch_size == 0:
     # Save the DataFrame to a CSV file without the 'news' column
-    df_to_save.to_csv(FILENAME+'_with_LLM_Reason.csv', index=False)
+    df_to_save.to_csv(FILENAME+'_with_LLM_Reason_new.csv', index=False)
 
     # Update the checkpoint file with the index of the last processed row
     with open(checkpoint_file, 'w') as f:
@@ -77,5 +77,5 @@ for i in range(start_index, len(df)):
 
 # Save the remaining rows (without 'news' column)
 df.drop('news', axis=1, inplace=True)  # Drop directly modifies the DataFrame
-df.to_csv(FILENAME+'_with_LLM_Reason.csv', index=False)
+df.to_csv(FILENAME+'_with_LLM_Reason_new.csv', index=False)
 print(f"Total {len(df)} rows processed and saved.")

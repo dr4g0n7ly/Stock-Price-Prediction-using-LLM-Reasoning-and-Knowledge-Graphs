@@ -22,7 +22,7 @@ def LLM_Triplet(news):
         1. Please respond in json format: { triplets[ {head, relation, tail}, ... ]}, where the triplets is an array containing triplets of form {head, relation, tail} and nothing else as it needs to be used directly as json. 
         2. Please generate exactly 5 triplets from the news provided below
         3. Please ensure that the news triplets only contain information given in the news text and not any additional or irrelevant details.
-        4. head relation and tail must contain information
+        4. All elements head relation and tail must contain information - elements shouldnt be None
         5. Try to find meaningful information that may be most detrimental to Tesla Stock price movement. This is very important!
         """
         response = model.generate_content(

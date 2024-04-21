@@ -1,5 +1,5 @@
 # CHANGE FILENAME TO LLM REASON OUTPUT FILE
-df = pd.read_csv('your_file.csv')
+FILENAME = 'tesla_news'
 
 import pandas as pd
 import json
@@ -13,7 +13,16 @@ def check_json_format(df):
         except json.JSONDecodeError:
             print(f"Date - {row['date']}: LLM_output is not in valid JSON format.")
 
+
 # Call the function to check JSON format
+df = pd.read_csv(FILENAME+'_with_LLM_Reason.csv')
+
+df['LLM_output'] = df['LLM_output'].str.replace("```", '')
+df['LLM_output'] = df['LLM_output'].str.replace("json", '')
+df['LLM_output'] = df['LLM_output'].str.replace("JSON", '')
+df['LLM_output'] = df['LLM_output'].str.replace("reason: error, confidence: 2", '""reason"": ""error"", ""confidence"": 2')
+
+
 check_json_format(df)
 
 # # Function to extract confidence score
