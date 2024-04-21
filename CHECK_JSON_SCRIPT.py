@@ -8,8 +8,8 @@ def check_json_format(df):
     for index, row in df.iterrows():
         try:
             output = json.loads(row['LLM_output'])
-            if 'reason' not in output and 'error' not in output:
-                print(f"Row {index + 1}: LLM_output doesn't contain 'reason' or 'error'.")
+            if 'confidence' not in output and 'error' not in output:
+                print(f"Row {index + 1}: LLM_output doesn't contain 'confidence' or 'error'.")
         except json.JSONDecodeError:
             print(f"Date - {row['date']}: LLM_output is not in valid JSON format.")
 
