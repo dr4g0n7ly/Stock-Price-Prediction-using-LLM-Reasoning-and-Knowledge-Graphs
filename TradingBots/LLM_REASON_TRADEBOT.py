@@ -1,5 +1,5 @@
-FILENAME = "tesla_news"
-stock = "TSLA"
+FILENAME = "nvdia_news"
+stock = "NVDA"
 
 from datetime import datetime
 
@@ -42,7 +42,7 @@ class MyStrategy(Strategy):
         confidence = self.get_sentiment()
 
         if cash > last_price: 
-            if confidence > 7: 
+            if confidence > 6: 
                 if self.last_trade == "sell": 
                     self.sell_all() 
                 order = self.create_order(
