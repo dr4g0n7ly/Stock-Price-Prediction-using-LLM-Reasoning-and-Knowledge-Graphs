@@ -1,10 +1,15 @@
+FILENAME = "tesla_news"
+stock = "TSLA"
+
 from datetime import datetime
 
 from lumibot.backtesting import YahooDataBacktesting
 from lumibot.strategies import Strategy
-import pandas as pd
 
-stock = "TSLA"
+import pandas as pd
+df = pd.read_csv(FILENAME+'_with_confidence.csv')
+
+
 # A simple strategy that buys AAPL on the first day and hold it
 class MyStrategy(Strategy):
 
@@ -22,11 +27,10 @@ class MyStrategy(Strategy):
     
     def get_sentiment(self): 
         today = self.get_datetime().strftime('%Y-%m-%d')
-        df = pd.read_csv('modified_tesla_news_with_output.csv')
         print("\n", str(today))
         filtered_row = df[df['date'] == str(today)]
         if not filtered_row.empty:
-            confidence = filtered_row['confidence_score'].values[0]
+            confidence = filtered_row['confidence'].values[0]
             print(" confidence:", confidence)
             return  confidence
         else:
@@ -51,7 +55,7 @@ class MyStrategy(Strategy):
                 )
                 self.submit_order(order) 
                 self.last_trade = "buy"
-            elif confidence < 5: 
+            elif confidence < 3: 
                 if self.last_trade == "buy": 
                     self.sell_all() 
                 order = self.create_order(
@@ -69,7 +73,7 @@ class MyStrategy(Strategy):
 # Pick the dates that you want to start and end your backtest
 # and the allocated budget
 backtesting_start = datetime(2022, 1, 20)
-backtesting_end = datetime(2023, 8, 10)
+backtesting_end = datetime(2024, 3, 31)
 
 # Run the backtest
 MyStrategy.backtest(

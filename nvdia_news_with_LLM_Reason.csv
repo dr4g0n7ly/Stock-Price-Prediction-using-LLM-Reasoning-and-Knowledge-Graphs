@@ -205,7 +205,7 @@ date,LLM_output
   ""confidence"": 0
 }
 ```"
-2022-02-10,"{ reason: ""The overall market is experiencing a downturn, with major indices such as the Dow Jones Industrial Average, S&P 500, and Nasdaq Composite all losing significant ground. This suggests that investors are selling off risky assets, which could put pressure on Tesla's stock price."", confidence: 0 }"
+2022-02-10,"{ ""reason"": ""The overall market is experiencing a downturn, with major indices such as the Dow Jones Industrial Average, S&P 500, and Nasdaq Composite all losing significant ground. This suggests that investors are selling off risky assets, which could put pressure on Tesla's stock price."", ""confidence"": 0 }"
 2022-02-11,"```json
 {
   ""reason"": ""The news is negative for Tesla as it mentions a decline in the stock prices of other semiconductor stocks like Nvidia and AMD. This may indicate a correction in the semiconductor industry which could negatively impact Tesla's stock price as well."",
@@ -533,7 +533,7 @@ date,LLM_output
  ""reason"": ""While NVIDIA's fundamentals are strong and many analysts remain bullish on the stock, the recent downgrade by Zacks Investment Research from a buy to hold rating is a cause for concern. Zacks cited concerns about NVIDIA's valuation and the potential for a slowdown in the company's growth rate. Additionally, the sale of a large block of shares by a director could be a sign of insider selling, which could put further downward pressure on the stock price."",
  ""confidence"": 4
 }"
-2022-04-20,"{ reason: ""The news is about NVIDIA stock. It does not contain any meaningful information related to Tesla stock movement."", confidence: 0 }"
+2022-04-20,"{ ""reason"": ""The news is about NVIDIA stock. It does not contain any meaningful information related to Tesla stock movement."", ""confidence"": 0 }"
 2022-04-21,"```json
 {
   ""reason"": ""Nvidia, a semiconductor company that supplies chips to Tesla, experienced a significant decline in its stock price today, falling below a crucial support level. This indicates that there may be further downside for Nvidia's stock, which could potentially have a negative impact on Tesla's stock price as well. Additionally, other tech stocks such as Meta Platforms, Amazon, and Netflix also declined today, suggesting that there is a broader sell-off in the tech sector. While Tesla's first-quarter earnings beat analysts' expectations, the overall market sentiment towards tech stocks is currently negative, which could weigh on Tesla's stock price in the short term."",
