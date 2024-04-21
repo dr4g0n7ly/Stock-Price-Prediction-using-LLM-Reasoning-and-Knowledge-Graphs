@@ -9,7 +9,7 @@ def check_json_format(df):
         try:
             output = json.loads(row['LLM_output'])
             if 'confidence' not in output and 'error' not in output:
-                print(f"Row {index + 1}: LLM_output doesn't contain 'confidence' or 'error'.")
+                print(f"Row {index + 1} Date - {row['date']}: LLM_output doesn't contain 'confidence' or 'error'.")
         except json.JSONDecodeError:
             print(f"Date - {row['date']}: LLM_output is not in valid JSON format.")
 

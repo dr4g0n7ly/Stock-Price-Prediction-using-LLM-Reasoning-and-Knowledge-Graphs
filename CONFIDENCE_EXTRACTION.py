@@ -1,5 +1,5 @@
 # CHANGE FILENAME TO LLM REASON OUTPUT FILE
-FILENAME = 'tesla_news'
+FILENAME = 'nvdia_news'
 
 import pandas as pd
 import json

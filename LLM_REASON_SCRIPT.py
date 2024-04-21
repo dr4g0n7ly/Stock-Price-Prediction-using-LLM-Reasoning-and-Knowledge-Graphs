@@ -67,7 +67,7 @@ for i in range(start_index, len(df)):
   # Check if it's time to save the CSV file
   if (i + 1) % batch_size == 0:
     # Save the DataFrame to a CSV file without the 'news' column
-    df_to_save.to_csv(FILENAME+'_with_LLM_Reason_new.csv', index=False)
+    df_to_save.to_csv(FILENAME+'_with_LLM_Reason.csv', index=False)
 
     # Update the checkpoint file with the index of the last processed row
     with open(checkpoint_file, 'w') as f:
@@ -77,5 +77,5 @@ for i in range(start_index, len(df)):
 
 # Save the remaining rows (without 'news' column)
 df.drop('news', axis=1, inplace=True)  # Drop directly modifies the DataFrame
-df.to_csv(FILENAME+'_with_LLM_Reason_new.csv', index=False)
+df.to_csv(FILENAME+'_with_LLM_Reason.csv', index=False)
 print(f"Total {len(df)} rows processed and saved.")
