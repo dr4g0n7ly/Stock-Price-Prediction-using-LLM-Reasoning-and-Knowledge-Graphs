@@ -1,3 +1,6 @@
+# FILENAME = "tesla_news"
+# stock = "TSLA"
+
 FILENAME = "nvdia_news"
 stock = "NVDA"
 
@@ -42,7 +45,7 @@ class MyStrategy(Strategy):
         confidence = self.get_sentiment()
 
         if cash > last_price: 
-            if confidence > 6: 
+            if confidence > 7: 
                 if self.last_trade == "sell": 
                     self.sell_all() 
                 order = self.create_order(
@@ -50,12 +53,12 @@ class MyStrategy(Strategy):
                     quantity, 
                     "buy", 
                     type="bracket", 
-                    take_profit_price=last_price*1.20, 
-                    stop_loss_price=last_price*.95
+                    take_profit_price=last_price*1.50, 
+                    stop_loss_price=last_price*.8
                 )
                 self.submit_order(order) 
                 self.last_trade = "buy"
-            elif confidence < 3: 
+            elif confidence < 2: 
                 if self.last_trade == "buy": 
                     self.sell_all() 
                 order = self.create_order(
@@ -63,8 +66,8 @@ class MyStrategy(Strategy):
                     quantity, 
                     "sell", 
                     type="bracket", 
-                    take_profit_price=last_price*.8, 
-                    stop_loss_price=last_price*1.05
+                    take_profit_price=last_price*1.50, 
+                    stop_loss_price=last_price*.8
                 )
                 self.submit_order(order) 
                 self.last_trade = "sell"

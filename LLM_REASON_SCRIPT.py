@@ -1,6 +1,6 @@
 # CHANGE STOCK NAME IN SYSTEM PROMPT 3 TIMES
 
-FILENAME = 'nvdia_news'
+FILENAME = 'new_nvdia_news'
 
 import os
 import pandas as pd

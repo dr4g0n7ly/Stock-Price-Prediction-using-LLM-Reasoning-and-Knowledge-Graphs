@@ -6,11 +6,11 @@ from config import MARKETAUX_KEY_1, MARKETAUX_KEY_2
 api_token = MARKETAUX_KEY_1
 symbols = 'NVDA'
 
-start_date = datetime.strptime('2023-10-08', '%Y-%m-%d')
+start_date = datetime.strptime('2024-01-01', '%Y-%m-%d')
 num_days = 95
 
 try:
-    df = pd.read_csv('new_nvdia_news.csv')
+    df = pd.read_csv('nvdia_news.csv')
 except FileNotFoundError:
     df = pd.DataFrame(columns=['date', 'news'])
 for i in range(0, num_days):
