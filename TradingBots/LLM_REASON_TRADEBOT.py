@@ -1,8 +1,20 @@
 # FILENAME = "tesla_news"
 # stock = "TSLA"
 
-FILENAME = "nvdia_news"
-stock = "NVDA"
+# FILENAME = "nvdia_news"
+# stock = "NVDA"
+
+# FILENAME = "apple_news"
+# stock = "AAPL"
+
+# FILENAME = "amd_news"
+# stock = "AMD"
+
+# FILENAME = "google_news"
+# stock = "GOOG"
+
+FILENAME = "msft_news"
+stock = "MSFT"
 
 from datetime import datetime
 
@@ -25,6 +37,10 @@ class MyStrategy(Strategy):
     def position_sizing(self): 
         cash = self.get_cash() 
         last_price = self.get_last_price(self.symbol)
+        if cash < 1000:
+            self.cash_at_risk=0.9
+        else:
+            self.cash_at_risk=0.4
         quantity = round(cash * self.cash_at_risk / last_price,0)
         return cash, last_price, quantity
     
@@ -53,12 +69,12 @@ class MyStrategy(Strategy):
                     quantity, 
                     "buy", 
                     type="bracket", 
-                    take_profit_price=last_price*1.50, 
-                    stop_loss_price=last_price*.8
+                    take_profit_price=last_price*1.5, 
+                    stop_loss_price=last_price*.85
                 )
                 self.submit_order(order) 
                 self.last_trade = "buy"
-            elif confidence < 2: 
+            elif confidence < 3: 
                 if self.last_trade == "buy": 
                     self.sell_all() 
                 order = self.create_order(
@@ -66,8 +82,8 @@ class MyStrategy(Strategy):
                     quantity, 
                     "sell", 
                     type="bracket", 
-                    take_profit_price=last_price*1.50, 
-                    stop_loss_price=last_price*.8
+                    take_profit_price=last_price*1.5, 
+                    stop_loss_price=last_price*.85
                 )
                 self.submit_order(order) 
                 self.last_trade = "sell"
