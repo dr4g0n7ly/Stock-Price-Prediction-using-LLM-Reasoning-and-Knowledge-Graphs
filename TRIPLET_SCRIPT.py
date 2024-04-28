@@ -1,4 +1,4 @@
-# IMP: CHANGE STOCK NAME IN RULE 5
+# IMP: CHANGE STOCK NAME 2 TIMES IN SYSTEM PROMPT
 
 # CHANGE FILE NAME
 FILENAME = 'tesla_news'
@@ -17,13 +17,14 @@ def remove_quotes(s):
 
 def LLM_Triplet(news):
     try:
-        system_prompt = """ You are an expert knowledge graph generation model that generates very specific knowledge-graph triplets based on the news provided. You must ensure the following rules are followed when generating the knowledge graph
+        system_prompt = """ You are an expert in financial news analysis and knowledge graph generation. You list out important cases or incidents from the provided news that may be detrimental to Tesla stock price movement and generate very specific knowledge-graph triplets based on the news provided. You must ensure the following rules are followed when generating the output
         RULES:
-        1. Please respond in json format: { triplets[ {head, relation, tail}, ... ]}, where the triplets is an array containing triplets of form {head, relation, tail} and nothing else as it needs to be used directly as json. 
+        1. Please respond in json format: { impact_cases[...], triplets[ {head, relation, tail}, ... ]}, where impact_cases is an array of strings containing important snippets from the provided news, and triplets is an array containing triplets of form {head, relation, tail} and nothing else as it needs to be used directly as json. 
         2. Please generate exactly 5 triplets from the news provided below
         3. Please ensure that the news triplets only contain information given in the news text and not any additional or irrelevant details.
-        4. All elements head relation and tail must contain information - elements shouldnt be None
-        5. Try to find meaningful information that may be most detrimental to Tesla Stock price movement. This is very important!
+        4. All elements head relation and tail must contain information. None of the elements can be None or empty
+        5. Please ensure to find meaningful information that may be most detrimental to Tesla Stock price movement. This is very important!
+        6. Please ensure that the triplets must make sense when read as a sentence
         """
         response = model.generate_content(
         f'''
@@ -43,7 +44,7 @@ def LLM_Triplet(news):
 df = pd.read_csv(FILENAME+'.csv')
 batch_size = 5
 
-checkpoint_file = FILENAME+'kg_checkpoint.txt'
+checkpoint_file = FILENAME+'_kg_checkpoint.txt'
 start_index = 0
 if os.path.exists(checkpoint_file):
     with open(checkpoint_file, 'r') as f:
