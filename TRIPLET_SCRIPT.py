@@ -1,7 +1,7 @@
 # IMP: CHANGE STOCK NAME 2 TIMES IN SYSTEM PROMPT
 
 # CHANGE FILE NAME
-FILENAME = 'tesla_news'
+FILENAME = 'nvdia_news'
 
 import google.generativeai as genai
 from config import GOOGLE_API_KEY
@@ -17,13 +17,13 @@ def remove_quotes(s):
 
 def LLM_Triplet(news):
     try:
-        system_prompt = """ You are an expert in financial news analysis and knowledge graph generation. You list out important cases or incidents from the provided news that may be detrimental to Tesla stock price movement and generate very specific knowledge-graph triplets based on the news provided. You must ensure the following rules are followed when generating the output
+        system_prompt = """ You are an expert in financial news analysis and knowledge graph generation. You list out important cases or incidents from the provided news that may be detrimental to Nvidia stock price movement and generate very specific knowledge-graph triplets based on the news provided. You must ensure the following rules are followed when generating the output
         RULES:
         1. Please respond in json format: { impact_cases[...], triplets[ {head, relation, tail}, ... ]}, where impact_cases is an array of strings containing important snippets from the provided news, and triplets is an array containing triplets of form {head, relation, tail} and nothing else as it needs to be used directly as json. 
         2. Please generate exactly 5 triplets from the news provided below
         3. Please ensure that the news triplets only contain information given in the news text and not any additional or irrelevant details.
         4. All elements head relation and tail must contain information. None of the elements can be None or empty
-        5. Please ensure to find meaningful information that may be most detrimental to Tesla Stock price movement. This is very important!
+        5. Please ensure to find meaningful information that may be most detrimental to Nvidia Stock price movement. This is very important!
         6. Please ensure that the triplets must make sense when read as a sentence
         """
         response = model.generate_content(
