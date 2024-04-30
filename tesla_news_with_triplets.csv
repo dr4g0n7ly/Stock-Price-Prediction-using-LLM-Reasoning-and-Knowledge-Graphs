@@ -13,7 +13,7 @@ date,LLM_Triplet
     {
       ""head"": ""Deutsche Bank"",
       ""relation"": ""boosted"",
-      ""tail"": ""their price target on shares of Tesla Inc (NASDAQ:TSLA).""
+      ""tail"": ""their price target on Tesla's stock Inc (NASDAQ:TSLA).""
     },
     {
       ""head"": ""Shift to electric vehicles"",
@@ -36,7 +36,7 @@ date,LLM_Triplet
 2022-01-02,"
 {
   ""impact cases"": [
-    ""Tesla stock looks stretched."",
+    ""Tesla's stock looks stretched."",
     ""Tesla doesn't converge with fundamentals"",
     ""Tesla is the only S&P 500 company with Bitcoin on its balance sheet. That will change in 2022.""
   ],
@@ -345,14 +345,14 @@ date,LLM_Triplet
 2022-01-11,"
 {
   ""impact cases"": [
-    ""Tesla stock appears to form a diamond pattern, which often indicates a bearish trend and potential decline."",
+    ""Tesla's stock appears to form a diamond pattern, which often indicates a bearish trend and potential decline."",
     ""Tesla underperformed the market compared to other car companies."",
     ""ARK Invest CEO Cathie Wood suggests that traditional car companies may outperform electric-vehicle manufacturers like Tesla in the future."",
     ""ARK Invest's ETFs have faced challenges in recent months after strong performance in 2020, partly due to Tesla's gains.""
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""could potentially decline"",
       ""tail"": ""due to a diamond pattern formation""
     },
@@ -577,7 +577,7 @@ date,LLM_Triplet
       ""tail"": ""Elon Goat Monument""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""declined recently"",
       ""tail"": ""due to declines from Apple and Amazon shares""
     },
@@ -651,7 +651,7 @@ date,LLM_Triplet
     },
     {
       ""head"": ""Rheos Capital Works Inc"",
-      ""relation"": ""purchase price for Tesla stock"",
+      ""relation"": ""purchase price for Tesla's stock"",
       ""tail"": ""$780.59-$1229.91""
     },
     {
@@ -1014,7 +1014,7 @@ date,LLM_Triplet
   ""impact cases"": [
     ""Elon Musk does not budge."",
     ""The billionaire is sticking to his position in the Tweetgate affair, which has already cost him and Tesla (TSLA) - Get Tesla Inc Report a $40 million fine from the SEC."",
-    ""The tweets had shaken Tesla stock."",
+    ""The tweets had shaken Tesla's stock."",
     ""The SEC’s complaint alleged that, in truth, Musk knew that the potential transaction was uncertain and subject to numerous contingencies."",
     ""Tesla and Musk agreed to pay $40 million in penalties.""
   ],
@@ -1040,7 +1040,7 @@ date,LLM_Triplet
       ""tail"": ""a class action lawsuit""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""affected by"",
       ""tail"": ""Elon Musk's tweets""
     }
@@ -1170,7 +1170,7 @@ date,LLM_Triplet
       ""tail"": ""on 16 major stocks, including Tesla, Inc.""
     },
     {
-      ""head"": ""Shares of Tesla"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""gained +27.2%"",
       ""tail"": ""in the last six months""
     },
@@ -1435,7 +1435,7 @@ date,LLM_Triplet
 2022-02-16,"
 {
   ""impact cases"": [
-    ""Banco de Sabadell, S.A. is selling their shares of Tesla Inc."",
+    ""Banco de Sabadell, S.A. is selling their Tesla's stock Inc."",
     ""The purchase prices were between $780.59 and $1229.91, with an estimated average price of $1012.35. The stock is now traded at around $923.390000."",
     ""The holding were 1,267 shares as of 2021-12-31.""
   ],
@@ -1458,7 +1458,7 @@ date,LLM_Triplet
     {
       ""head"": ""Ron Baron"",
       ""relation"": ""owns"",
-      ""tail"": ""5,793,603 shares of Tesla Inc""
+      ""tail"": ""5,793,603 Tesla's stock Inc""
     },
     {
       ""head"": ""Tesla Inc"",
@@ -1577,13 +1577,13 @@ date,LLM_Triplet
 2022-02-20,"
 {
   ""impact cases"": [
-    ""Tesla stock price dropped by 2.21%"",
+    ""Tesla's stock price dropped by 2.21%"",
     ""Bank of America gave Intel an “Underperform” rating, causing its stock price to drop by 5.32%."",
     ""Analysts believe that Tesla (TSLA) cars may not be as responsive to consumer tastes as larger and bulkier models offered by other electric vehicle manufacturers.""
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla stock price"",
+      ""head"": ""Tesla's stock price"",
       ""relation"": ""decreased by"",
       ""tail"": ""2.21%""
     },
@@ -1722,7 +1722,7 @@ date,LLM_Triplet
 2022-02-24,"
 {
   ""impact cases"": [
-    ""The SEC’s investigation began last year after Kimbal Musk sold shares of Tesla valued at $108 million, one day before the Tesla chief polled Twitter users asking whether he should unload 10% of his stake in the electric-car maker and pledging to abide by the vote’s results.""
+    ""The SEC’s investigation began last year after Kimbal Musk sold Tesla's stock valued at $108 million, one day before the Tesla chief polled Twitter users asking whether he should unload 10% of his stake in the electric-car maker and pledging to abide by the vote’s results.""
   ],
   ""triplets"": [
     {
@@ -1738,10 +1738,10 @@ date,LLM_Triplet
     {
       ""head"": ""SEC"",
       ""relation"": ""is investigating"",
-      ""tail"": ""Tesla stock sales""
+      ""tail"": ""Tesla's stock sales""
     },
     {
-      ""head"": ""Tesla stock sales"",
+      ""head"": ""Tesla's stock sales"",
       ""relation"": ""may have violated"",
       ""tail"": ""insider-trading rules""
     },
@@ -1792,9 +1792,9 @@ date,LLM_Triplet
 {
   ""impact cases"": [
     ""The US SEC is currently probing into the insider trading of Tesla Inc. (TSLA) CEO Elon Musk and his brother Kimbal Musk for possible violations of rules."",
-    ""Kimbal Musk has sold 88,500 shares of Tesla from which he has received $109 million."",
+    ""Kimbal Musk has sold 88,500 Tesla's stock from which he has received $109 million."",
     ""The sale coincided with Musks tweet on November 6th where he asked his followers about selling 10% of his stock in the company."",
-    ""Tesla stock drops significantly during the period.""
+    ""Tesla's stock drops significantly during the period.""
   ],
   ""triplets"": [
     {
@@ -1818,7 +1818,7 @@ date,LLM_Triplet
       ""tail"": ""88,500""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""dropped significantly"",
       ""tail"": ""period of Kimbal Musk's share sale""
     }
@@ -2004,17 +2004,17 @@ date,LLM_Triplet
 2022-03-04,"
 {
  ""impact cases"": [
-  ""Tesla stock spent much of the session in the green and was giving up less than 1% heading into the close gain after CEO Elon Musk took on a powerful union via Twitter., Tesla will do nothing to stop them, he said."",
+  ""Tesla's stock spent much of the session in the green and was giving up less than 1% heading into the close gain after CEO Elon Musk took on a powerful union via Twitter., Tesla will do nothing to stop them, he said."",
   ""Tesla still must provide some documents before production can kick off.""
  ],
  ""triplets"": [
   {
-   ""head"": ""Tesla Stock"",
+   ""head"": ""Tesla's stock"",
    ""relation"": ""is a member of"",
    ""tail"": ""the prestigious IBD Leaderboard list of leading growth stocks""
   },
   {
-   ""head"": ""Tesla Stock"",
+   ""head"": ""Tesla's stock"",
    ""relation"": ""increased by"",
    ""tail"": ""1.6 % after Elon Musk gave an open invitation to United Autoworkers (UAW) to come to his factory""
   },
@@ -2053,7 +2053,7 @@ date,LLM_Triplet
     {
       ""head"": ""Wealth Alliance Advisory Group LLC"",
       ""relation"": ""acquired"",
-      ""tail"": ""277 shares of Tesla stock, valued at $293,000.""
+      ""tail"": ""277 Tesla's stock stock, valued at $293,000.""
     },
     {
       ""head"": ""Rye Brook Capital LLC"",
@@ -2063,7 +2063,7 @@ date,LLM_Triplet
     {
       ""head"": ""Eagle Capital Management LLC"",
       ""relation"": ""increased"",
-      ""tail"": ""Tesla stock holdings by 4.6% in the 4th quarter.""
+      ""tail"": ""Tesla's stock holdings by 4.6% in the 4th quarter.""
     }
   ]
 }
@@ -2072,7 +2072,7 @@ date,LLM_Triplet
 {
   ""impact cases"": [
     ""Tesla rivals ramping up production"",
-    ""Tesla stock price may be affected by increased competition from rivals"",
+    ""Tesla's stock price may be affected by increased competition from rivals"",
     ""Tesla facing permit and production delays in Germany""
   ],
   ""triplets"": [
@@ -2335,7 +2335,7 @@ date,LLM_Triplet
   {
    ""head"": ""High inflation"",
    ""relation"": ""is impacting"",
-   ""tail"": ""Tesla stock price""
+   ""tail"": ""Tesla's stock price""
   },
   {
    ""head"": ""Rising interest rates"",
@@ -2343,7 +2343,7 @@ date,LLM_Triplet
    ""tail"": ""for Tesla to sustain its growth""
   },
   {
-   ""head"": ""Draw down in Tesla stock"",
+   ""head"": ""Draw down in Tesla's stock"",
    ""relation"": ""has negatively impacted"",
    ""tail"": ""its financial performance""
   }
@@ -2389,8 +2389,8 @@ date,LLM_Triplet
 2022-03-16,"
 {
  ""impact cases"": [
-  ""Tesla stock price has tanked by more than 30% in 2022"",
-  ""Tesla stock had departed from all traditional valuation measures"",
+  ""Tesla's stock price has tanked by more than 30% in 2022"",
+  ""Tesla's stock had departed from all traditional valuation measures"",
   ""The stock was trading purely on the most optimistic estimates of future growth"",
   ""The system has faced scrutiny from U.S. regulators over deadly crashes and traffic law violations""
  ],
@@ -2401,12 +2401,12 @@ date,LLM_Triplet
    ""tail"": ""a decline in its stock price of more than 30% in 2022""
   },
   {
-   ""head"": ""Tesla stock"",
+   ""head"": ""Tesla's stock"",
    ""relation"": ""has departed"",
    ""tail"": ""from traditional valuation measures""
   },
   {
-   ""head"": ""Tesla stock"",
+   ""head"": ""Tesla's stock"",
    ""relation"": ""was trading"",
    ""tail"": ""purely on optimistic estimates of future growth""
   },
@@ -2534,7 +2534,7 @@ date,LLM_Triplet
     {
       ""head"": ""Tencent"",
       ""relation"": ""holds"",
-      ""tail"": ""4.97% of Tesla stock""
+      ""tail"": ""4.97% of Tesla's stock""
     },
     {
       ""head"": ""Tencent"",
@@ -2875,7 +2875,7 @@ date,LLM_Triplet
 2022-03-31,"
 {
   ""impact cases"": [
-    ""Tesla stock price may surge due to short squeeze as investors need to cover their positions"",
+    ""Tesla's stock price may surge due to short squeeze as investors need to cover their positions"",
     ""Tesla's market capitalization jumped by more than $80 billion after the announcement of a potential stock split"",
     ""EV manufacturers including Tesla faced a decline, with Tesla's stock price falling by 1.5%""
   ],
@@ -3008,12 +3008,12 @@ date,LLM_Triplet
       ""tail"": ""after posting record first-quarter deliveries""
     },
     {
-      ""head"": ""Tesla Stock Price"",
+      ""head"": ""Tesla's stock Price"",
       ""relation"": ""impacted by"",
       ""tail"": ""Posting Record First-Quarter Deliveries""
     },
     {
-      ""head"": ""Tesla Stock Price"",
+      ""head"": ""Tesla's stock Price"",
       ""relation"": ""impacted by"",
       ""tail"": ""Bolstered Investor Confidence""
     }
@@ -3126,8 +3126,8 @@ date,LLM_Triplet
 2022-04-08,"
 {
   ""impact cases"": [
-    ""Tesla stock prices may be impacted negatively due to the company's plans to enter the mining business, as this could pose a risk to the company's core business of electric vehicle manufacturing."",
-    ""Tesla stock prices may also be impacted negatively due to the company's consideration of engaging in controversial environmental practices, as this could damage the company's reputation and lead to consumer backlash.""
+    ""Tesla's stock prices may be impacted negatively due to the company's plans to enter the mining business, as this could pose a risk to the company's core business of electric vehicle manufacturing."",
+    ""Tesla's stock prices may also be impacted negatively due to the company's consideration of engaging in controversial environmental practices, as this could damage the company's reputation and lead to consumer backlash.""
   ],
   ""triplets"": [
     {
@@ -3136,7 +3136,7 @@ date,LLM_Triplet
       ""tail"": ""entering the mining business""
     },
     {
-      ""head"": ""Tesla stock price"",
+      ""head"": ""Tesla's stock price"",
       ""relation"": ""impacted"",
       ""tail"": ""negatively by mining business entry""
     },
@@ -3146,14 +3146,14 @@ date,LLM_Triplet
       ""tail"": ""engaging in controversial environmental practices""
     },
     {
-      ""head"": ""Tesla stock price"",
+      ""head"": ""Tesla's stock price"",
       ""relation"": ""impacted"",
       ""tail"": ""negatively by environmental concerns""
     },
     {
       ""head"": ""Elon Musk"",
       ""relation"": ""tweeted"",
-      ""tail"": ""Tesla stock price fell due to Treasury yield surge""
+      ""tail"": ""Tesla's stock price fell due to Treasury yield surge""
     }
   ]
 }
@@ -3256,7 +3256,7 @@ date,LLM_Triplet
     {
       ""head"": ""JPMorgan Chase & Co."",
       ""relation"": ""has an underweight rating"",
-      ""tail"": ""on Tesla stock""
+      ""tail"": ""on Tesla's stock""
     }
   ]
 }
@@ -3622,7 +3622,7 @@ date,LLM_Triplet
 2022-04-23,"
 {
   ""impact cases"": [
-    ""Musk publicly criticized Bill Gates for shorting Tesla stock."",
+    ""Musk publicly criticized Bill Gates for shorting Tesla's stock."",
     ""Musk questioned Gates' commitment to climate change philanthropy due to his short position against Tesla."",
     ""Musk's comments were widely reported and may damage Tesla's reputation."",
     ""Ark Investment Management analyst Brett Winton defended Gates' short position, stating that Tesla has an average ESG rating."",
@@ -3640,7 +3640,7 @@ date,LLM_Triplet
       ""tail"": ""$500 million short position against Tesla""
     },
     {
-      ""head"": ""Musk"",
+      ""head"": ""Elon Musk"",
       ""relation"": ""questioned"",
       ""tail"": ""Gates' commitment to climate change philanthropy""
     },
@@ -3650,7 +3650,7 @@ date,LLM_Triplet
       ""tail"": ""average ESG rating""
     },
     {
-      ""head"": ""Musk"",
+      ""head"": ""Elon Musk"",
       ""relation"": ""sensitive"",
       ""tail"": ""Tesla's short interest""
     }
@@ -3663,7 +3663,7 @@ date,LLM_Triplet
   ""Musk has said Twitter needs to be taken private to grow and become a genuine platform for free speech."",
   ""The price tag for such outings remains high."",
   ""Tesla CEO Elon Musk is irked at Bill Gates. He doesn’t see how Gates, a leading proponent of sustainable energy, could possibly sell Tesla’s stock short. And Musk says Gates is doing just that."",
-  ""Musk said he believes Gates has sold short $500 million shares of Tesla (ticker: TSLA), betting the stock will fall."",
+  ""Musk said he believes Gates has sold short $500 million Tesla's stock (ticker: TSLA), betting the stock will fall."",
   ""It was a jarring performance by an executive whom Gates had publicly praised.""
  ],
  ""triplets"": [
@@ -3756,7 +3756,7 @@ date,LLM_Triplet
     {
       ""head"": ""Elon Musk"",
       ""relation"": ""has taken out"",
-      ""tail"": ""a US$12.5 billion margin loan tied to his Tesla stock""
+      ""tail"": ""a US$12.5 billion margin loan tied to his Tesla's stock""
     },
     {
       ""head"": ""Elon Musk"",
@@ -3789,7 +3789,7 @@ date,LLM_Triplet
       ""tail"": ""SolarCity Corp.""
     },
     {
-      ""head"": ""Musk"",
+      ""head"": ""Elon Musk"",
       ""relation"": ""didn’t dictate the deal process or price"",
       ""tail"": ""and recused himself from the shareholder vote""
     },
@@ -3804,7 +3804,7 @@ date,LLM_Triplet
 2022-04-28,"
 {
   ""impact cases"": [
-    ""Musk pledging a massive $62.5 billion worth of Tesla stock as collateral for personal margin loans–a practice that has drawn scrutiny for letting the ultra-wealthy benefit from their wealth without paying taxes on it"",
+    ""Musk pledging a massive $62.5 billion worth of Tesla's stock as collateral for personal margin loans–a practice that has drawn scrutiny for letting the ultra-wealthy benefit from their wealth without paying taxes on it"",
     ""Of course taking out debt against his Tesla shares is nothing new for Musk."",
     ""He’s been doing it since 2015."",
     ""Since then, the electric carmaker has grown from a fledgling business into one of the 10 largest U.S. corporations by market value.""
@@ -3813,7 +3813,7 @@ date,LLM_Triplet
     {
       ""head"": ""Elon Musk"",
       ""relation"": ""pledged"",
-      ""tail"": ""$62.5 billion worth of Tesla stock as collateral for personal margin loans""
+      ""tail"": ""$62.5 billion worth of Tesla's stock as collateral for personal margin loans""
     },
     {
       ""head"": ""Ultra-wealthy individuals"",
@@ -3841,11 +3841,11 @@ date,LLM_Triplet
 2022-04-29,"
 {
   ""impact cases"": [
-    ""Tesla stock has stalled since Elon Musk decided to buy Twitter."",
+    ""Tesla's stock has stalled since Elon Musk decided to buy Twitter."",
     ""The stock dropped 13% after the announcement, on fear that Musk might be taking on too much debt and would have to sell Tesla shares to fund the purchase."",
     ""Tesla has slid eight percentage points more than the Nasdaq Composite, which is off 5% since Monday."",
-    ""In November, after he ran a Twitter poll asking if he should sell shares to pay taxes, he unloaded $16 billion worth of Tesla stock."",
-    ""Musk is also borrowing $12.5 billion, using Tesla stock as collateral.""
+    ""In November, after he ran a Twitter poll asking if he should sell shares to pay taxes, he unloaded $16 billion worth of Tesla's stock."",
+    ""Musk is also borrowing $12.5 billion, using Tesla's stock as collateral.""
   ],
   ""triplets"": [
     {
@@ -3854,7 +3854,7 @@ date,LLM_Triplet
       ""tail"": ""Twitter""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""declined"",
       ""tail"": ""13%""
     },
@@ -3866,12 +3866,12 @@ date,LLM_Triplet
     {
       ""head"": ""Elon Musk"",
       ""relation"": ""sold"",
-      ""tail"": ""$16 billion worth of Tesla stock""
+      ""tail"": ""$16 billion worth of Tesla's stock""
     },
     {
       ""head"": ""Elon Musk"",
       ""relation"": ""borrowed"",
-      ""tail"": ""$12.5 billion using Tesla stock as collateral""
+      ""tail"": ""$12.5 billion using Tesla's stock as collateral""
     }
   ]
 }
@@ -3887,7 +3887,7 @@ date,LLM_Triplet
     {
       ""head"": ""Cathie Wood"",
       ""relation"": ""predicted"",
-      ""tail"": ""Tesla stock price will reach $4,600 by 2026""
+      ""tail"": ""Tesla's stock price will reach $4,600 by 2026""
     },
     {
       ""head"": ""ARK"",
@@ -3994,7 +3994,7 @@ date,LLM_Triplet
    ""tail"": ""Twitter""
   },
   {
-   ""head"": ""Tesla stock"",
+   ""head"": ""Tesla's stock"",
    ""relation"": ""in extreme bubble"",
    ""tail"": ""US stock market""
   },
@@ -4073,8 +4073,8 @@ date,LLM_Triplet
     },
     {
       ""head"": ""Bitcoin"",
-      ""relation"": ""correlated with Nasdaq"",
-      ""tail"": null
+      ""relation"": ""correlated with"",
+      ""tail"": ""Nasdaq""
     },
     {
       ""head"": ""Tesla CEO Elon Musk"",
@@ -4087,7 +4087,7 @@ date,LLM_Triplet
 2022-05-06,"
 {
   ""impact cases"": [
-    ""Musk has increased the financing commitment to $27.25 billion, which includes commitments from 19 investors, and reduced a margin loan from Morgan Stanley tied to his Tesla stock to $6.25 billion."",
+    ""Musk has increased the financing commitment to $27.25 billion, which includes commitments from 19 investors, and reduced a margin loan from Morgan Stanley tied to his Tesla's stock to $6.25 billion."",
     ""Musk clinched a deal last month to buy Twitter for $44 billion in cash, in a move that will shift control of the social media platform populated by millions of users and global leaders to the Tesla Inc chief.""
   ],
   ""triplets"": [
@@ -4296,7 +4296,7 @@ date,LLM_Triplet
 2022-05-12,"
 {
   ""impact cases"": [
-    ""Shares of Tesla and Twitter have tumbled this week as investors deal with the fallout and potential legal issues surrounding Tesla CEO Elon Musk and his $44 billion bid to buy the social media platform., ""
+    ""Tesla's stock and Twitter have tumbled this week as investors deal with the fallout and potential legal issues surrounding Tesla CEO Elon Musk and his $44 billion bid to buy the social media platform., ""
   ],
   ""triplets"": [
     {
@@ -4330,8 +4330,8 @@ date,LLM_Triplet
 2022-05-13,"
 {
   ""impact cases"": [
-    ""Musk's unpredictability surrounding the Twitter acquisition may impact Tesla stock price."",
-    ""Tesla stock has tumbled 33% since Musk announced his Twitter stake."",
+    ""Musk's unpredictability surrounding the Twitter acquisition may impact Tesla's stock price."",
+    ""Tesla's stock has tumbled 33% since Musk announced his Twitter stake."",
     ""Tesla's execution over the past couple of years is considered poor.""
   ],
   ""triplets"": [
@@ -4341,7 +4341,7 @@ date,LLM_Triplet
       ""tail"": ""unpredictable""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""has experienced a"",
       ""tail"": ""33% decline""
     },
@@ -4380,17 +4380,17 @@ date,LLM_Triplet
       ""tail"": ""fake account data""
     },
     {
-      ""head"": ""Musk"",
+      ""head"": ""Elon Musk"",
       ""relation"": ""style dissimilarity"",
       ""tail"": ""Jeff Bezos""
     },
     {
-      ""head"": ""Musk"",
+      ""head"": ""Elon Musk"",
       ""relation"": ""ambitions aligned with"",
       ""tail"": ""Jeff Bezos""
     },
     {
-      ""head"": ""Musk"",
+      ""head"": ""Elon Musk"",
       ""relation"": ""plans new project in"",
       ""tail"": ""Las Vegas""
     }
@@ -4435,7 +4435,7 @@ date,LLM_Triplet
 2022-05-16,"
 {
   ""impact cases"": [
-    ""Tesla stock closed down 5.9% Monday at $724.27 a share."",
+    ""Tesla's stock closed down 5.9% Monday at $724.27 a share."",
     ""Musk, the chief executive officer of Tesla Inc. and SpaceX, made the comments on the economy and politics as part of a wide-ranging video appearance at the technology conference."",
     ""The CEO of Tesla (TSLA) - Get Tesla Inc Report has just indicated that he believes a Twitter deal at a lower was not “out of the question."",
     ""To obtain financing for the transaction, Musk, who has no liquid assets, had to obtain bank loans but also a $12.5 billion margin loan secured by Tesla shares.""
@@ -4447,22 +4447,22 @@ date,LLM_Triplet
       ""tail"": ""Tesla Inc. and SpaceX""
     },
     {
-      ""head"": ""Musk"",
-      ""relation"": ""has no liquid assets"",
-      ""tail"": null
+      ""head"": ""Elon Musk"",
+      ""relation"": ""has no"",
+      ""tail"": ""liquid assets""
     },
     {
-      ""head"": ""Musk"",
+      ""head"": ""Elon Musk"",
       ""relation"": ""obtained a $12.5 billion margin loan"",
       ""tail"": ""secured by Tesla shares""
     },
     {
       ""head"": ""Twitter deal"",
-      ""relation"": ""was not out of the question"",
-      ""tail"": null
+      ""relation"": ""was"",
+      ""tail"": ""possible""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""closed down 5.9%"",
       ""tail"": ""on Monday""
     }
@@ -4616,13 +4616,13 @@ date,LLM_Triplet
 2022-05-23,"
 {
   ""impact cases"": [
-    ""Tesla stock is down 37% since January and is a far cry from the trillion-dollar market capitalization reached a few months ago."",
+    ""Tesla's stock is down 37% since January and is a far cry from the trillion-dollar market capitalization reached a few months ago."",
     ""Tesla's FQ2 estimates have been revised further downwards from April. We think its justified because Tesla's Shanghai manufacturing capacity has been significantly impacted."",
     ""The U.S. auto locations come at a time when Tesla (TSLA) - Get Tesla Inc Report has been contending with Covid-19-related shutdowns in Shanghai.""
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""has declined by"",
       ""tail"": ""37% since January""
     },
@@ -4727,7 +4727,7 @@ date,LLM_Triplet
 {
   ""impact cases"": [
     ""The National Highway Traffic Safety Administration said on Thursday it has asked Tesla for information about a recent 2021 Tesla Model U fire in Vancouver, British Columbia, in which a driver reported struggling to exit."",
-    ""Risks to Tesla stock are piling up and investors should prepare for less upside ahead, according to Jefferies.""
+    ""Risks to Tesla's stock are piling up and investors should prepare for less upside ahead, according to Jefferies.""
   ],
   ""triplets"": [
     {
@@ -4743,16 +4743,16 @@ date,LLM_Triplet
     {
       ""head"": ""Jefferies"",
       ""relation"": ""analysts believe that"",
-      ""tail"": ""Risks to Tesla stock are piling up""
+      ""tail"": ""Risks to Tesla's stock are piling up""
     },
     {
       ""head"": ""Investors"",
       ""relation"": ""should prepare for"",
-      ""tail"": ""less upside in Tesla stock""
+      ""tail"": ""less upside in Tesla's stock""
     },
     {
       ""head"": ""Jefferies"",
-      ""relation"": ""lowered price target on shares of Tesla"",
+      ""relation"": ""lowered price target on Tesla's stock"",
       ""tail"": ""by 16% to $1,050""
     }
   ]
@@ -4798,17 +4798,17 @@ date,LLM_Triplet
 2022-05-28,"
 {
   ""impact cases"": [
-    ""Tesla stock rallied in the week ending May 27 after finding itself at a 10-month low in the previous week."",
+    ""Tesla's stock rallied in the week ending May 27 after finding itself at a 10-month low in the previous week."",
     ""On Tuesday, when Tesla hit an intraday low of $620.57 and closed at $682.16, Tesla chief executive officer Elon Musks net worth dropped below $200 billion for the first time since late February.""
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""rallied"",
       ""tail"": ""for the week ending May 27""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""dropped to a 10-month low"",
       ""tail"": ""in the previous week""
     },
@@ -5082,7 +5082,7 @@ date,LLM_Triplet
 2022-06-05,"
 {
   ""impact cases"": [
-    ""Tesla stock price dropped 9% after reports emerged that Elon Musk is planning to cut 10% of Tesla's workforce."",
+    ""Tesla's stock price dropped 9% after reports emerged that Elon Musk is planning to cut 10% of Tesla's workforce."",
     ""Tesla's stock price fell by 9.2% on Friday, contributing to the technology sector's decline and dragging down the Nasdaq by 2.5%."",
     ""The S&P 500 and Dow Jones also declined by 1.6% and 1.1%, respectively, with Tesla being the biggest detractor in the technology sector.""
   ],
@@ -5271,12 +5271,12 @@ date,LLM_Triplet
       ""tail"": ""10% workforce reduction""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""closed at"",
       ""tail"": ""$696.69""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""rose"",
       ""tail"": ""1.91% in after-hours trading""
     },
@@ -5710,7 +5710,7 @@ date,LLM_Triplet
       ""tail"": ""Meta as the fifth-largest U.S. component in the Russell indexes""
     },
     {
-      ""head"": ""Tesla Stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""sinks"",
       ""tail"": ""as market gains""
     }
@@ -5842,7 +5842,7 @@ date,LLM_Triplet
       ""tail"": ""shorting Tesla shares""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""demonstrated a"",
       ""tail"": ""mixed performance compared to competitors""
     },
@@ -6030,7 +6030,7 @@ date,LLM_Triplet
 2022-07-05,"
 {
   ""impact cases"": [
-    ""Shares of Tesla Inc. tacked on 1.9%, demonstrating a lower growth compared to its peers.""
+    ""Tesla's stock Inc. tacked on 1.9%, demonstrating a lower growth compared to its peers.""
   ],
   ""triplets"": [
     {
@@ -6139,30 +6139,30 @@ date,LLM_Triplet
 2022-07-08,"
 {
   ""impact cases"": [
-    ""Tesla stock has been underperforming the market."",
-    ""Since Musk’s Twitter (TWTR) stake was disclosed in early April, Tesla stock has dropped about 34%."",
+    ""Tesla's stock has been underperforming the market."",
+    ""Since Musk’s Twitter (TWTR) stake was disclosed in early April, Tesla's stock has dropped about 34%."",
     ""The market, of course, wasn’t flat. Recession fears rose, hammering many consumer discretionary stocks, including the automotive sector.""
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""has been underperforming"",
       ""tail"": ""the market""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""has dropped"",
       ""tail"": ""about 34%""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""should have received some benefit for beating earnings estimates"",
       ""tail"": ""In a flat market""
     },
     {
       ""head"": ""Elon Musk"",
       ""relation"": ""is selling additional shares"",
-      ""tail"": ""Tesla stock""
+      ""tail"": ""Tesla's stock""
     },
     {
       ""head"": ""Twitter distraction"",
@@ -6211,18 +6211,18 @@ date,LLM_Triplet
 {
   ""impact cases"": [
     ""Tesla Inc.s CEO Elon Musk has already told white-collar staff to return to the office."",
-    ""Tesla stock has fallen about 30% year to date, which is likely a major reason why he wants to get out of the deal as it has made a dent in his overall net worth a""
+    ""Tesla's stock has fallen about 30% year to date, which is likely a major reason why he wants to get out of the deal as it has made a dent in his overall net worth a""
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""has fallen"",
       ""tail"": ""30% year to date""
     },
     {
       ""head"": ""Elon Musk"",
       ""relation"": ""wants to get out of the deal"",
-      ""tail"": ""because Tesla stock has fallen 30% year to date""
+      ""tail"": ""because Tesla's stock has fallen 30% year to date""
     },
     {
       ""head"": ""Twitter"",
@@ -6701,7 +6701,7 @@ date,LLM_Triplet
 2022-07-24,"
 {
   ""impact cases"": [
-    ""Tesla stock closed Friday's session up 0.20% at $816.73, according to Benzinga Pro data."",
+    ""Tesla's stock closed Friday's session up 0.20% at $816.73, according to Benzinga Pro data."",
     ""Their falling out is one of a string of personal issues Musk has faced even as he juggles business challenges, including manufacturing disruptions at Tesla Inc. TSLA, +0.20% and a court fight over his desire to withdraw his $44 billion bid for Twitter Inc. TWTR, +0.81%.""
   ],
   ""triplets"": [
@@ -7068,12 +7068,12 @@ date,LLM_Triplet
       ""tail"": ""Tesla Inc""
     },
     {
-      ""head"": ""Musk"",
+      ""head"": ""Elon Musk"",
       ""relation"": ""dispute"",
       ""tail"": ""Twitter""
     },
     {
-      ""head"": ""Musk"",
+      ""head"": ""Elon Musk"",
       ""relation"": ""ceo"",
       ""tail"": ""Tesla Inc""
     },
@@ -7280,7 +7280,7 @@ date,LLM_Triplet
    ""tail"": ""given slower gr""
   },
   {
-   ""head"": ""Tesla stock"",
+   ""head"": ""Tesla's stock"",
    ""relation"": ""recovered remarkably from its May/June lows"",
    ""tail"": ""riding on the market recovery as tech and growth stocks have likely bottomed""
   },
@@ -7555,7 +7555,7 @@ date,LLM_Triplet
     },
     {
       ""head"": ""Soros Fund Management"",
-      ""relation"": ""owned 29,883 shares of Tesla Inc."",
+      ""relation"": ""owned 29,883 Tesla's stock Inc."",
       ""tail"": ""with a weight of 0.51%""
     },
     {
@@ -7621,7 +7621,7 @@ date,LLM_Triplet
    ""tail"": ""Musk's expressed frustration""
   },
   {
-   ""head"": ""Musk"",
+   ""head"": ""Elon Musk"",
    ""relation"": ""expressed frustration"",
    ""tail"": ""over slow progress of Neuralink employees""
   },
@@ -7683,7 +7683,7 @@ date,LLM_Triplet
 2022-08-21,"
 {
   ""impact cases"": [
-    ""Tesla stock price fell by 2.05% to $890.00"",
+    ""Tesla's stock price fell by 2.05% to $890.00"",
     ""Tesla will begin trading shares under a 3-for-1 stock split"",
     ""Tesla CEO Elon Musk is known for being strict and demanding"",
     ""Tesla faced a cash crunch that almost forced bankruptcy"",
@@ -7741,7 +7741,7 @@ date,LLM_Triplet
       ""tail"": ""hiding the names of workers""
     },
     {
-      ""head"": ""Musk"",
+      ""head"": ""Elon Musk"",
       ""relation"": ""said"",
       ""tail"": ""he “loved” Musk and what he was trying to do with Tesla Inc.""
     },
@@ -7954,7 +7954,7 @@ date,LLM_Triplet
    ""tail"": ""5-1 stock split""
   },
   {
-   ""head"": ""Tesla stock price"",
+   ""head"": ""Tesla's stock price"",
    ""relation"": ""would have been"",
    ""tail"": ""$4500""
   },
@@ -8790,12 +8790,12 @@ date,LLM_Triplet
       ""tail"": ""pinching driver's finger""
     },
     {
-      ""head"": ""Tesla stock price"",
+      ""head"": ""Tesla's stock price"",
       ""relation"": ""negatively impacted"",
       ""tail"": ""benchmark U.S. Treasury yields hit an 11-year high""
     },
     {
-      ""head"": ""Tesla stock price"",
+      ""head"": ""Tesla's stock price"",
       ""relation"": ""fell"",
       ""tail"": ""4.1%""
     },
@@ -9015,7 +9015,7 @@ date,LLM_Triplet
       ""tail"": ""commercially viable""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""rose 1.72%"",
       ""tail"": ""Nasdaq trading""
     }
@@ -9167,7 +9167,7 @@ date,LLM_Triplet
 {
   ""impact cases"": [
     ""Tesla shares dropped 8.6% after the electric carmaker on Friday reported that while vehicle deliveries increased in the latest quarter, the total was at the low end of expectations."",
-    ""On Monday, shares of Tesla Inc. ( TSLA, Financial) dropped more than 8% following a worse-than-expected third-quarter production and deliveries report as well as a lukewarm response to its highly anticipated AI Day 2022."",
+    ""On Monday, Tesla's stock Inc. ( TSLA, Financial) dropped more than 8% following a worse-than-expected third-quarter production and deliveries report as well as a lukewarm response to its highly anticipated AI Day 2022."",
     ""In the same quarter of 2021, the company produced 237,823 units, while deliveries totaled 241,300 units."",
     ""Tesla is not immune to supply chain and labor issues"",
     ""In the longer term, there are concerns that Tesla could have trouble recruiting top talent with its office-only policy.""
@@ -9236,14 +9236,14 @@ date,LLM_Triplet
 2022-10-05,"
 {
  ""impact cases"": [
-  ""Tesla stock ended down 3.5% on Wednesday as investors worry that Musk may have to sell more shares in the electric carmaker to fund the Twitter deal and that Twitter could be a distraction for the entrepreneur."",
-  ""Musk sold $15.4 billion worth of Tesla stock this year, but analysts said he may have to raise an additional $2 billion to $3 billion provided that the rest of his financing remains unchanged.""
+  ""Tesla's stock ended down 3.5% on Wednesday as investors worry that Musk may have to sell more shares in the electric carmaker to fund the Twitter deal and that Twitter could be a distraction for the entrepreneur."",
+  ""Musk sold $15.4 billion worth of Tesla's stock this year, but analysts said he may have to raise an additional $2 billion to $3 billion provided that the rest of his financing remains unchanged.""
  ],
  ""triplets"": [
   {
    ""head"": ""Elon Musk"",
    ""relation"": ""sold"",
-   ""tail"": ""$15.4 billion worth of Tesla stock this year""
+   ""tail"": ""$15.4 billion worth of Tesla's stock this year""
   },
   {
    ""head"": ""Elon Musk"",
@@ -9251,7 +9251,7 @@ date,LLM_Triplet
    ""tail"": ""an additional $2 billion to $3 billion""
   },
   {
-   ""head"": ""Tesla stock"",
+   ""head"": ""Tesla's stock"",
    ""relation"": ""ended down"",
    ""tail"": ""3.5% on Wednesday""
   },
@@ -9319,12 +9319,12 @@ date,LLM_Triplet
    ""tail"": ""Q3 estimates for deliveries""
   },
   {
-   ""head"": ""Tesla stock"",
+   ""head"": ""Tesla's stock"",
    ""relation"": ""took"",
    ""tail"": ""nearly-double-digit decline""
   },
   {
-   ""head"": ""Tesla stock"",
+   ""head"": ""Tesla's stock"",
    ""relation"": ""took"",
    ""tail"": ""a lot of technical damage""
   },
@@ -9506,12 +9506,12 @@ date,LLM_Triplet
       ""tail"": ""Junk bonds""
     },
     {
-      ""head"": ""Tesla Stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""demonstrated"",
       ""tail"": ""mixed performance""
     },
     {
-      ""head"": ""Tesla Stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""rose"",
       ""tail"": ""0.34%""
     }
@@ -9928,7 +9928,7 @@ date,LLM_Triplet
       ""tail"": ""worth more than US$50 billion""
     },
     {
-      ""head"": ""Tesla stock options"",
+      ""head"": ""Tesla's stock options"",
       ""relation"": ""vested over 12 periods"",
       ""tail"": ""subject to performance goals""
     },
@@ -10070,7 +10070,7 @@ date,LLM_Triplet
       ""tail"": ""Tesla""
     },
     {
-      ""head"": ""Musk"",
+      ""head"": ""Elon Musk"",
       ""relation"": ""sacked"",
       ""tail"": ""key decision-makers""
     },
@@ -10153,13 +10153,13 @@ date,LLM_Triplet
 2022-11-02,"
 {
  ""impact cases"": [
-  ""Tesla stock price fell by 3.6% due to weaker quarterly revenue"",
+  ""Tesla's stock price fell by 3.6% due to weaker quarterly revenue"",
   ""Albemarle, a key supplier of EV batteries, reported weaker results due to issues in its bromine division"",
   ""Tesla chief Elon Musk lost US$9 billion, indicating investor concerns about the company's future prospects""
  ],
  ""triplets"": [
   {
-   ""head"": ""Tesla stock"",
+   ""head"": ""Tesla's stock"",
    ""relation"": ""declined by 3.6%"",
    ""tail"": ""due to weaker quarterly revenue.""
   },
@@ -10422,12 +10422,12 @@ date,LLM_Triplet
       ""tail"": ""China""
     },
     {
-      ""head"": ""Musk"",
+      ""head"": ""Elon Musk"",
       ""relation"": ""proposed"",
       ""tail"": ""Kremlin-friendly peace plan for Ukraine war""
     },
     {
-      ""head"": ""Musk"",
+      ""head"": ""Elon Musk"",
       ""relation"": ""has ties to"",
       ""tail"": ""China""
     }
@@ -10447,7 +10447,7 @@ date,LLM_Triplet
     {
       ""head"": ""Elon Musk"",
       ""relation"": ""is selling"",
-      ""tail"": ""Tesla stock to save Twitter""
+      ""tail"": ""Tesla's stock to save Twitter""
     },
     {
       ""head"": ""Twitter"",
@@ -10460,7 +10460,7 @@ date,LLM_Triplet
       ""tail"": ""according to Gary Black""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""is down"",
       ""tail"": ""about 15% since Musk took over Twitter""
     },
@@ -10475,7 +10475,7 @@ date,LLM_Triplet
 2022-11-11,"
 {
   ""impact cases"": [
-    ""Tesla stock is down 52% from its high."",
+    ""Tesla's stock is down 52% from its high."",
     ""The Swiss National Bank took massive losses on its Tesla investment."",
     ""Tesla is now Baron's largest investment, but it was not always so."",
     ""Elon Musk's Tesla has helped to make electric cars and autonomous cars a reality."",
@@ -10483,7 +10483,7 @@ date,LLM_Triplet
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""has decreased"",
       ""tail"": ""by 52% from its high""
     },
@@ -10588,7 +10588,7 @@ date,LLM_Triplet
     ""The lawsuit alleges that the performance-based stock option grant was negotiated by a compensation committee and approved in 2018 by Tesla board members who had conflicts of interest due to personal and professional ties to Musk."",
     ""Musk stood to receive the full benefit of the pay plan, $55.8 billion, only if Tesla hit a market capitalization of $650 billion and unprecedented revenues and earnings within a decade."",
     ""To date, Tesla has achieved all 12 of the market capitalization milestones and 11 of the operational milestones, resulting in the vesting of 11 of the grant’s 12 installments and providing Musk over $52.4B in stock option gains, according to the lawsuit."",
-    ""Shares of Tesla Inc. have been battered this year, like all automakers, due to a mix of backed-up supply chains and soaring inflation.""
+    ""Tesla's stock Inc. have been battered this year, like all automakers, due to a mix of backed-up supply chains and soaring inflation.""
   ],
   ""triplets"": [
     {
@@ -10639,7 +10639,7 @@ date,LLM_Triplet
       ""tail"": ""Twitter""
     },
     {
-      ""head"": ""Tesla stock price"",
+      ""head"": ""Tesla's stock price"",
       ""relation"": ""near"",
       ""tail"": ""$200 a share""
     },
@@ -10668,7 +10668,7 @@ date,LLM_Triplet
       ""tail"": ""3 billion shares outstanding""
     },
     {
-      ""head"": ""Musk"",
+      ""head"": ""Elon Musk"",
       ""relation"": ""will receive"",
       ""tail"": ""300 million shares""
     },
@@ -10752,7 +10752,7 @@ date,LLM_Triplet
       ""tail"": ""subservient to Musk""
     },
     {
-      ""head"": ""Tesla stock price"",
+      ""head"": ""Tesla's stock price"",
       ""relation"": ""failed to increase as per"",
       ""tail"": ""targets of 2018 pay package""
     }
@@ -10901,7 +10901,7 @@ date,LLM_Triplet
 2022-11-23,"
 {
  ""impact cases"": [
-  ""Shares of Tesla (NASDAQ: TSLA) jumped 7.8% on Wednesday, following analyst upgrades."",
+  ""Tesla's stock (NASDAQ: TSLA) jumped 7.8% on Wednesday, following analyst upgrades."",
   ""Tesla Inc jumped 7.82% with Citigroup upgrading the electric-vehicle maker’s stock to “neutral” from a “sell” rating."",
   ""After shedding hundreds of millions of dollars in market value this year, Teslas stock is now presenting investors with a more favorable risk-to-reward opportunity.""
  ],
@@ -10950,12 +10950,12 @@ date,LLM_Triplet
     {
       ""head"": ""Adam Jonas"",
       ""relation"": ""gave"",
-      ""tail"": ""Tesla stock a target price of $330 with an Overweight rating""
+      ""tail"": ""Tesla's stock a target price of $330 with an Overweight rating""
     },
     {
       ""head"": ""Morgan Stanley"",
       ""relation"": ""believes"",
-      ""tail"": ""Tesla stock offers an attractive entry point""
+      ""tail"": ""Tesla's stock offers an attractive entry point""
     },
     {
       ""head"": ""Baron Funds"",
@@ -11087,12 +11087,12 @@ date,LLM_Triplet
       ""tail"": ""Apple of threatening to block Twitter from its app store.""
     },
     {
-      ""head"": ""Musk"",
+      ""head"": ""Elon Musk"",
       ""relation"": ""said"",
       ""tail"": ""that Apple had stopped advertising on Twitter.""
     },
     {
-      ""head"": ""Musk"",
+      ""head"": ""Elon Musk"",
       ""relation"": ""spent time"",
       ""tail"": ""publicly criticizing Apple's policies.""
     },
@@ -11259,20 +11259,20 @@ date,LLM_Triplet
 2022-12-07,"
 {
   ""impact cases"": [
-    ""Tesla stock skidded 3.2% to 174.04 on Wednesday, closing in on the bear market low of 166.19 set Nov. 22."",
-    ""Tesla stock is off 10.7% so far this week."",
+    ""Tesla's stock skidded 3.2% to 174.04 on Wednesday, closing in on the bear market low of 166.19 set Nov. 22."",
+    ""Tesla's stock is off 10.7% so far this week."",
     ""Tesla cut China prices by 6,000 yuan for cars in inventory."",
     ""Tesla is offering over 21,000 yuan in incentives for cars on the lot."",
     ""This also comes amid widespread reports — denied by Tesla — of looming Shanghai production cuts.""
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""skidded 3.2%"",
       ""tail"": ""on Wednesday""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""is off 10.7%"",
       ""tail"": ""so far this week""
     },
@@ -11334,9 +11334,9 @@ date,LLM_Triplet
 2022-12-09,"
 {
   ""impact cases"": [
-    ""Tesla stock tumbled 8.1% in the latest week, even with Friday's 3.2% pop."",
+    ""Tesla's stock tumbled 8.1% in the latest week, even with Friday's 3.2% pop."",
     ""Tesla (TSLA) is trying to avoid setting new bear market lows."",
-    ""Tesla stock is jumping above recent bear market lows."",
+    ""Tesla's stock is jumping above recent bear market lows."",
     ""Tesla announced new China incentives this past week with widespread media reports that the Shanghai plant will cut production significantly over the next few weeks, even halting Model Y output.""
   ],
   ""triplets"": [
@@ -11375,7 +11375,7 @@ date,LLM_Triplet
     ""It is therefore no surprise that Tesla is the most profitable company for short sellers in 2022, according to a study by ORTEX Analytics."",
     ""In the month of November alone, anti-Tesla investors saw their bets bring in $2.37 billion, according to this study."",
     ""Elon Musk may loathe short-sellers with a passion, but he helped Tesla bears reap $2.37 billion in profits during the month of November, the study concluded."",
-    ""Not only has the chaos at Twitter undermined investor confidence in Tesla, but the financial ties within Musk’s empire became even clearer when the billionaire sold approximately $4 billion of Tesla stock in early November.""
+    ""Not only has the chaos at Twitter undermined investor confidence in Tesla, but the financial ties within Musk’s empire became even clearer when the billionaire sold approximately $4 billion of Tesla's stock in early November.""
   ],
   ""triplets"": [
     {
@@ -11479,20 +11479,20 @@ date,LLM_Triplet
 2022-12-13,"
 {
   ""impact cases"": [
-    ""Tesla stock is down again, and investors are pointing fingers at Twitter."",
+    ""Tesla's stock is down again, and investors are pointing fingers at Twitter."",
     ""Fixing Twitter might not be enough to fix shares of the electric-vehicle giant."",
     ""Technical stock market analysts see other factors at play."",
-    ""Tesla stock hit a new 52-week low on Tuesday at $158.03."",
-    ""Tesla stock is now down about 11% for the week, and down almost 30% since CEO Elon Musk completed his acquisition of Twitter.""
+    ""Tesla's stock hit a new 52-week low on Tuesday at $158.03."",
+    ""Tesla's stock is now down about 11% for the week, and down almost 30% since CEO Elon Musk completed his acquisition of Twitter.""
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""has declined"",
       ""tail"": ""after Elon Musk acquired Twitter""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""is underperforming"",
       ""tail"": ""Nasdaq Composite Index""
     },
@@ -11507,7 +11507,7 @@ date,LLM_Triplet
       ""tail"": ""tweeting so much""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""has broken support"",
       ""tail"": ""at $166""
     }
@@ -11599,7 +11599,7 @@ date,LLM_Triplet
    ""tail"": ""$40 billion in Tesla shares""
   },
   {
-   ""head"": ""Tesla stock"",
+   ""head"": ""Tesla's stock"",
    ""relation"": ""declined"",
    ""tail"": ""57% this year""
   },
@@ -11609,7 +11609,7 @@ date,LLM_Triplet
    ""tail"": ""Twitter purchase""
   },
   {
-   ""head"": ""Tesla stock price"",
+   ""head"": ""Tesla's stock price"",
    ""relation"": ""impacted"",
    ""tail"": ""Musk's Twitter acquisition""
   },
@@ -11624,7 +11624,7 @@ date,LLM_Triplet
 2022-12-17,"
 {
   ""impact cases"": [
-    ""Tesla stock just wrapped up its worst week since 2020, as Musk sold billions in stock and faced a call from a prominent investor to step down from the helm of the EV maker."",
+    ""Tesla's stock just wrapped up its worst week since 2020, as Musk sold billions in stock and faced a call from a prominent investor to step down from the helm of the EV maker."",
     ""The stock logged a weekly decline of 16.1%, the fourth-worst week in history for the shares."",
     ""\""Musk risk\"" has been weighing on Tesla Inc.’s stock for some time now..."",
     ""Tesla’s stock price sank 16% over the last five sessions for its worst week since the pandemic struck in March 2020."",
@@ -11637,17 +11637,17 @@ date,LLM_Triplet
       ""tail"": ""due to Musk stock sale and calls to step down""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""logs"",
       ""tail"": ""fourth worst weekly decline in history""
     },
     {
       ""head"": ""Musk risk"",
       ""relation"": ""weighs on"",
-      ""tail"": ""Tesla stock price""
+      ""tail"": ""Tesla's stock price""
     },
     {
-      ""head"": ""Tesla stock price"",
+      ""head"": ""Tesla's stock price"",
       ""relation"": ""falls"",
       ""tail"": ""16% in worst week since pandemic""
     },
@@ -11662,35 +11662,35 @@ date,LLM_Triplet
 2022-12-18,"
 {
   ""impact cases"": [
-    ""Tesla stock continues to plunge to fresh two-year lows."",
-    ""Tesla stock remains a major holding across Ark Invests ETFs."",
+    ""Tesla's stock continues to plunge to fresh two-year lows."",
+    ""Tesla's stock remains a major holding across Ark Invests ETFs."",
     ""China demand concerns, Elon Musks latest TSLA stock sales and Musks Twitter focus are all weighing on shares.""
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""plunged"",
       ""tail"": ""to fresh two-year lows""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""is"",
       ""tail"": ""a major holding across Ark Invests ETFs""
     },
     {
       ""head"": ""China demand concerns"",
       ""relation"": ""are"",
-      ""tail"": ""weighing on Tesla stock shares""
+      ""tail"": ""weighing on Tesla's stock shares""
     },
     {
       ""head"": ""Elon Musks latest TSLA stock sales"",
       ""relation"": ""are"",
-      ""tail"": ""weighing on Tesla stock shares""
+      ""tail"": ""weighing on Tesla's stock shares""
     },
     {
       ""head"": ""Musks Twitter focus"",
       ""relation"": ""is"",
-      ""tail"": ""weighing on Tesla stock shares""
+      ""tail"": ""weighing on Tesla's stock shares""
     }
   ]
 }
@@ -11698,18 +11698,18 @@ date,LLM_Triplet
 2022-12-19,"
 {
   ""impact cases"": [
-    ""Tesla stock, which is down nearly 60% this year and hit a fresh two-year low on Monday.,"",
-    ""Investors have urged Musk to step down as Twitter CEO and punished Tesla stock,"",
+    ""Tesla's stock, which is down nearly 60% this year and hit a fresh two-year low on Monday.,"",
+    ""Investors have urged Musk to step down as Twitter CEO and punished Tesla's stock,"",
     ""Musk is funneling Tesla resources into Twitter,” she said in a letter to Tesla’s board chair, Robyn Denholm.""
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""has decreased in value"",
       ""tail"": ""by nearly 60% this year""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""hit"",
       ""tail"": ""a fresh two-year low on Monday""
     },
@@ -11719,7 +11719,7 @@ date,LLM_Triplet
       ""tail"": ""Musk to step down as Twitter CEO""
     },
     {
-      ""head"": ""Musk"",
+      ""head"": ""Elon Musk"",
       ""relation"": ""is funneling"",
       ""tail"": ""Tesla resources into Twitter""
     },
@@ -11735,26 +11735,26 @@ date,LLM_Triplet
 {
  ""impact cases"": [
   ""Tesla (TSLA) continued to plunge."",
-  ""The S&P 500 index climbed 0.1%, with Tesla stock the indexs worst performer."",
-  ""Tesla stock dived 8.1% to 137.80, hitting yet another two-year low."",
+  ""The S&P 500 index climbed 0.1%, with Tesla's stock the indexs worst performer."",
+  ""Tesla's stock dived 8.1% to 137.80, hitting yet another two-year low."",
   ""Shares of the EV giant have plunged 67% from the November 2021 peak and 29% just in December."",
-  ""Tesla stock has now round-tripped its advance since its August 2020 5-for-1 stock split."",
+  ""Tesla's stock has now round-tripped its advance since its August 2020 5-for-1 stock split."",
   ""Tesla China sales slowed for a second straight week, according to weekly registration data."",
   ""Elon Musks Twitter saga is raising concerns of significant damage to the Tesla brand.""
  ],
  ""triplets"": [
   {
-   ""head"": ""Tesla stock"",
+   ""head"": ""Tesla's stock"",
    ""relation"": ""performed the worst"",
    ""tail"": ""in the S&P 500 index""
   },
   {
-   ""head"": ""Tesla stock"",
+   ""head"": ""Tesla's stock"",
    ""relation"": ""fell"",
    ""tail"": ""to a two-year low""
   },
   {
-   ""head"": ""Tesla stock price"",
+   ""head"": ""Tesla's stock price"",
    ""relation"": ""has plunged"",
    ""tail"": ""by 67% since November 2021""
   },
@@ -11775,7 +11775,7 @@ date,LLM_Triplet
 {
 ""impact cases"": [
 ""Tesla Inc. is planning another round of layoffs for the first quarter and is instituting a hiring freeze, Electrek reported on Wednesday"",
-""Tesla stock’s losing streak continues after report of hiring freeze, layoff plans"",
+""Tesla's stock’s losing streak continues after report of hiring freeze, layoff plans"",
 "" Arguably, Musk's handling of the Twitter acquisition has been poor, to put it mildly.""
 ],
 
@@ -11791,7 +11791,7 @@ date,LLM_Triplet
 ""tail"": ""hiring freeze""
 },
 {
-""head"": ""Tesla stock"",
+""head"": ""Tesla's stock"",
 ""relation"": ""suffers"",
 ""tail"": ""losing streak""
 },
@@ -11831,7 +11831,7 @@ date,LLM_Triplet
       ""tail"": ""economic downturn""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""is likely to be impacted"",
       ""tail"": ""if economic downturn is severe""
     },
@@ -11848,32 +11848,32 @@ date,LLM_Triplet
   ""impact cases"": [
     ""Tesla Inc. shares that have fueled his fortune have sharply declined while he aims to stabilize his massive personal investment in Twitter Inc."",
     ""The auto maker’s share value has fallen 18% this week alone and more than 60% since Mr."",
-    ""Tesla stock dived 18% to 123.15 after plunging 16.1% in the prior week, the worst weekly losses since the March 2020 Covid crash."",
+    ""Tesla's stock dived 18% to 123.15 after plunging 16.1% in the prior week, the worst weekly losses since the March 2020 Covid crash."",
     ""TSLA stock is at a 25-month low, down 70% from the November 2021 peak.""
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""declined sharply"",
       ""tail"": ""due to Elon Musk's focus on Twitter investment""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""fell 18%"",
       ""tail"": ""this week alone""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""dropped 60%"",
       ""tail"": ""since Mr. Musk's Twitter investment""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""hit a 25-month low"",
       ""tail"": ""down 70% from its peak""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""worst weekly loss"",
       ""tail"": ""since March 2020 Covid crash""
     }
@@ -11921,7 +11921,7 @@ date,LLM_Triplet
   ""impact cases"": [
     ""Tesla Shanghai halted production while China rival Nio (NIO) unveiled new models."",
     ""Tesla Shanghai halted production on Dec. 24, with workers set to return Jan. 1, 2023."",
-    ""Last week, Tesla stock dived 18% to 123.15 after plunging 16.1% in the prior week."",
+    ""Last week, Tesla's stock dived 18% to 123.15 after plunging 16.1% in the prior week."",
     ""TSLA stock is at a 27-month low, down 70% from the November 2021 peak.""
   ],
   ""triplets"": [
@@ -11992,7 +11992,7 @@ date,LLM_Triplet
   ""impact cases"": [
     ""Tesla shares fell 11.4% on Tuesday after a Reuters report that Tesla was planning to run a reduced production schedule"",
     ""The stock, which fell to its lowest in more than two years and had its worst day in eight months, was the biggest drag on the benchmark S&P 500 index and the tech-heavy Nasdaq index."",
-    ""Hayes also added that Tesla’s stock was facing a “perfect storm” of high-interest rates, tax loss selling and share sales by some funds that hold a significant amount of Tesla stock."",
+    ""Hayes also added that Tesla’s stock was facing a “perfect storm” of high-interest rates, tax loss selling and share sales by some funds that hold a significant amount of Tesla's stock."",
     ""Meanwhile, a Reuters analysis showed that prices of used Tesla cars were falling faster than those of other carmakers, weighing on demand for the company’s new vehicles rolling off the assembly line.""
   ],
   ""triplets"": [
@@ -12033,7 +12033,7 @@ date,LLM_Triplet
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla stock price"",
+      ""head"": ""Tesla's stock price"",
       ""relation"": ""has been falling"",
       ""tail"": ""due to softening demand for electric vehicles and Musk's distraction with running Twitter.""
     },
@@ -12044,11 +12044,11 @@ date,LLM_Triplet
     },
     {
       ""head"": ""Morgan Stanley analysts"",
-      ""relation"": ""cut their price target on Tesla stock"",
+      ""relation"": ""cut their price target on Tesla's stock"",
       ""tail"": ""to $250 from $330.""
     },
     {
-      ""head"": ""Tesla stock price"",
+      ""head"": ""Tesla's stock price"",
       ""relation"": ""is expected to fall further in 2023"",
       ""tail"": ""due to supply exceeding demand.""
     },
@@ -12063,7 +12063,7 @@ date,LLM_Triplet
 2022-12-29,"
 {
   ""impact cases"": [
-    ""Tesla stock is down more than -65% year to date, losing over -$100 billion in value."",
+    ""Tesla's stock is down more than -65% year to date, losing over -$100 billion in value."",
     ""CEO Elon Musk can find a new boss for Twitter in short order.""
   ],
   ""triplets"": [
@@ -12175,7 +12175,7 @@ date,LLM_Triplet
  ""impact cases"": [
   ""Tesla plans to run a reduced production schedule at its Shanghai plant in January"",
   ""Tesla investors had a rocky 2022."",
-  ""Tesla stock is coming into the new year after suffering its worst year decline ever."",
+  ""Tesla's stock is coming into the new year after suffering its worst year decline ever."",
   ""Shares dropped roughly 65% in 2022 and now trade for 22 time estimated 2023 earnings of about $5.60 a share.""
  ],
  ""triplets"": [
@@ -12190,12 +12190,12 @@ date,LLM_Triplet
    ""tail"": ""a rocky 2022""
   },
   {
-   ""head"": ""Tesla stock"",
+   ""head"": ""Tesla's stock"",
    ""relation"": ""suffered"",
    ""tail"": ""its worst year decline ever""
   },
   {
-   ""head"": ""Tesla stock"",
+   ""head"": ""Tesla's stock"",
    ""relation"": ""is trading"",
    ""tail"": ""for 22 time estimated 2023 earnings of about $5.60 a share""
   },
@@ -12421,7 +12421,7 @@ date,LLM_Triplet
   ""impact cases"": [
     ""The upcoming earnings season may turn the sentiment around, but so far it looks bleak."",
     ""Tesla is grappling with falling sales in China."",
-    ""Tesla stock plunged for the week but did reverse higher on Friday."",
+    ""Tesla's stock plunged for the week but did reverse higher on Friday."",
     ""Teslas move may hit its profit margin.""
   ],
   ""triplets"": [
@@ -12446,7 +12446,7 @@ date,LLM_Triplet
       ""tail"": ""falling sales in China""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""plunged"",
       ""tail"": ""for the week""
     }
@@ -12625,7 +12625,7 @@ date,LLM_Triplet
       ""tail"": ""Tesla shares 2%""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""plummeted"",
       ""tail"": ""65% since the start of last year""
     }
@@ -12637,7 +12637,7 @@ date,LLM_Triplet
 {
   ""impact cases"": [
     ""Tesla (TSLA) announced big price cuts in the U.S. and Europe, a week after slashing prices in China and key Asian markets."",
-    ""Tesla stock closed modestly lower but rebounded solidly for the week."",
+    ""Tesla's stock closed modestly lower but rebounded solidly for the week."",
     ""But the EV giant faces a painful transition as investors increasingly view Tesla as an automaker, not a tech company."",
     ""Shares edged down 0.9% Friday, well off intraday lows despite Tesla announcing sweeping price cuts in the U.S. and Europe."",
     ""Teslas prized margins are likely to take a hit.""
@@ -12837,7 +12837,7 @@ date,LLM_Triplet
       ""tail"": ""about Tesla's near-term performance""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""has been dragged down"",
       ""tail"": ""by declining demand and concerns over Elon Musk's role at Twitter""
     }
@@ -12884,7 +12884,7 @@ date,LLM_Triplet
 {
  ""impact cases"": [
   ""On Friday, the Wall Street Journal raised questions about whether Tesla (NASDAQ: ) CEO Elon Musk had crucial information about slowing sales when he recently unloaded tens of millions of company shares."",
-  ""Despite stating last April that he had no plans to sell more shares, Musk has now sold nearly $40 billion in Tesla stock since the stock reaching an all-time high in November 2021."",
+  ""Despite stating last April that he had no plans to sell more shares, Musk has now sold nearly $40 billion in Tesla's stock since the stock reaching an all-time high in November 2021."",
   ""Tesla was recently downgraded by Guggenheim ahead of its Q4 results, scheduled for this coming Tuesday, noting it sees negative catalyst path for the stock to underperform in the near and intermediate term."",
   ""Earlier this month, it announced that the quarter’s vehicle deliveries came in significantly below its guidance.""
  ],
@@ -12892,7 +12892,7 @@ date,LLM_Triplet
   {
    ""head"": ""Elon Musk"",
    ""relation"": ""sold"",
-   ""tail"": ""$40 billion in Tesla stock""
+   ""tail"": ""$40 billion in Tesla's stock""
   },
   {
    ""head"": ""Tesla"",
@@ -12943,12 +12943,12 @@ date,LLM_Triplet
       ""tail"": ""Tesla investors""
     },
     {
-      ""head"": ""Musk"",
+      ""head"": ""Elon Musk"",
       ""relation"": ""sold part of Tesla stake"",
       ""tail"": ""fund SpaceX purchase""
     },
     {
-      ""head"": ""Musk"",
+      ""head"": ""Elon Musk"",
       ""relation"": ""testified while tired"",
       ""tail"": ""raising concerns about his state of mind""
     }
@@ -12992,7 +12992,7 @@ date,LLM_Triplet
 2023-01-25,"
 {
   ""impact cases"": [
-    ""Tesla stock is already down about 35% over the past three months."",
+    ""Tesla's stock is already down about 35% over the past three months."",
     ""Expectations weren’t all that high headed into the report."",
     ""It’s a relatively muted reaction, given the importance of the earning call.""
   ],
@@ -13105,20 +13105,20 @@ date,LLM_Triplet
 2023-01-29,"
 {
  ""impact cases"": [
-  ""Tesla stock is a major holding across Ark Invests ETFs, with Cathie Woods Ark loading up on shares in recent months"",
-  ""Tesla stock surged 33% last week, rocketing above its 50-day line"",
+  ""Tesla's stock is a major holding across Ark Invests ETFs, with Cathie Woods Ark loading up on shares in recent months"",
+  ""Tesla's stock surged 33% last week, rocketing above its 50-day line"",
   ""However, Tesla Shanghai was closed this past week for the Chinese New Year holiday, which likely also affected demand"",
   ""Later in the week, investors will get January sales data from BYD, Nio (NIO), Li Auto (LI) and XPeng (XPEV), but not Tesla"",
   ""The city of Shanghai is reintroducing a 10,000 yuan ($1,500) for residents who scrap or transfer vehicles in exchange fo""
  ],
  ""triplets"": [
   {
-   ""head"": ""Tesla stock"",
+   ""head"": ""Tesla's stock"",
    ""relation"": ""is a major holding of"",
    ""tail"": ""Ark Invests ETFs""
   },
   {
-   ""head"": ""Tesla stock"",
+   ""head"": ""Tesla's stock"",
    ""relation"": ""surged"",
    ""tail"": ""33% last week""
   },
@@ -13158,7 +13158,7 @@ date,LLM_Triplet
    ""tail"": ""Automotive Sector""
   },
   {
-   ""head"": ""Tesla Stock"",
+   ""head"": ""Tesla's stock"",
    ""relation"": ""declined"",
    ""tail"": ""6%""
   },
@@ -13312,7 +13312,7 @@ date,LLM_Triplet
     {
       ""head"": ""Elon Musk"",
       ""relation"": ""testified"",
-      ""tail"": ""tweets do not always affect Tesla stock""
+      ""tail"": ""tweets do not always affect Tesla's stock""
     }
   ]
 }
@@ -13364,27 +13364,27 @@ date,LLM_Triplet
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""may be negatively impacted"",
       ""tail"": ""due to tech stocks getting ahead of themselves""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""may be negatively impacted"",
       ""tail"": ""due to investors selling shares in the quarterly rebalance of the Virtus Terranova U.S. Quality Momentum ETF""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""may be negatively impacted"",
       ""tail"": ""due to the strong US labor market complicating the Fed's actions in March""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""may be negatively impacted"",
       ""tail"": ""due to Elon Musk's divided attention between Twitter and Tesla""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""may be negatively impacted"",
       ""tail"": ""due to the challenges faced by Twitter, which Elon Musk is trying to save from bankruptcy""
     }
@@ -13612,7 +13612,7 @@ date,LLM_Triplet
 2023-02-13,"
 {
   ""impact cases"": [
-    ""Shares of Tesla Inc. sank last year."",
+    ""Tesla's stock Inc. sank last year."",
     ""Lithium project developer Lake Resources Ltd (ASX: LKE) slipped 2.5 cents, or 3.4 per cent, to 70 cents."",
     ""Liontown Resources Ltd (ASX: LTR) lost 4 cents, or 2.8 per cent, to $1.40."",
     ""Piedmont Lithium, which has signed a deal to supply Tesla, Inc (NASDAQ: TSLA), shed 2.5 cents, or 2.6 per cent, to 94 cents.""
@@ -13641,7 +13641,7 @@ date,LLM_Triplet
     {
       ""head"": ""George Soros"",
       ""relation"": ""purchased"",
-      ""tail"": ""242,399 shares of Tesla TSLA""
+      ""tail"": ""242,399 Tesla's stock TSLA""
     }
   ]
 }
@@ -13757,7 +13757,7 @@ date,LLM_Triplet
  ""impact cases"": [
   ""Tesla (TSLA) is mulling a bid for Sigma Lithium (SGML), Bloomberg reported late Friday."",
   ""Nvidia earnings are due Wednesday night for the January-ending fourth quarter."",
-  ""Nvidia and Tesla stock are probably the best-performing megacaps, so Nvidias earnings and stock analysts reaction will be important for the market rally."",
+  ""Nvidia and Tesla's stock are probably the best-performing megacaps, so Nvidias earnings and stock analysts reaction will be important for the market rally."",
   ""Meanwhile, weekly China EV registrations will be out early Tuesday., That'll offer some clues about Tesla demand, as well as whether rivals such as BYD (BYDDF) are ramping up deliveries.""
  ],
  ""triplets"": [
@@ -13980,7 +13980,7 @@ date,LLM_Triplet
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla stock price"",
+      ""head"": ""Tesla's stock price"",
       ""relation"": ""declined"",
       ""tail"": ""50% from its peak in 2021""
     },
@@ -14115,7 +14115,7 @@ date,LLM_Triplet
 2023-03-01,"
 {
   ""impact cases"": [
-    ""Tesla stock fell modestly overnight as Investor Day continued.""
+    ""Tesla's stock fell modestly overnight as Investor Day continued.""
   ],
   ""triplets"": [
     {
@@ -14184,7 +14184,7 @@ date,LLM_Triplet
 2023-03-03,"{
  ""impact cases"": [
   ""Onsemi, also known as Onsemi, plunged to its 50-day line intraday Thursday after key customer Tesla said it aimed to slash silicon carbide use in its next-generation vehicle."",
-  ""Tesla stock fell below its 21-day line for the first time in weeks on Thursday, but rebounded Friday, closing the week with a 0.5% rise to 197.86.""
+  ""Tesla's stock fell below its 21-day line for the first time in weeks on Thursday, but rebounded Friday, closing the week with a 0.5% rise to 197.86.""
  ],
  ""triplets"": [
   {
@@ -14193,12 +14193,12 @@ date,LLM_Triplet
    ""tail"": ""silicon carbide use in its next-generation vehicle.""
   },
   {
-   ""head"": ""Tesla stock"",
+   ""head"": ""Tesla's stock"",
    ""relation"": ""fell below"",
    ""tail"": ""its 21-day line for the first time in weeks on Thursday.""
   },
   {
-   ""head"": ""Tesla stock"",
+   ""head"": ""Tesla's stock"",
    ""relation"": ""rebounded"",
    ""tail"": ""closing the week with a 0.5% rise to 197.86.""
   },
@@ -14325,7 +14325,7 @@ date,LLM_Triplet
 {
   ""impact cases"": [
     ""Tesla (TSLA) shares declined 3% after the company announced that it would sell bonds in order to raise $1.3 billion."",
-    ""Shares of Tesla Inc closed down 3%, failing to get a lift after CEO Elon Musk told an investor conference he saw a clear path to producing a smaller vehicle at half the production cost of the Model 3.""
+    ""Tesla's stock Inc closed down 3%, failing to get a lift after CEO Elon Musk told an investor conference he saw a clear path to producing a smaller vehicle at half the production cost of the Model 3.""
   ],
   ""triplets"": [
     {
@@ -14399,7 +14399,7 @@ date,LLM_Triplet
  ],
  ""triplets"": [
   {
-   ""head"": ""Tesla stock price"",
+   ""head"": ""Tesla's stock price"",
    ""relation"": ""dropped"",
    ""tail"": ""5%""
   },
@@ -14470,7 +14470,7 @@ date,LLM_Triplet
 2023-03-11,"
 {
  ""impact cases"": [
-  ""Tesla stock dipped about 15% from February highs.""
+  ""Tesla's stock dipped about 15% from February highs.""
  ],
  ""triplets"": [
   {
@@ -14481,10 +14481,10 @@ date,LLM_Triplet
   {
    ""head"": ""Cathie Wood"",
    ""relation"": ""has topped up"",
-   ""tail"": ""51,960 shares of Tesla (TSLA) holdings""
+   ""tail"": ""51,960 Tesla's stock (TSLA) holdings""
   },
   {
-   ""head"": ""Tesla Stock"",
+   ""head"": ""Tesla's stock"",
    ""relation"": ""has gone down"",
    ""tail"": ""after copping for an awful 2022""
   },
@@ -14504,7 +14504,7 @@ date,LLM_Triplet
 2023-03-12,"
 {
   ""impact cases"": [
-    ""Tesla stock is a major holding across Ark Invests ETFs. TSLA fell 12.3% for the week, amid fresh price cuts and safety probes."",
+    ""Tesla's stock is a major holding across Ark Invests ETFs. TSLA fell 12.3% for the week, amid fresh price cuts and safety probes."",
     ""In the last few months, Tesla (NASDAQ: TSLA) has announced several price cuts. Now, BYD (OTC: BYDDY), one of the largest EV automakers in China, is responding with discounts of its own."",
     ""Tesla (TSLA) sold off hard this past week, but did find support at its 10-week line on Friday.""
   ],
@@ -14530,7 +14530,7 @@ date,LLM_Triplet
       ""tail"": ""BYD in the Chinese EV market""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""has significant exposure to"",
       ""tail"": ""Ark Invest's ETFs""
     }
@@ -14541,7 +14541,7 @@ date,LLM_Triplet
 {
   ""impact cases"": [
     ""Tesla shares climbed after the company ramped up hiring at its Gigafactory in Texas."",
-    ""Tesla stock climbed 0.6% Monday, as it continues see some support around its 50-day moving average line."",
+    ""Tesla's stock climbed 0.6% Monday, as it continues see some support around its 50-day moving average line."",
     ""Shares closed Monday around 55% off their 52-week high.""
   ],
   ""triplets"": [
@@ -14551,12 +14551,12 @@ date,LLM_Triplet
       ""tail"": ""Tesla Gigafactory""
     },
     {
-      ""head"": ""Tesla Stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""Traded up by 0.6%"",
       ""tail"": ""Monday""
     },
     {
-      ""head"": ""Tesla Stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""Closed Monday"",
       ""tail"": ""55% off its 52-week high""
     },
@@ -14613,7 +14613,7 @@ date,LLM_Triplet
 {
   ""impact cases"": [
     ""The law firm of Edelson Lechtzin LLP is investigating securities fraud claims on behalf of all purchasers of Tesla, Inc. (“Tesla” or the “Company”) (NASDAQ: TSLA) common stock between February 19, 2019 and February 17, 2023 (the “Class Period”)."",
-    ""Tesla investors may move the U.S., Current holders of Tesla stock may pursue corporate governance reforms.""
+    ""Tesla investors may move the U.S., Current holders of Tesla's stock may pursue corporate governance reforms.""
   ],
   ""triplets"": [
     {
@@ -14719,18 +14719,18 @@ date,LLM_Triplet
 2023-03-19,"
 {
   ""impact cases"": [
-    ""Tesla stock rose 3.9% to 180.13 for the week, still working on a bottoming base after a powerful run in January to mid-February."",
+    ""Tesla's stock rose 3.9% to 180.13 for the week, still working on a bottoming base after a powerful run in January to mid-February."",
     ""SPDR S&P Metals & Mining ETF (XME) tumbled 5.7% last week."",
     ""The Global X U.S. Infrastructure Development ETF (PAVE) skidded 4.9%.""
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""rose"",
       ""tail"": ""3.9%""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""is consolidating"",
       ""tail"": ""at several key levels""
     },
@@ -14779,7 +14779,7 @@ date,LLM_Triplet
     {
       ""head"": ""Musk's actions"",
       ""relation"": ""trigger"",
-      ""tail"": ""Tesla stock volatility""
+      ""tail"": ""Tesla's stock volatility""
     }
   ]
 }
@@ -14965,18 +14965,18 @@ date,LLM_Triplet
 2023-03-26,"
 {
   ""impact cases"": [
-    ""Tesla stock is up about 55% so far this, while the S&P 500 and Nasdaq Composite are up about 3% and 13%, respectively."",
+    ""Tesla's stock is up about 55% so far this, while the S&P 500 and Nasdaq Composite are up about 3% and 13%, respectively."",
     ""Tesla shares are still down about 43% over the past 12 months."",
     ""Rising interest rates have sapped some investor enthusiasm for consumer discretionary purchase that often require financing.""
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""has increased"",
       ""tail"": ""by 55% year-to-date""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""has declined"",
       ""tail"": ""by 43% over the past 12 months""
     },
@@ -15064,7 +15064,7 @@ date,LLM_Triplet
     {
       ""head"": ""Industry experts"",
       ""relation"": ""say"",
-      ""tail"": ""price cuts may impact Tesla stock price""
+      ""tail"": ""price cuts may impact Tesla's stock price""
     }
   ]
 }
@@ -15180,7 +15180,7 @@ date,LLM_Triplet
   ""impact cases"": [
     ""defendants had overstated the efficacy, viability, and safety of the Company’s Autopilot and Full Self-Driving (“FSD”) technologies"",
     ""Tesla’s Autopilot and FSD technologies created a serious risk of accident and injury"",
-    ""Tesla stock price may suffer as a result of the above issues""
+    ""Tesla's stock price may suffer as a result of the above issues""
   ],
   ""triplets"": [
     {
@@ -15194,7 +15194,7 @@ date,LLM_Triplet
       ""tail"": ""Autopilot and FSD technologies created a risk of accident and injury""
     },
     {
-      ""head"": ""Tesla stock price"",
+      ""head"": ""Tesla's stock price"",
       ""relation"": ""may suffer"",
       ""tail"": ""due to overstated efficacy and safety issues""
     },
@@ -15261,27 +15261,27 @@ date,LLM_Triplet
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""has declined"",
       ""tail"": ""more than the broader markets""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""closed at"",
       ""tail"": ""$192.58 in the latest trading session""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""is projected to report earnings of"",
       ""tail"": ""$0.84 per share on April 19, 2023""
     },
     {
-      ""head"": ""Tesla stock's"",
+      ""head"": ""Tesla's stock's"",
       ""relation"": ""year-over-year earnings"",
       ""tail"": ""are projected to decline by 21.5%""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""has a Zacks Rank of"",
       ""tail"": ""4 (Sell)""
     }
@@ -15301,7 +15301,7 @@ date,LLM_Triplet
       ""tail"": ""3.7%""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""triggered"",
       ""tail"": ""sell rule""
     },
@@ -15569,7 +15569,7 @@ date,LLM_Triplet
 2023-04-13,"
 {
   ""impact cases"": [
-    ""Shares of Tesla, the EV leader, are down about 0.5% since the EPA’s proposed rules were announced."",
+    ""Tesla's stock, the EV leader, are down about 0.5% since the EPA’s proposed rules were announced."",
     ""The S&P 500 and Nasdaq Composite are up roughly 1% over the same span.""
   ],
   ""triplets"": [
@@ -15604,17 +15604,17 @@ date,LLM_Triplet
 2023-04-14,"
 {
   ""impact cases"": [
-    ""Tesla stock has been under pressure since its March 1 investor day, when it failed to announce a new lower-cost model."",
+    ""Tesla's stock has been under pressure since its March 1 investor day, when it failed to announce a new lower-cost model."",
     ""Twitter-owner Musk is assembling a team of AI researchers and engineers, according to the FT report, and is also in discussions with some investors in SpaceX and Tesla Inc about putting money into his new venture.""
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla Stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""under pressure"",
       ""tail"": ""since March 1 investor day""
     },
     {
-      ""head"": ""Tesla Stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""failed to announce"",
       ""tail"": ""new lower-cost model""
     },
@@ -15813,12 +15813,12 @@ date,LLM_Triplet
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""plummeted"",
       ""tail"": ""9.8%""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""steepest fall"",
       ""tail"": ""July 24, 2019""
     },
@@ -15980,7 +15980,7 @@ date,LLM_Triplet
 2023-04-25,"
 {
   ""impact cases"": [
-    ""Tesla stock price movement could be impacted due to the company's increasing reliance on price cuts to boost demand, which could erode profitability."",
+    ""Tesla's stock price movement could be impacted due to the company's increasing reliance on price cuts to boost demand, which could erode profitability."",
     ""Tesla's stock fell to a low of $101.81 on Jan. 6, partly in response to price cuts in China."",
     ""Every $1,000 cut in Tesla Model Y price costs Tesla $500 million [a year], according to Future Fund Active exchange-traded fund (FFND) co-founder Gary Black."",
     ""There is a concern that Tesla vehicles may not be seeing enough price elasticity, meaning that demand is not increasing as much as expected in response to the price cuts."",
@@ -15988,7 +15988,7 @@ date,LLM_Triplet
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla stock price"",
+      ""head"": ""Tesla's stock price"",
       ""relation"": ""is impacted by"",
       ""tail"": ""decreasing demand""
     },
@@ -16497,7 +16497,7 @@ date,LLM_Triplet
 {
   ""impact cases"": [
     ""Investors have worried about Musk being too busy, or distracted by, his social media platform."",
-    ""Tesla stock was about $225 a share before Musk took over Twitter.""
+    ""Tesla's stock was about $225 a share before Musk took over Twitter.""
   ],
   ""triplets"": [
     {
@@ -16506,7 +16506,7 @@ date,LLM_Triplet
       ""tail"": ""chief executive position at Twitter""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""jumped"",
       ""tail"": ""2.6% after Musk's online announcement""
     },
@@ -16516,7 +16516,7 @@ date,LLM_Triplet
       ""tail"": ""despite Musk's distraction with Twitter""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""was about"",
       ""tail"": ""$225 a share before Musk took over Twitter""
     },
@@ -16643,7 +16643,7 @@ date,LLM_Triplet
     {
       ""head"": ""Tesla Inc."",
       ""relation"": ""issued subpoena"",
-      ""tail"": ""Musk""
+      ""tail"": ""Elon Musk""
     },
     {
       ""head"": ""USVI"",
@@ -16651,17 +16651,17 @@ date,LLM_Triplet
       ""tail"": ""Tesla""
     },
     {
-      ""head"": ""Musk"",
+      ""head"": ""Elon Musk"",
       ""relation"": ""had communications or meetings"",
       ""tail"": ""Epstein""
     },
     {
       ""head"": ""USVI"",
       ""relation"": ""seek documents"",
-      ""tail"": ""Musk""
+      ""tail"": ""Elon Musk""
     },
     {
-      ""head"": ""Musk"",
+      ""head"": ""Elon Musk"",
       ""relation"": ""paid fees"",
       ""tail"": ""Epstein""
     }
@@ -17099,7 +17099,7 @@ date,LLM_Triplet
 {
   ""impact cases"": [
     ""Tesla CEO Elon Musk visited China for the first time in three years."",
-    ""Shares of Tesla climbed 4 per cent to US$201 per share."",
+    ""Tesla's stock climbed 4 per cent to US$201 per share."",
     ""Only three US sectors advanced, with healthcare providers the biggest drags on the market.""
   ],
   ""triplets"": [
@@ -17202,28 +17202,28 @@ date,LLM_Triplet
 2023-06-02,"
 {
   ""impact cases"": [
-    ""Tesla Stock jumped 10.8% to 213.97 for the week, including a 3.1% jump on Friday."",
+    ""Tesla's stock jumped 10.8% to 213.97 for the week, including a 3.1% jump on Friday."",
     ""Shares cleared their 200-day moving average on Tuesday."",
     ""On Friday, TSLA stock ran past a 207.89 buy point from whats either a cup or double-bottom base.""
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla Stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""jumped"",
       ""tail"": ""10.8%""
     },
     {
-      ""head"": ""Tesla Stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""cleared"",
       ""tail"": ""200-day moving average""
     },
     {
-      ""head"": ""Tesla Stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""ran past"",
       ""tail"": ""207.89 buy point""
     },
     {
-      ""head"": ""Tesla Stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""is"",
       ""tail"": ""No. 1 holding across Ark Invests ETFs""
     },
@@ -17371,35 +17371,35 @@ date,LLM_Triplet
 {
   ""impact cases"": [
     ""Tesla (TSLA) extended its win streak, though it closed off its fresh 2023 highs."",
-    ""Tesla stock is extended from a 207.79 buy point."",
+    ""Tesla's stock is extended from a 207.79 buy point."",
     ""The relative strength line is at a seven-month high."",
-    ""Tesla stock is the No. 1 holding across Ark Invests ETFs.""
+    ""Tesla's stock is the No. 1 holding across Ark Invests ETFs.""
   ],
   ""triplets"": [
     {
       ""head"": ""Tesla (TSLA)"",
-      ""relation"": ""closed off its fresh 2023 highs"",
-      ""tail"": null
+      ""relation"": ""closed off"",
+      ""tail"": ""its fresh 2023 highs""
     },
     {
-      ""head"": ""Tesla stock"",
-      ""relation"": ""is extended from a 207.79 buy point"",
-      ""tail"": null
+      ""head"": ""Tesla's stock"",
+      ""relation"": ""is extended from"",
+      ""tail"": ""207.79 buy point""
     },
     {
       ""head"": ""The relative strength line"",
-      ""relation"": ""is at a seven-month high"",
-      ""tail"": null
+      ""relation"": ""is at"",
+      ""tail"": ""seven-month high""
     },
     {
-      ""head"": ""Tesla stock"",
-      ""relation"": ""is the No. 1 holding across Ark Invests ETFs"",
-      ""tail"": null
+      ""head"": ""Tesla's stock"",
+      ""relation"": ""is the"",
+      ""tail"": ""No. 1 holding across Ark Invests ETFs""
     },
     {
-      ""head"": ""Tesla stock"",
-      ""relation"": ""rose 1.5% to 224.57"",
-      ""tail"": null
+      ""head"": ""Tesla's stock"",
+      ""relation"": ""rose"",
+      ""tail"": ""1.5% to 224.57""
     }
   ]
 }
@@ -17408,32 +17408,32 @@ date,LLM_Triplet
 2023-06-09,"
 {
   ""impact cases"": [
-    ""Tesla stock, surged 14% to 244.40 last week, but the rally faded somewhat after Wednesday."",
-    ""A pause or pullback would be normal for Tesla stock, and perhaps help the Nasdaq cool off.""
+    ""Tesla's stock, surged 14% to 244.40 last week, but the rally faded somewhat after Wednesday."",
+    ""A pause or pullback would be normal for Tesla's stock, and perhaps help the Nasdaq cool off.""
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""surged"",
       ""tail"": ""14% to 244.40 last week""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""has a win streak"",
       ""tail"": ""of 11 sessions""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""is up"",
       ""tail"": ""10 straight days in higher volume""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""is being eligible"",
       ""tail"": ""for the full $7,500 IRA tax credit in the U.S.""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""is the top holding"",
       ""tail"": ""across Ark Invest ETFs""
     }
@@ -17585,17 +17585,17 @@ date,LLM_Triplet
 2023-06-14,"
 {
   ""impact cases"": [
-    ""Tesla stocks broke its record 13-day winning streak."",
-    ""Shares of Tesla Inc dipped 0.74%, putting the brakes on the electric car makers 13-session streak of gains, its longest ever.""
+    ""Tesla's stocks broke its record 13-day winning streak."",
+    ""Tesla's stock Inc dipped 0.74%, putting the brakes on the electric car makers 13-session streak of gains, its longest ever.""
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla stocks"",
+      ""head"": ""Tesla's stocks"",
       ""relation"": ""broke"",
       ""tail"": ""record 13-day winning streak""
     },
     {
-      ""head"": ""Shares of Tesla"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""dipped"",
       ""tail"": ""0.74%""
     },
@@ -17690,32 +17690,32 @@ date,LLM_Triplet
 2023-06-17,"
 {
   ""impact cases"": [
-    ""ARK Invest sold another 62,415 shares of Tesla worth about $16 million."",
-    ""The news of Friday’s stock sale comes after ARK Invest offloaded about 393,000 shares of Tesla worth almost $100 million from the Innovation ETF (ARKK) and two other funds on Monday.""
+    ""ARK Invest sold another 62,415 Tesla's stock worth about $16 million."",
+    ""The news of Friday’s stock sale comes after ARK Invest offloaded about 393,000 Tesla's stock worth almost $100 million from the Innovation ETF (ARKK) and two other funds on Monday.""
   ],
   ""triplets"": [
     {
       ""head"": ""ARK Invest"",
       ""relation"": ""sold"",
-      ""tail"": ""62,415 shares of Tesla""
+      ""tail"": ""62,415 Tesla's stock""
     },
     {
       ""head"": ""ARK Invest"",
       ""relation"": ""sold"",
-      ""tail"": ""393,000 shares of Tesla""
+      ""tail"": ""393,000 Tesla's stock""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""helped"",
       ""tail"": ""push the Innovation ETF up about 15% over the past month""
     },
     {
       ""head"": ""ARKs"",
       ""relation"": ""published price target"",
-      ""tail"": ""for Tesla stock is $2,000 by 2027""
+      ""tail"": ""for Tesla's stock is $2,000 by 2027""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""comprises"",
       ""tail"": ""more than 11% of the Innovation ETFs portfolio""
     }
@@ -17840,7 +17840,7 @@ date,LLM_Triplet
     },
     {
       ""head"": ""Barclays"",
-      ""relation"": ""rating of Tesla stock"",
+      ""relation"": ""rating of Tesla's stock"",
       ""tail"": ""downgraded""
     },
     {
@@ -17973,33 +17973,33 @@ date,LLM_Triplet
 {
   ""impact cases"": [
     ""Tesla (TSLA) retreated modestly, but after huge recent gains."",
-    ""Tesla stock fell 1.5% to 256.60 after reversing from 276.99 on Tuesday, the highest point in nearly nine months."",
+    ""Tesla's stock fell 1.5% to 256.60 after reversing from 276.99 on Tuesday, the highest point in nearly nine months."",
     ""That came amid three analyst downgrades during the week, mostly on valuation."",
-    ""After a second big rally in 2023, including a record 13-day win streak, Tesla stock is due for a break, especially amid a broad market pullback.""
+    ""After a second big rally in 2023, including a record 13-day win streak, Tesla's stock is due for a break, especially amid a broad market pullback.""
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""fell"",
       ""tail"": ""1.5%""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""reversed"",
       ""tail"": ""from 276.99 on Tuesday""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""received"",
       ""tail"": ""three analyst downgrades during the week""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""is due"",
       ""tail"": ""for a break""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""is on"",
       ""tail"": ""IBD Leaderboard""
     }
@@ -18029,14 +18029,14 @@ date,LLM_Triplet
       ""tail"": ""to include Tesla's plug""
     },
     {
-      ""head"": ""Shares of Tesla"",
-      ""relation"": ""have seen big moves higher in recent months"",
-      ""tail"": null
+      ""head"": ""Tesla's stock"",
+      ""relation"": ""have seen"",
+      ""tail"": ""big moves higher in recent months""
     },
     {
-      ""head"": ""Tesla stock"",
-      ""relation"": ""gave back some ground on Monday"",
-      ""tail"": null
+      ""head"": ""Tesla's stock"",
+      ""relation"": ""gave back"",
+      ""tail"": ""some ground on Monday""
     }
   ]
 }
@@ -18095,7 +18095,7 @@ date,LLM_Triplet
       ""tail"": ""the benchmarks top drag""
     },
     {
-      ""head"": ""Shares of Tesla"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""were strong"",
       ""tail"": ""after the market closed""
     },
@@ -18653,7 +18653,7 @@ date,LLM_Triplet
       ""tail"": ""a pullback""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""is on"",
       ""tail"": ""IBD Big Cap 20""
     },
@@ -18845,12 +18845,12 @@ date,LLM_Triplet
 {
   ""impact cases"": [
     ""Tesla tumbled nearly 10 per cent as CEO Elon Musk hinted at future price cuts to electric vehicles."",
-    ""Tesla stock could be getting a much-needed break"",
+    ""Tesla's stock could be getting a much-needed break"",
     ""But the Nasdaq 100 tumbled 2.3%, weighed down by Tesla, Netflix and a number of very large chip and software names.""
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""fell"",
       ""tail"": ""nearly 10 per cent""
     },
@@ -18860,7 +18860,7 @@ date,LLM_Triplet
       ""tail"": ""future price cuts""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""could be getting"",
       ""tail"": ""a much-needed break""
     },
@@ -18892,7 +18892,7 @@ date,LLM_Triplet
     {
       ""head"": ""Elon Musk"",
       ""relation"": ""complains about"",
-      ""tail"": ""Tesla stock price volatility""
+      ""tail"": ""Tesla's stock price volatility""
     },
     {
       ""head"": ""Tesla"",
@@ -19100,28 +19100,43 @@ date,LLM_Triplet
   ""triplets"": [
     {
       ""head"": ""Tesla"",
-      ""relation"": ""is facing competition from Chinese EV makers"",
-      ""tail"": null
+      ""relation"": ""is facing"",
+      ""tail"": ""competition from Chinese EV makers""
     },
     {
       ""head"": ""Chinese EV makers"",
-      ""relation"": ""have cut margins due to price war"",
-      ""tail"": null
+      ""relation"": ""have cut margins"",
+      ""tail"": ""due to price war""
     },
     {
       ""head"": ""Jerome Guillen"",
-      ""relation"": ""who spent a decade as lieutenant to Elon Musk at Tesla Inc."",
-      ""tail"": null
+      ""relation"": ""spent a decade as lieutenant at Tesla Inc. to"",
+      ""tail"": ""Elon Musk""
     },
     {
       ""head"": ""Vale"",
-      ""relation"": ""is a direct supplier for Tesla and GM"",
-      ""tail"": null
+      ""relation"": ""is a direct supplier for"",
+      ""tail"": ""Tesla""
+    },
+    {
+      ""head"": ""Vale"",
+      ""relation"": ""is a direct supplier for"",
+      ""tail"": ""GM""
     },
     {
       ""head"": ""Ford Motor Co."",
-      ""relation"": ""is a partner with Vale to jointly develop nickel in Indonesia"",
-      ""tail"": null
+      ""relation"": ""is a partner with"",
+      ""tail"": ""Vale""
+    },
+    {
+      ""head"": ""Ford Motor Co."",
+      ""relation"": ""to jointly develop nickel in Indonesia with"",
+      ""tail"": ""Vale""
+    },
+    {
+      ""head"": ""Vale"",
+      ""relation"": ""to jointly develop nickel in Indonesia with"",
+      ""tail"": ""Ford Motor Co.""
     }
   ]
 }
@@ -19152,7 +19167,7 @@ date,LLM_Triplet
       ""tail"": ""Musk's sale of Dogecoin""
     },
     {
-      ""head"": ""Musk"",
+      ""head"": ""Elon Musk"",
       ""relation"": ""attempted to dismiss"",
       ""tail"": ""amended complaint""
     },
@@ -19222,10 +19237,10 @@ date,LLM_Triplet
     {
       ""head"": ""Tesla (NASDAQ: )"",
       ""relation"": ""CEO"",
-      ""tail"": ""Musk""
+      ""tail"": ""Elon Musk""
     },
     {
-      ""head"": ""Musk"",
+      ""head"": ""Elon Musk"",
       ""relation"": ""CEO"",
       ""tail"": ""electric car maker Tesla""
     }
@@ -19267,28 +19282,28 @@ date,LLM_Triplet
 2023-08-01,"
 {
   ""impact cases"": [
-    ""Tesla stock fell modestly Tuesday amid a new NHTSA safety probe."",
+    ""Tesla's stock fell modestly Tuesday amid a new NHTSA safety probe."",
     ""Shares of megacap growth companies such as Tesla and Amazon.com, whose valuations drop when borrowing costs rise, fell as the benchmark 10-year US Treasury note yield climbed over 4%."",
-    ""Tesla stock is the No. 1 holding across most of Ark Invests ETFs.""
+    ""Tesla's stock is the No. 1 holding across most of Ark Invests ETFs.""
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""decreased"",
       ""tail"": ""2.4%""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""traded below"",
       ""tail"": ""21-day moving average""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""fell"",
       ""tail"": ""benchmark 10-year US Treasury note yield climbed over 4%""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""is the"",
       ""tail"": ""No. 1 holding across most of Ark Invests ETFs""
     },
@@ -19370,24 +19385,24 @@ date,LLM_Triplet
 2023-08-04,"
 {
   ""impact cases"": [
-    ""Tesla stock fell 4.7% to 253.86, closing just above the 50-day line but below the 10-week."",
+    ""Tesla's stock fell 4.7% to 253.86, closing just above the 50-day line but below the 10-week."",
     ""Shares are hitting resistance at the 21-day line."",
     ""Tesla continues to increase discounts, adding to pressure on margins."",
     ""Tesla China sales, including exports, hit a 2023 low last month.""
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""dropped"",
       ""tail"": ""4.7%""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""closed"",
       ""tail"": ""below the 10-week line""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""facing"",
       ""tail"": ""resistance at the 21-day line""
     },
@@ -19407,32 +19422,32 @@ date,LLM_Triplet
 2023-08-05,"
 {
   ""impact cases"": [
-    ""Tesla stock fell 4.7% to 253.86, closing just above the 50-day line but below the 10-week."",
+    ""Tesla's stock fell 4.7% to 253.86, closing just above the 50-day line but below the 10-week."",
     ""Shares are hitting resistance at the 21-day line.""
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""fell"",
       ""tail"": ""4.7%""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""closed"",
       ""tail"": ""just above the 50-day line but below the 10-week""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""hit"",
       ""tail"": ""resistance at the 21-day line""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""is"",
       ""tail"": ""the No. 1 holding across Ark Invests ETFs""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""is"",
       ""tail"": ""on the IBD 50""
     }
@@ -19513,7 +19528,7 @@ date,LLM_Triplet
 {
   ""impact cases"": [
     ""Tesla (TSLA) has fallen below its 50-day line."",
-    ""Tesla stock dipped 0.7% to 249.70, an inside day."",
+    ""Tesla's stock dipped 0.7% to 249.70, an inside day."",
     ""Shares fell as low as 242.76 on news that Teslas CFO had stepped down.""
   ],
   ""triplets"": [
@@ -19523,7 +19538,7 @@ date,LLM_Triplet
       ""tail"": ""50-day line""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""dipped"",
       ""tail"": ""0.7% to 249.70""
     },
@@ -19538,7 +19553,7 @@ date,LLM_Triplet
       ""tail"": ""No. 1 holding across ARK Invests ETFs""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""is on"",
       ""tail"": ""IBD Big Cap 20""
     }
@@ -19553,7 +19568,7 @@ date,LLM_Triplet
 "
 2023-08-10,"
 {
-  ""impact cases"": [""Tesla stock price may be impacted due to their Semi truck fleet performance, as highlighted in the recent video from NAFCE.""],
+  ""impact cases"": [""Tesla's stock price may be impacted due to their Semi truck fleet performance, as highlighted in the recent video from NAFCE.""],
   ""triplets"": [
     {
       ""head"": ""Tesla"",
@@ -19703,10 +19718,10 @@ date,LLM_Triplet
     {
       ""head"": ""Price Reduction"",
       ""relation"": ""impact on"",
-      ""tail"": ""Tesla Stock Price""
+      ""tail"": ""Tesla's stock Price""
     },
     {
-      ""head"": ""Tesla Stock Price"",
+      ""head"": ""Tesla's stock Price"",
       ""relation"": ""fell by"",
       ""tail"": ""1.2%""
     },
@@ -19855,8 +19870,8 @@ date,LLM_Triplet
     },
     {
       ""head"": ""Just $45 million worth of Tesla shares"",
-      ""relation"": ""traded by late morning"",
-      ""tail"": null
+      ""relation"": ""traded by"",
+      ""tail"": ""late morning""
     }
   ]
 }
@@ -20080,7 +20095,7 @@ date,LLM_Triplet
 2023-08-26,"
 {
  ""impact cases"": [
-  ""Tesla stock is up about 94% year to date, easily outpacing the 30% gain of the Nasdaq Composite."",
+  ""Tesla's stock is up about 94% year to date, easily outpacing the 30% gain of the Nasdaq Composite."",
   ""Tesla’s (NASDAQ:TSLA) stock has been on a steady decline since the company reported its Q2 earnings results a month ago."",
   ""Tesla is planning to launch the production of its cars in India"",
   ""the company has already started leasing office space in the country."",
@@ -20088,7 +20103,7 @@ date,LLM_Triplet
  ],
  ""triplets"": [
   {
-   ""head"": ""Tesla stock"",
+   ""head"": ""Tesla's stock"",
    ""relation"": ""has been on a steady decline"",
    ""tail"": ""since the company reported its Q2 earnings results a month ago""
   },
@@ -20541,22 +20556,22 @@ date,LLM_Triplet
 2023-09-08,"
 {
   ""impact cases"": [
-    ""Tesla stock fell on Friday, but rose 1.4% to 248.50 for the week, bouncing between the 50-day and 21-day moving lines."",
+    ""Tesla's stock fell on Friday, but rose 1.4% to 248.50 for the week, bouncing between the 50-day and 21-day moving lines."",
     ""The stock market rally had a tough week, with all the major indexes falling below their 50-day lines and a Friday bounce fizzling.""
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""closed at"",
       ""tail"": ""248.50""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""has fallen"",
       ""tail"": ""on Friday""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""is bouncing between"",
       ""tail"": ""50-day and 21-day moving lines""
     },
@@ -20566,7 +20581,7 @@ date,LLM_Triplet
       ""tail"": ""a tough week""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""is a"",
       ""tail"": ""top-10 holding for Cathie Woods Ark""
     }
@@ -20576,13 +20591,13 @@ date,LLM_Triplet
 2023-09-09,"
 {
   ""impact cases"": [
-    ""Tesla stock fell on Friday, but rose 1.4% to 248.50 for the week, bouncing between the 50-day and 21-day moving lines."",
+    ""Tesla's stock fell on Friday, but rose 1.4% to 248.50 for the week, bouncing between the 50-day and 21-day moving lines."",
     ""The market rally weakened considerably this past week."",
     ""Tesla Margins Are Tumbling. Bulls See A Recovery Even As Price Cuts Continue.""
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""fell"",
       ""tail"": ""on Friday""
     },
@@ -20593,16 +20608,16 @@ date,LLM_Triplet
     },
     {
       ""head"": ""Tesla margins"",
-      ""relation"": ""are tumbling"",
-      ""tail"": null
+      ""relation"": ""are"",
+      ""tail"": ""tumbling""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""has a buy point"",
       ""tail"": ""of 299.29""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""is the number one holding"",
       ""tail"": ""across Ark Invest ETFs""
     }
@@ -20920,7 +20935,7 @@ date,LLM_Triplet
   ""impact cases"": [
     ""The Wall Street Journal reported Tuesday that the Justice Department was conducting a criminal investigation looking at whether Tesla properly disclosed benefits that may have been paid to Musk by the company (ticker: TSLA), among other issues."",
     ""Although it is too early to tell how the investigation will turn out, problems for Musk can be trouble for Tesla investors, given his role as CEO and the visionary behind the company."",
-    ""Tesla stock was about $225 a share when Musk took over Twitter in late October. It closed 2022 at about $123 a share, down 45%""
+    ""Tesla's stock was about $225 a share when Musk took over Twitter in late October. It closed 2022 at about $123 a share, down 45%""
   ],
   ""triplets"": [
     {
@@ -20939,7 +20954,7 @@ date,LLM_Triplet
       ""tail"": ""$20 million""
     },
     {
-      ""head"": ""Tesla stock price"",
+      ""head"": ""Tesla's stock price"",
       ""relation"": ""decrease"",
       ""tail"": ""45%""
     },
@@ -21167,24 +21182,24 @@ date,LLM_Triplet
 {
   ""impact cases"": [
     ""Tesla (TSLA) fell on a Deutsche Bank warning that goes beyond the EV giants deliveries."",
-    ""Tesla stock is the No. 1 holding across Ark Invests ETFs. Cathie Woods Ark has shed a small but notice share of its TSLA stake in recent weeks."",
-    ""Tesla stock fell 1.5% to 240.50, but came off a one-month low as the major indexes rallied off lows."",
+    ""Tesla's stock is the No. 1 holding across Ark Invests ETFs. Cathie Woods Ark has shed a small but notice share of its TSLA stake in recent weeks."",
+    ""Tesla's stock fell 1.5% to 240.50, but came off a one-month low as the major indexes rallied off lows."",
     ""Shares are still working on a 278.98 cup-with-handle buy point, but are 4.7% below their 50-day line."",
     ""Deutsche Banks bigger Tesla concern is the future. It now sees 2024 deliveries at 2.1 million, well below the consensus for about 2.3 million.""
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""fell"",
       ""tail"": ""1.5% to 240.50""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""is the No. 1 holding"",
       ""tail"": ""across Ark Invests ETFs""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""is below"",
       ""tail"": ""50-day line""
     },
@@ -21225,7 +21240,7 @@ date,LLM_Triplet
       ""tail"": ""Sunday, Oct. 1.""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""briefly flirted"",
       ""tail"": ""aggressive entry on Friday""
     },
@@ -21310,7 +21325,7 @@ date,LLM_Triplet
 {
   ""impact cases"": [
     ""Tesla wins victory as judge rules against class action over autopilot claims"",
-    ""Tesla stock price above $251, but skyrocketing bond yields are bad news for the market"",
+    ""Tesla's stock price above $251, but skyrocketing bond yields are bad news for the market"",
     ""Judge rules Tesla owners must pursue autopilot claims individually, in arbitration rather than court"",
     ""Tesla owners had agreed to arbitrate any legal claims against the company when they accepted its terms and conditions while purchasing vehicles through a Tesla website"",
     ""Tesla and lawyers for the plaintiffs did not immediately respond to requests for comment on Monday""
@@ -21322,7 +21337,7 @@ date,LLM_Triplet
       ""tail"": ""against class action over autopilot claims""
     },
     {
-      ""head"": ""Tesla stock price"",
+      ""head"": ""Tesla's stock price"",
       ""relation"": ""above $251"",
       ""tail"": ""but skyrocketing bond yields are bad news for the market""
     },
@@ -21363,17 +21378,17 @@ date,LLM_Triplet
       ""tail"": ""just 150,000 public chargers are available for the approximately 4 million EVs currently on the road""
     },
     {
-      ""head"": ""Musk"",
+      ""head"": ""Elon Musk"",
       ""relation"": ""argued"",
       ""tail"": ""as CEO of Tesla and SpaceX and founder of The Boring Company and Neuralink, he was one of the busiest people on the planet""
     },
     {
-      ""head"": ""Musk"",
+      ""head"": ""Elon Musk"",
       ""relation"": ""failed"",
       ""tail"": ""to abide by the SEC's rules""
     },
     {
-      ""head"": ""Musk"",
+      ""head"": ""Elon Musk"",
       ""relation"": ""testified"",
       ""tail"": ""about the 5% disclosure requirement under oath""
     }
@@ -21417,23 +21432,23 @@ date,LLM_Triplet
 2023-10-05,"
 {
   ""impact cases"": [
-    ""Tesla stock dipped 0.45% to 259.98 on Thursday as the market overall declined."",
-    ""Tesla stock is off its highs after a recent rally, and is now trading around its 50-day moving average."",
+    ""Tesla's stock dipped 0.45% to 259.98 on Thursday as the market overall declined."",
+    ""Tesla's stock is off its highs after a recent rally, and is now trading around its 50-day moving average."",
     ""Tesla has been accused of failing to stop racial and sexual harassment at its Fremont, California plant.""
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""dipped"",
       ""tail"": ""0.45% to 259.98 on Thursday""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""is off"",
       ""tail"": ""its highs after a recent rally""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""is trading"",
       ""tail"": ""around its 50-day moving average""
     },
@@ -21443,7 +21458,7 @@ date,LLM_Triplet
       ""tail"": ""of failing to stop racial and sexual harassment at its Fremont, California plant""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""is No."",
       ""tail"": ""1 holding across Ark Invests ETFs""
     }
@@ -21591,26 +21606,26 @@ date,LLM_Triplet
 2023-10-10,"
 {
   ""impact cases"": [
-    ""Tesla stock has shrugged off a steady stream of bad news in October.""
+    ""Tesla's stock has shrugged off a steady stream of bad news in October.""
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""shrugged off"",
       ""tail"": ""bad news in October.""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""cleared"",
       ""tail"": ""50-day line last week.""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""offered"",
       ""tail"": ""early entry as it cleared last Thursdays high of 263.60.""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""rose"",
       ""tail"": ""1.5% to 263.62 on Tuesday.""
     },
@@ -21678,14 +21693,14 @@ date,LLM_Triplet
       ""tail"": ""modest fall""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""top holding"",
       ""tail"": ""Ark Invest ETFs""
     },
     {
       ""head"": ""Nvidia stock"",
       ""relation"": ""IBD Leaderboard"",
-      ""tail"": ""Tesla stock""
+      ""tail"": ""Tesla's stock""
     }
   ]
 }
@@ -22145,35 +22160,35 @@ date,LLM_Triplet
 2023-10-26,"
 {
   ""impact cases"": [
-    ""Tesla stock fell 3.1% due to high interest rates"",
+    ""Tesla's stock fell 3.1% due to high interest rates"",
     ""Tesla (TSLA) closed further below its key 200-day line."",
-    ""Tesla stock is no longer the No. 1 holding for ARK Invest ETFs"",
+    ""Tesla's stock is no longer the No. 1 holding for ARK Invest ETFs"",
     ""A growing number of leading stocks are heavily damaged, including Tesla"",
-    ""Tesla stock may take several days, weeks or even months to repair""
+    ""Tesla's stock may take several days, weeks or even months to repair""
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""is impacted by"",
       ""tail"": ""high interest rates""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""traded below"",
       ""tail"": ""key 200-day line""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""is not the No. 1 holding for"",
       ""tail"": ""ARK Invest ETFs""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""is one of"",
       ""tail"": ""heavily damaged leading stocks""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""may take"",
       ""tail"": ""several days, weeks or even months to repair""
     }
@@ -22363,7 +22378,7 @@ date,LLM_Triplet
 2023-11-01,"
 {
  ""impact cases"": [
-  ""Shares of Tesla fell 19.7% for the month, according to data provided by S&P Global Market Intelligence, as investors digested the numbers and tried to make sense of this much-debated company."",
+  ""Tesla's stock fell 19.7% for the month, according to data provided by S&P Global Market Intelligence, as investors digested the numbers and tried to make sense of this much-debated company."",
   ""Six Flags Entertainment (SIX) rose over 5% on news of a potential merger with Cedar Fair (FUN). FUN rose 5.7% and retook the 50-day line before closing just below it.""
  ],
  ""triplets"": [
@@ -22577,7 +22592,7 @@ date,LLM_Triplet
 {
   ""impact cases"": [
     ""Company management is offering smaller raises to employees compared to rival automakers."",
-    ""Tesla stock was little changed overnight as its premium EV startup rivals reported.""
+    ""Tesla's stock was little changed overnight as its premium EV startup rivals reported.""
   ],
   ""triplets"": [
     {
@@ -22591,7 +22606,7 @@ date,LLM_Triplet
       ""tail"": ""rival automakers""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""changed"",
       ""tail"": ""little overnight""
     },
@@ -22636,7 +22651,7 @@ date,LLM_Triplet
       ""tail"": ""Tesla rival""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""is a major holding"",
       ""tail"": ""Ark Invests ETFs""
     }
@@ -22853,7 +22868,7 @@ date,LLM_Triplet
       ""tail"": ""50-day line""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""building"",
       ""tail"": ""double-bottom base""
     }
@@ -22900,7 +22915,7 @@ date,LLM_Triplet
 2023-11-18,"
 {
   ""impact cases"": [
-    ""Dr. Burry predicted in 2020 that the shares of Tesla, Inc. (NASDAQ: TSLA) would drop."",
+    ""Dr. Burry predicted in 2020 that the Tesla's stock, Inc. (NASDAQ: TSLA) would drop."",
     ""Dr. Burry took a short position in Tesla’s shares, one which didn’t prove to be fruitful back then."",
     ""Visa’s significantly lower risk level when compared to Tesla’s, strengthens my belief to overweight the dividend growth company (in this case Visa) while underweighting the growth company (in this case Tesla) in a well-balanced portfolio with a reduced risk level.""
   ],
@@ -22953,12 +22968,12 @@ date,LLM_Triplet
       ""tail"": ""15%""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""Tesla adoption impact"",
       ""tail"": ""Dogecoin""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""payment impact"",
       ""tail"": ""20%""
     }
@@ -23043,18 +23058,18 @@ date,LLM_Triplet
  ""impact cases"": [
   ""Tesla (TSLA) fell Wednesday, backing off possible buy points."",
   ""The EV giant is ramping up discounts in the U.S. and Europe following Elon Musks controversial post last week."",
-  ""Tesla stock fell 2.9% to 234.21 in an outside day, dropping back below the 50-day line."",
+  ""Tesla's stock fell 2.9% to 234.21 in an outside day, dropping back below the 50-day line."",
   ""Some inventory trackers suggest unsold Tesla EVs swelling in the past week."",
   ""Elon Musk's recent endorsement of an antisemitic post as the actual truth may be hurting Tesla demand.""
  ],
  ""triplets"": [
   {
-   ""head"": ""Tesla stock"",
+   ""head"": ""Tesla's stock"",
    ""relation"": ""fell"",
    ""tail"": ""2.9%""
   },
   {
-   ""head"": ""Tesla stock"",
+   ""head"": ""Tesla's stock"",
    ""relation"": ""dropped"",
    ""tail"": ""below 50-day line""
   },
@@ -23215,26 +23230,26 @@ date,LLM_Triplet
 2023-11-27,"
 {
   ""impact cases"": [
-    ""Tesla stock moved up 0.3% Monday, as shares continue to face strong resistance around their 50-day line after retaking the 200-day line in recent weeks.""
+    ""Tesla's stock moved up 0.3% Monday, as shares continue to face strong resistance around their 50-day line after retaking the 200-day line in recent weeks.""
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla stock price"",
+      ""head"": ""Tesla's stock price"",
       ""relation"": ""increased by"",
       ""tail"": ""0.3%""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""facing resistance"",
       ""tail"": ""around their 50-day line""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""retook"",
       ""tail"": ""the 200-day line in recent weeks""
     },
     {
-      ""head"": ""Tesla stock price movement"",
+      ""head"": ""Tesla's stock price movement"",
       ""relation"": ""detoriated by"",
       ""tail"": ""Elon Musk taking over Twitter""
     },
@@ -23284,17 +23299,17 @@ date,LLM_Triplet
 2023-11-30,"
 {
   ""impact cases"": [
-    ""Tesla stock fell Thursday, adding to losses after hours."",
-    ""The Nasdaq 100 dipped 0.25%, weighed down by Meta, Nvidia, Tesla stock and more.""
+    ""Tesla's stock fell Thursday, adding to losses after hours."",
+    ""The Nasdaq 100 dipped 0.25%, weighed down by Meta, Nvidia, Tesla's stock and more.""
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""fell"",
       ""tail"": ""Thursday""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""declined"",
       ""tail"": ""after hours""
     },
@@ -23306,10 +23321,10 @@ date,LLM_Triplet
     {
       ""head"": ""Nasdaq 100"",
       ""relation"": ""declined"",
-      ""tail"": ""due to Tesla stock""
+      ""tail"": ""due to Tesla's stock""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""held"",
       ""tail"": ""major loss""
     }
@@ -23437,7 +23452,7 @@ date,LLM_Triplet
       ""tail"": ""customers""
     },
     {
-      ""head"": ""Tesla Stock Price"",
+      ""head"": ""Tesla's stock Price"",
       ""relation"": ""affected"",
       ""tail"": ""Cybertruck disappointment""
     },
@@ -23447,7 +23462,7 @@ date,LLM_Triplet
       ""tail"": ""1.4%""
     },
     {
-      ""head"": ""Tesla Stock Price"",
+      ""head"": ""Tesla's stock Price"",
       ""relation"": ""declined"",
       ""tail"": ""due to Cybertruck disappointment""
     }
@@ -23541,17 +23556,17 @@ date,LLM_Triplet
       ""tail"": ""Tesla's self-driving technology efforts""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""climbed"",
       ""tail"": ""1.35% to 242.60""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""closing"",
       ""tail"": ""a trendline entry now just below 250""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""official buy point"",
       ""tail"": ""278.98 from a double-bottom base""
     }
@@ -23561,31 +23576,31 @@ date,LLM_Triplet
 2023-12-08,"
 {
   ""impact cases"": [
-    ""Tesla stock is a major holding across Ark Invests ETFs.""
+    ""Tesla's stock is a major holding across Ark Invests ETFs.""
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""is a major holding"",
       ""tail"": ""Ark Invests ETFs""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""has been trading tightly"",
       ""tail"": ""past few weeks""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""has found support"",
       ""tail"": ""50-day line""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""has a double-bottom buy point"",
       ""tail"": ""278.98""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""is getting very close"",
       ""tail"": ""2023 highs""
     }
@@ -23633,7 +23648,7 @@ date,LLM_Triplet
     ""Tesla's pricing power may be becoming a thing of the past."",
     ""Tesla's average selling price across its vehicles fell by roughly \\$9,000 to just over \\$45,000."",
     ""CEO Elon Musk spent much of the third-quarter earnings call arguing about how important it is for Tesla to be competitive on price."",
-    ""This 2024 Rule Change Could Crush Tesla Stock""
+    ""This 2024 Rule Change Could Crush Tesla's stock""
   ],
   ""triplets"": [
     {
@@ -23647,7 +23662,7 @@ date,LLM_Triplet
       ""tail"": ""in the electric vehicle market""
     },
     {
-      ""head"": ""Tesla stock price"",
+      ""head"": ""Tesla's stock price"",
       ""relation"": ""may be negatively impacted"",
       ""tail"": ""by a 2024 rule change""
     },
@@ -23711,27 +23726,27 @@ date,LLM_Triplet
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla Stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""traded at a discount"",
       ""tail"": ""its industry's average Forward P/E ratio""
     },
     {
-      ""head"": ""Tesla Stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""dropped"",
       ""tail"": ""-1.14%""
     },
     {
-      ""head"": ""Tesla Stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""projected EPS"",
       ""tail"": ""$0.74""
     },
     {
-      ""head"": ""Tesla Stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""Zacks Rank"",
       ""tail"": ""Strong Sell (#5)""
     },
     {
-      ""head"": ""Tesla Stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""estimated quarterly revenue"",
       ""tail"": ""$25.8 billion""
     }
@@ -23817,28 +23832,28 @@ date,LLM_Triplet
 {
   ""impact cases"": [
     ""Tesla staged an upside reversal, moving above an early entry."",
-    ""Tesla stock has a 278.98 buy point from a five-month double-bottom base."",
+    ""Tesla's stock has a 278.98 buy point from a five-month double-bottom base."",
     ""On the downside, the relative strength line for Tesla has stopped falling but has trended lower for the past several months."",
-    ""Dow Jones futures open at 6 p.m., Tesla stock remains a major holding across Ark Invests ETFs.""
+    ""Dow Jones futures open at 6 p.m., Tesla's stock remains a major holding across Ark Invests ETFs.""
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla Stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""rose"",
       ""tail"": ""4%""
     },
     {
-      ""head"": ""Tesla Stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""cleared"",
       ""tail"": ""a trendline going back to July""
     },
     {
-      ""head"": ""Tesla Stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""has"",
       ""tail"": ""a 278.98 buy point from a five-month double-bottom base""
     },
     {
-      ""head"": ""Tesla Stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""remains"",
       ""tail"": ""a major holding across Ark Invests ETFs""
     },
@@ -24019,7 +24034,7 @@ date,LLM_Triplet
       ""tail"": ""attributed to a single customer""
     },
     {
-      ""head"": ""Tesla Stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""price decline"",
       ""tail"": ""impacted by broader market reversal""
     }
@@ -24167,7 +24182,7 @@ date,LLM_Triplet
 2023-12-25,"
 {
  ""impact cases"": [
-  ""Tesla stock price movement may be impacted by its access to lithium spodumene concentrate from Liontowns Kathleen Valley Project via the Port of Geraldton to global tier-1 offtake partners - LG Energy Solution, Tesla""
+  ""Tesla's stock price movement may be impacted by its access to lithium spodumene concentrate from Liontowns Kathleen Valley Project via the Port of Geraldton to global tier-1 offtake partners - LG Energy Solution, Tesla""
  ],
  ""triplets"": [
   {
@@ -24221,7 +24236,7 @@ date,LLM_Triplet
       ""tail"": ""Tesla Inc.""
     },
     {
-      ""head"": ""ARK Buys Tesla Stock"",
+      ""head"": ""ARK Buys Tesla's stock"",
       ""relation"": ""sign of"",
       ""tail"": ""Tesla's positive performance in November and December""
     },
@@ -24271,12 +24286,12 @@ date,LLM_Triplet
 2023-12-28,"
 {
   ""impact cases"": [
-    ""Tesla stock pulled back below an early buy point."",
+    ""Tesla's stock pulled back below an early buy point."",
     ""Tesla's YTD Return Contribution is only 4.72%, showing a downtrend compared to its competitors.""
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""pulled back"",
       ""tail"": ""below an early buy point""
     },
@@ -24378,7 +24393,7 @@ date,LLM_Triplet
 2023-12-31,"
 {
   ""impact cases"": [
-    ""Tesla stock may struggle without a clear path to autonomy.""
+    ""Tesla's stock may struggle without a clear path to autonomy.""
   ],
   ""triplets"": [
     {
@@ -24392,7 +24407,7 @@ date,LLM_Triplet
       ""tail"": ""Supercharger network and stationary storage""
     },
     {
-      ""head"": ""Tesla stock price"",
+      ""head"": ""Tesla's stock price"",
       ""relation"": ""dependent on"",
       ""tail"": ""clear path to autonomy""
     },
@@ -24531,7 +24546,7 @@ date,LLM_Triplet
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla Stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""decreased"",
       ""tail"": ""6%""
     },
@@ -24981,7 +24996,7 @@ date,LLM_Triplet
       ""tail"": ""74,000 active EV drivers""
     },
     {
-      ""head"": ""Tesla stock price"",
+      ""head"": ""Tesla's stock price"",
       ""relation"": ""is impacted by"",
       ""tail"": ""Uber's EV adoption efforts""
     }
@@ -24992,7 +25007,7 @@ date,LLM_Triplet
 {
  ""impact cases"": [
   ""Tesla will further cut prices and reduce production rates in Germany."",
-  ""Tesla stock price dropped by 2%, one of the heaviest weights on the S&P 500.""
+  ""Tesla's stock price dropped by 2%, one of the heaviest weights on the S&P 500.""
  ],
  ""triplets"": [
   {
@@ -25026,7 +25041,7 @@ date,LLM_Triplet
 2024-01-18,"
 {
   ""impact cases"": [
-    ""Tesla stock price declined by 1.70%"",
+    ""Tesla's stock price declined by 1.70%"",
     ""Tesla is not among the Magnificent Seven stocks that advanced in the session."",
     ""Tesla has cut prices sharply to attract customers."",
     ""Many EVs, including Tesla's Lyric, have lost a U.S. government tax credit."",
@@ -25425,16 +25440,16 @@ date,LLM_Triplet
   ""impact cases"": [
     ""The stock market has continued to rally this year, but electric vehicle (EV) stocks are in the dump - including and especially Tesla, Inc. (NASDAQ:TSLA)."",
     ""The category leader is down more than 20% year to date, driven by fears of softening demand and weak responses to the company's latest price drops."",
-    ""And relative to mid-2021 highs above $400, shares of Tesla have dropped more than 50%.""
+    ""And relative to mid-2021 highs above $400, Tesla's stock have dropped more than 50%.""
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""has dropped"",
       ""tail"": ""more than 50%""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""is down"",
       ""tail"": ""more than 20% year to date""
     },
@@ -25563,8 +25578,8 @@ date,LLM_Triplet
 2024-02-02,"
 {
   ""impact cases"": [
-    ""Despite rising this week, Tesla stock price fell -0.50% today"",
-    ""Tesla stock underperformed compared to other tech companies in the 'Magnificent 7'""
+    ""Despite rising this week, Tesla's stock price fell -0.50% today"",
+    ""Tesla's stock underperformed compared to other tech companies in the 'Magnificent 7'""
   ],
   ""triplets"": [
     {
@@ -25995,16 +26010,16 @@ date,LLM_Triplet
 2024-02-15,"
 {
   ""impact cases"": [
-    ""Tesla stock price rose by 6.2%, outperforming the broader electric vehicle market.""
+    ""Tesla's stock price rose by 6.2%, outperforming the broader electric vehicle market.""
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla stock price"",
+      ""head"": ""Tesla's stock price"",
       ""relation"": ""increased by"",
       ""tail"": ""6.2%""
     },
     {
-      ""head"": ""Tesla stock price"",
+      ""head"": ""Tesla's stock price"",
       ""relation"": ""outperformed"",
       ""tail"": ""broader electric vehicle market""
     },
@@ -26041,7 +26056,7 @@ date,LLM_Triplet
     {
       ""head"": ""Gary Black"",
       ""relation"": ""predicts"",
-      ""tail"": ""Tesla stock might ascend owing to stable pricing and enhanced Full Self-Driving adoption""
+      ""tail"": ""Tesla's stock might ascend owing to stable pricing and enhanced Full Self-Driving adoption""
     },
     {
       ""head"": ""Tesla"",
@@ -26054,7 +26069,7 @@ date,LLM_Triplet
       ""tail"": ""Many people want to buy Tesla cars but cannot afford them""
     },
     {
-      ""head"": ""Tesla Stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""influenced by"",
       ""tail"": ""low consumer sentiment about the economy""
     }
@@ -26079,7 +26094,7 @@ date,LLM_Triplet
       ""tail"": ""28 bps loss in performance""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""affected by"",
       ""tail"": ""declining company performance""
     },
@@ -26281,7 +26296,7 @@ date,LLM_Triplet
 2024-02-24,"
 {
   ""impact cases"": [
-    ""Tesla stock price has underperformed compared to other tech giants in the past year, with a negative return of 2%."",
+    ""Tesla's stock price has underperformed compared to other tech giants in the past year, with a negative return of 2%."",
     ""Elon Musk has expressed concerns about high interest rates and the global economy, which could impact Tesla's growth prospects.""
   ],
   ""triplets"": [
@@ -26509,10 +26524,10 @@ date,LLM_Triplet
     {
       ""head"": ""Legal team"",
       ""relation"": ""requested"",
-      ""tail"": ""29 million shares of Tesla""
+      ""tail"": ""29 million Tesla's stock""
     },
     {
-      ""head"": ""29 million shares of Tesla"",
+      ""head"": ""29 million Tesla's stock"",
       ""relation"": ""worth"",
       ""tail"": ""$5.95 billion""
     },
@@ -26643,24 +26658,24 @@ date,LLM_Triplet
 2024-03-05,"
 {
   ""impact cases"": [
-    ""Tesla stock slumped 3.9% after Mondays 7.2% tumble, approaching 2024 lows amid several negative headlines."",
+    ""Tesla's stock slumped 3.9% after Mondays 7.2% tumble, approaching 2024 lows amid several negative headlines."",
     ""The relative strength lines for both giants are at 52-week lows, reflecting their underperformance vs. the S&P 500 index."",
-    ""Tesla stock is Cathie Woods No. 2 holding."",
+    ""Tesla's stock is Cathie Woods No. 2 holding."",
     ""Tesla Inc. extended a two-day selloff to 11%, while Apple Inc. suffered its fifth straight loss.""
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""slumped 3.9%"",
       ""tail"": ""after Monday's 7.2% tumble""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""approached 2024 lows"",
       ""tail"": ""amid several negative headlines""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""is Cathie Woods"",
       ""tail"": ""No. 2 holding""
     },
@@ -26682,28 +26697,28 @@ date,LLM_Triplet
   ""impact cases"": [
     ""Tesla continues to deteriorate and may continue to weaken if it cannot maintain support around $177."",
     ""Tesla (TSLA) briefly undercut 2024 lows as it continues to show significant underperformance vs. the S&P 500."",
-    ""Tesla stock fell 2.3% to 176.54, extending its weekly loss to 12.9%."",
+    ""Tesla's stock fell 2.3% to 176.54, extending its weekly loss to 12.9%."",
     ""Shares fell to 173.70 intraday, undercutting its February low to hit the worst levels in 10 months."",
     ""Morgan Stanley analyst Adam Jonas said Tesla could potentially lose money this year amid weak sales, price cuts and heavy spending.""
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""may continue to weaken"",
       ""tail"": ""if it cannot maintain support around $177""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""underperformed"",
       ""tail"": ""the S&P 500""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""fell"",
       ""tail"": ""2.3% to 176.54""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""hit"",
       ""tail"": ""the worst levels in 10 months""
     },
@@ -26821,7 +26836,7 @@ date,LLM_Triplet
 2024-03-10,"
 {
   ""impact cases"": [
-    ""Tesla stock has slid 56% from its high in 2021."",
+    ""Tesla's stock has slid 56% from its high in 2021."",
     ""A series of product price cuts to keep demand up in a weak automotive environment, on top of increasing competition in the electric vehicle (EV) market, has tested the stock markets patience.""
   ],
   ""triplets"": [
@@ -26856,33 +26871,33 @@ date,LLM_Triplet
 2024-03-11,"
 {
   ""impact cases"": [
-    ""Tesla stock rose 1.1% Monday, still just off its recent lows."",
+    ""Tesla's stock rose 1.1% Monday, still just off its recent lows."",
     ""Shares remain sharply below their 50- and 200-day lines and more than 40% off their 52-week high."",
-    ""Tesla stock has underperformed in 2024 with a YTD loss of 28.1%, lagging behind other Magnificent Seven stocks.""
+    ""Tesla's stock has underperformed in 2024 with a YTD loss of 28.1%, lagging behind other Magnificent Seven stocks.""
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""rose slightly"",
       ""tail"": ""1.1% Monday""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""remains below"",
       ""tail"": ""50- and 200-day lines""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""more than 40% off"",
       ""tail"": ""52-week high""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""underperformed in 2024"",
       ""tail"": ""with YTD loss of 28.1%""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""lagged behind"",
       ""tail"": ""other Magnificent Seven stocks""
     }
@@ -27210,22 +27225,22 @@ date,LLM_Triplet
   ""impact cases"": [],
   ""triplets"": [
     {
-      ""head"": ""Tesla Stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""dropped"",
       ""tail"": ""Despite Market Gains""
     },
     {
-      ""head"": ""Tesla Stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""is a major holding"",
       ""tail"": ""across Ark Invests ETFs""
     },
     {
-      ""head"": ""Tesla Stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""lagged"",
       ""tail"": ""behind big-cap Adobe (ADBE)""
     },
     {
-      ""head"": ""Tesla Stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""included in"",
       ""tail"": ""SPDR S&P Homebuilders ETF (XHB)""
     },
@@ -27351,12 +27366,12 @@ date,LLM_Triplet
 2024-03-26,"
 {
   ""impact cases"": [
-    ""Tesla stock is still down more than 28% for the year."",
+    ""Tesla's stock is still down more than 28% for the year."",
     ""Stocks struggled for upward momentum.""
   ],
   ""triplets"": [
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""has been down"",
       ""tail"": ""more than 28% for the year""
     },
@@ -27366,7 +27381,7 @@ date,LLM_Triplet
       ""tail"": ""upward momentum""
     },
     {
-      ""head"": ""Tesla stock"",
+      ""head"": ""Tesla's stock"",
       ""relation"": ""gained"",
       ""tail"": ""2.92%""
     },
@@ -27453,7 +27468,7 @@ date,LLM_Triplet
 2024-03-29,"
 {
   ""impact cases"": [
-    ""Tesla stock price may be negatively impacted due to falling delivery estimates from about 475,000 to 425,000 vehicles."",
+    ""Tesla's stock price may be negatively impacted due to falling delivery estimates from about 475,000 to 425,000 vehicles."",
     ""Tesla faces challenges in China due to rising EV competition and a price war."",
     ""Senator Warren urges SEC to investigate Tesla over board independence."",
     ""Investors are getting impatient with Tesla's lull between periods of growth."",
