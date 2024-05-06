@@ -1,5 +1,5 @@
-# FILENAME = "tesla_news"
-# stock = "TSLA"
+FILENAME = "tesla_news"
+stock = "TSLA"
 
 # FILENAME = "nvdia_news"
 # stock = "NVDA"
@@ -13,8 +13,8 @@
 # FILENAME = "google_news"
 # stock = "GOOG"
 
-FILENAME = "msft_news"
-stock = "MSFT"
+# FILENAME = "msft_news"
+# stock = "MSFT"
 
 from datetime import datetime
 
@@ -26,7 +26,7 @@ df = pd.read_csv(FILENAME+'_with_confidence.csv')
 
 
 # A simple strategy that buys AAPL on the first day and hold it
-class MyStrategy(Strategy):
+class LLM_Reasoning(Strategy):
 
     def initialize(self, symbol:str=stock, cash_at_risk:float=.4): 
         self.symbol = symbol
@@ -91,11 +91,11 @@ class MyStrategy(Strategy):
 
 # Pick the dates that you want to start and end your backtest
 # and the allocated budget
-backtesting_start = datetime(2022, 1, 20)
+backtesting_start = datetime(2022, 1, 11)
 backtesting_end = datetime(2024, 3, 31)
 
 # Run the backtest
-MyStrategy.backtest(
+LLM_Reasoning.backtest(
     YahooDataBacktesting,
     backtesting_start,
     backtesting_end,
