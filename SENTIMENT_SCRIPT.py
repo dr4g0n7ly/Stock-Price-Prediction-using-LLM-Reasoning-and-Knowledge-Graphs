@@ -37,35 +37,35 @@ batch_size = 10
 # Check if there's a checkpoint file to resume from
 checkpoint_file = FILENAME+'checkpoint.txt'
 start_index = 0
-if os.path.exists(checkpoint_file):
-    with open(checkpoint_file, 'r') as f:
-        start_index = int(f.read())
 
 # Process the DataFrame in batches and periodically save the CSV file
 for i in range(start_index, len(df)):
-    news = df.at[i, 'news']
+    try:
+        news = df.at[i, 'news']
 
-    if len(news) > 5:
-        prob, sentiment = estimate_sentiment(news[1:1000])
-        print(news[1:10], prob.item(), sentiment)
-        df.at[i, 'probability'] = prob.item()
-        df.at[i, 'sentiment'] = sentiment
+        if len(news) > 5:
+            prob, sentiment = estimate_sentiment(news[1:1000])
+            print(news[1:10], prob.item(), sentiment)
+            df.at[i, 'probability'] = prob.item()
+            df.at[i, 'sentiment'] = sentiment
 
-    else:
-        print(news, 0, "neutral")
-        df.at[i, 'probability'] = 0
-        df.at[i, 'sentiment'] = "neutral"
-    
-    # Check if it's time to save the CSV file
-    if (i + 1) % batch_size == 0:
-        # Save the DataFrame to a CSV file with the new column
-        df[:i+1].to_csv(FILENAME+'_with_sentiment.csv', index=False)
+        else:
+            print(news, 0, "neutral")
+            df.at[i, 'probability'] = 0
+            df.at[i, 'sentiment'] = "neutral"
         
-        # Update the checkpoint file with the index of the last processed row
-        with open(checkpoint_file, 'w') as f:
-            f.write(str(i + 1))
-        
-        print(f"Saved {i + 1} rows.")
+        # Check if it's time to save the CSV file
+        if (i + 1) % batch_size == 0:
+            # Save the DataFrame to a CSV file with the new column
+            df[:i+1].to_csv(FILENAME+'_with_sentiment.csv', index=False)
+            
+            # Update the checkpoint file with the index of the last processed row
+            with open(checkpoint_file, 'w') as f:
+                f.write(str(i + 1))
+            
+            print(f"Saved {i + 1} rows.")
+    except Exception as e:
+        print("ERROR on DATE: ", df.at[i, 'date'], "\n", e, "\n\n")
 
 # Save the remaining rows
 df.to_csv(FILENAME+'_with_sentiment.csv', index=False)

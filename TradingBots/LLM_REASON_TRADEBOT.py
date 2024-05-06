@@ -1,4 +1,4 @@
-FILENAME = "tesla_news"
+FILENAME = "tesla_news_2"
 stock = "TSLA"
 
 # FILENAME = "nvdia_news"
@@ -16,7 +16,7 @@ stock = "TSLA"
 # FILENAME = "msft_news"
 # stock = "MSFT"
 
-from datetime import datetime
+from datetime import datetime, timedelta
 
 from lumibot.backtesting import YahooDataBacktesting
 from lumibot.strategies import Strategy
@@ -45,9 +45,9 @@ class LLM_Reasoning(Strategy):
         return cash, last_price, quantity
     
     def get_sentiment(self): 
-        today = self.get_datetime().strftime('%Y-%m-%d')
-        print("\n", str(today))
-        filtered_row = df[df['date'] == str(today)]
+        today = self.get_datetime()
+        yesterday = today - timedelta(days=1)
+        filtered_row = df[df['date'] == str(today.strftime('%Y-%m-%d'))]
         if not filtered_row.empty:
             confidence = filtered_row['confidence'].values[0]
             print(" confidence:", confidence)
