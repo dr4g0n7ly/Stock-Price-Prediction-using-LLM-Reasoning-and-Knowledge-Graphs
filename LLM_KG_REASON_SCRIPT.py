@@ -102,22 +102,15 @@ def LLM_Response(news, week_context, general_context):
 # Load the CSV file into a pandas DataFrame
 df = pd.read_csv(FILENAME+'.csv')
 
-with open('triplet_embed.pkl', 'rb') as f:
+with open('EMBEDDINGS.pkl', 'rb') as f:
   triplet_df = pickle.load(f)
 
 # Define the batch size (number of rows to process before saving)
 batch_size = 5
 
-# Check if there's a checkpoint file to resume from
-checkpoint_file = FILENAME+'_LLM_KG_checkpoint.txt'
-start_index = 0
-if os.path.exists(checkpoint_file):
-    with open(checkpoint_file, 'r') as f:
-        start_index = int(f.read())
-
 # Process the DataFrame in batches and periodically save the CSV file
-for i in range(start_index, len(df)):
-  if i < 5:
+for i in range(0, len(df)):
+  if i < 9:
       continue
   try:
     general_context = find_top_k_passages(df.at[i, 'news'], triplet_df, 10)
@@ -139,18 +132,10 @@ for i in range(start_index, len(df)):
 
   # Check if it's time to save the CSV file
   if (i + 1) % batch_size == 0:
-    # Save the DataFrame to a CSV file without the 'news' column
     df_to_save.to_csv(FILENAME+'_with_LLM_KG.csv', index=False)
-
-    # Update the checkpoint file with the index of the last processed row
-    with open(checkpoint_file, 'w') as f:
-      f.write(str(i + 1))
-
     print(f"Saved {i + 1} rows.")
 
 # Save the remaining rows (without 'news' column)
 df.drop('news', axis=1, inplace=True)  # Drop directly modifies the DataFrame
 df.to_csv(FILENAME+'_with_LLM_KG.csv', index=False)
 print(f"Total {len(df)} rows processed and saved.")
-with open(checkpoint_file, 'w') as f:
-      f.write('0')
