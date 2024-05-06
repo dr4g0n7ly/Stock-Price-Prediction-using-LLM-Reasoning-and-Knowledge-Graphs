@@ -26,16 +26,35 @@ def find_top_k_passages_by_week(date, query, dataframe, k=5):
     dataframe_filtered['score'] = dot_products
     dataframe_sorted = dataframe_filtered.sort_values(by='score', ascending=False)
     dataframe_sorted = dataframe_sorted.head(k)
-    dataframe_sorted = dataframe_filtered.sort_values(by='date', ascending=True)
+    dataframe_sorted = dataframe_sorted.sort_values(by='date', ascending=True)
 
-    top_k_passages = list(dataframe_sorted['sentence'].head(k))
-    top_k_scores = list(dataframe_sorted['score'].head(k))
-    top_k_dates = list(dataframe_sorted['date'].head(k))
-    return top_k_passages, top_k_scores, top_k_dates
+    output_strings = []
+    for idx, row in dataframe_sorted.iterrows():
+        output_strings.append(f"{row['date'].strftime('%Y-%m-%d')} {row['sentence']}")
+
+    return '\n'.join(output_strings)
 
 
+def find_top_k_passages(date, query, dataframe, k=5):
+    query_date = datetime.strptime(date, '%Y-%m-%d')
 
-passage, scores, dates = find_top_k_passages_by_week('2022-10-10',query, df, 10)
 
-for i in range(len(scores)):
-   print(dates[i], passage[i], scores[i])
+    dataframe['date'] = pd.to_datetime(dataframe['date'], format='%d-%m-%Y')
+    query_embedding = genai.embed_content(model=model, content=query, task_type="retrieval_query")
+    dot_products = np.dot(np.stack(dataframe['embeddings']), query_embedding["embedding"])
+
+    dataframe['score'] = dot_products
+    dataframe_sorted = dataframe.sort_values(by='score', ascending=False)
+    dataframe_sorted = dataframe_sorted.head(k)
+    dataframe_sorted = dataframe_sorted.sort_values(by='date', ascending=True)
+
+    output_strings = []
+    for idx, row in dataframe_sorted.iterrows():
+        output_strings.append(f"{row['date'].strftime('%Y-%m-%d')} {row['sentence']}")
+
+    return '\n'.join(output_strings)
+
+
+passages = find_top_k_passages('2022-10-10', query, df, 10)
+print(passages)
+
