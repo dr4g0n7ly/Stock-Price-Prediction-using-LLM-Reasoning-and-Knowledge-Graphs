@@ -2,7 +2,7 @@ from pyvis.network import Network
 import pandas as pd
 
 # Step 1: Read CSV file and extract data
-df = pd.read_csv('CSV/triplets_for_all_dates_updated.csv')
+df = pd.read_csv('tesla_news_triplets_for_all_dates.csv')
 
 # Step 2: Select the first 30 rows and print head, relation, and tail
 # for index, row in df.head(200).iterrows():
