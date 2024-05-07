@@ -1,13 +1,31 @@
 import pandas as pd
-from marketaux_news import get_news
+import requests
 from datetime import datetime, timedelta 
-from config import MARKETAUX_KEY_1, MARKETAUX_KEY_2
+from config import MARKETAUX_KEY
 
-api_token = MARKETAUX_KEY_1
+api_token = MARKETAUX_KEY
 symbols = 'NVDA'
 
 start_date = datetime.strptime('2024-01-01', '%Y-%m-%d')
 num_days = 95
+
+def get_news(api_token, symbols, publish_date, filter_entities=True, language='en'):
+    url = f"https://api.marketaux.com/v1/news/all?symbols={symbols}&filter_entities={filter_entities}&published_on={publish_date}&language={language}&api_token={api_token}"
+    response = requests.get(url)
+    
+    if response.status_code == 200:
+        news_data = response.json()
+        highlights = []
+        for item in news_data['data']:
+            for entity in item['entities']:
+                if entity['symbol'] == symbols:
+                    for highlight in entity['highlights']:
+                        highlights.append(highlight['highlight'].replace('<em>', '').replace('</em>', ''))
+
+        return highlights
+    else:
+        print(f"Error: {response.status_code}")
+        return None
 
 try:
     df = pd.read_csv('nvdia_news.csv')
