@@ -280,7 +280,7 @@ date,LLM_output,confidence
 2022-02-21,"{
  ""reason"": ""Tesla faces growing competition from other major automakers who are developing and marketing electric vehicles."",
  ""confidence"": 5
-}",5.0
+}",8.0
 2022-02-22,"
 {
   ""reason"": ""Tesla stock fell hard today, nearly finishing the day at its lowest price since October. This indicates that the stock is in a downward trend and may have further to fall."",
@@ -641,7 +641,7 @@ date,LLM_output,confidence
 2022-04-29,"{
  ""reason"": ""Elon Musk, CEO of Tesla, recently acquired Twitter. This acquisition has led to concerns among investors that Musk may spread himself too thin and neglect Tesla. Additionally, Musk has sold a significant amount of Tesla stock to fund the Twitter deal. This has contributed to a decline in Tesla's stock price. However, analysts remain optimistic about Tesla's long-term prospects. They have raised their 2023 earnings-per-share estimates by 12% over the past month. Tesla also has a strong track record of innovation and execution. In light of the concerns surrounding Musk's Twitter acquisition, I would recommend selling Tesla stock with a confidence level of 5."",
  ""confidence"": 5
-}",5.0
+}",8.0
 2022-04-30,"
 {
   ""reason"": ""There are a few reasons why I would sell Tesla stock based on the news provided.\n\n1. Elon Musk's comments on Twitter about psychedelics and other plant-based substances as treatments for mental health-related issues could damage Tesla's reputation and brand image.\n\n2. Ford's equity investments in Rivian (RIVN) and Cathie Wood's Ark Open Source Model Predicts Tesla Shares Will Hit $4,600 by 2026 could indicate that there is increasing competition in the electric vehicle market, which could put pressure on Tesla's market share and profitability.\n\n3. ARK's prediction that the valuation of Tesla will exceed the entire US real GDP by the early 2030s is unrealistic and could lead to a sell-off in Tesla stock as investors realize that the company's valuation is unsustainable."",
@@ -1671,13 +1671,13 @@ date,LLM_output,confidence
 2022-11-11,"{
  ""reason"": ""The Swiss National Bank, a major investor in Tesla, has reported losses on its investment and has reduced its position in the company. This suggests that the bank is losing confidence in Tesla's stock price and may be signaling that a sell-off is imminent. Tesla's stock has already lost more than half of its value from its peak and the company is facing a number of challenges, including increased competition, production issues, and regulatory scrutiny. Additionally, the broader market is facing headwinds from rising interest rates and inflation, which could further weigh on Tesla's stock price."",
  ""confidence"": 1
-}",1.0
+}",8.0
 2022-11-12,"
 {
   ""reason"": ""There is a lack of meaningful information in the provided news article that could adversely affect Tesla's stock price. The article primarily focuses on Elon Musk's Twitter activity and his absence from an event due to unspecified \""incidents\"" in the United States. These details do not provide any clear indication of potential risks or opportunities for Tesla as a company."",
   ""confidence"": 5
 }
-",5.0
+",8.0
 2022-11-13,"
 {
   ""reason"": ""Elon Musk, the CEO of Tesla, has sold $3.95 billion worth of Tesla shares in order to save Twitter, which he recently acquired for $44 billion. This is a significant amount of money, and it represents a large portion of Musk's stake in Tesla. The stock has lost over 40% since Musk made an offer to take Twitter private, and slid some 6% last week. This indicates that investors are concerned about the impact that Musk's Twitter acquisition will have on Tesla. In addition, fake accounts purporting to be big brands have popped up with the blue check since the new roll-out, including Musk's Tesla and SpaceX, as well as Roblox, Nestle, and Lockheed Martin. This could damage the credibility of Twitter and make it less appealing to advertisers."",
@@ -1800,7 +1800,7 @@ date,LLM_output,confidence
   ""reason"": ""Despite outperforming competitors, Tesla is facing regulatory issues and investigations that could negatively impact its stock price. \nApple's delayed entry into the EV market and Musk's tempered expectations for fully self-driving cars may also contribute to a sell-off."",
   ""confidence"": 1
 }
-",1.0
+",8.0
 2022-12-07,"{
  ""reason"": ""Tesla stock has been on a downward trend in recent weeks, closing in on its bear market low. The company has cut prices in China, which could hurt demand. Additionally, there are reports that Tesla may cut production in Shanghai. These factors suggest that Tesla's stock is not a good buy at this time."",
  ""confidence"": 2
@@ -1906,7 +1906,7 @@ date,LLM_output,confidence
 2022-12-25,"{
   ""reason"": ""Tesla is facing a number of challenges that could negatively impact its stock price. \n\n1. **Increased competition**. Tesla is facing increasing competition from other electric vehicle manufacturers, such as Nio and BYD. These companies are offering competitive products at lower prices, which could eat into Tesla's market share and margins. \n\n2. **Production halts**. Tesla has halted production at its Shanghai factory, which is one of its largest manufacturing facilities. This could lead to production delays and lost sales. \n\n3. **Negative publicity**. Tesla has been in the news recently for all the wrong reasons. The company has been criticized for its handling of customer complaints, its production quality, and its CEO's erratic behavior. This negative publicity could damage Tesla's reputation and make it more difficult to attract new customers. \n\n4. **Technical problems**. Tesla vehicles have been experiencing a number of technical problems lately, including issues with charging and battery life. These problems could lead to safety concerns and further damage Tesla's reputation."",
   ""confidence"": 1
-}",1.0
+}",8.0
 2022-12-26,"
 {
   ""reason"": ""Tesla has suspended production at its Shanghai Plant due to COVID-19."",
@@ -2527,7 +2527,7 @@ date,LLM_output,confidence
 }",0
 2023-04-21,"
 {
-  ""reason"": ""Tesla has been slashing prices globally since January, including six times in the United States as of Tuesday. This has led to a 10% slump in Tesla shares on Thursday after the automaker missed its margin target. However, Tesla shares rebounded to close 1.3% higher at $165.08% on Friday. Tesla is giving three years of free access to its Superchargers to people who buy the premium models by June 30. The prices of all four models are still 16% to 23% less expensive than at the start of the year. Tesla Chief Executive Elon Musk on Wednesday doubled down on the price war he started at the end of last year, signalling the EV maker would prioritize sales growth ahead of profit in a weak economy."",
+  ""reason"": ""Tesla has been slashing prices globally since January, including six times in the United States as of Tuesday. This has led to a 10% slump in Tesla shares on Thursday after the automaker missed its margin target. However, Tesla shares rebounded to close 1.3% higher at $168.08% on Friday. Tesla is giving three years of free access to its Superchargers to people who buy the premium models by June 30. The prices of all four models are still 16% to 23% less expensive than at the start of the year. Tesla Chief Executive Elon Musk on Wednesday doubled down on the price war he started at the end of last year, signalling the EV maker would prioritize sales growth ahead of profit in a weak economy."",
   ""confidence"": 5
 }
 ",5
@@ -3279,7 +3279,7 @@ date,LLM_output,confidence
 }",5
 2023-09-06,"
 {
-  ""reason"": ""Tesla stock price has been volatile in recent trading sessions, closing at $251.99 in the latest session, marking a -1.75% move from the prior day. This move lagged the broader market indices, with the S&P 500 losing 0.7%, the Dow losing 0.57%, and the tech-heavy Nasdaq losing 1.06%.\n\nAnalysts expect Tesla to report earnings of $0.79 per share when it releases its next earnings report, which would represent a year-over-year decline of 24.76%. The company currently has a Zacks Rank of #3 (Hold). Additionally, Tesla's forward P/E ratio of 73.9 is significantly higher than the industry average of 10.07, indicating that the stock may be overvalued.\n\nOverall, the news does not provide a clear indication for buying or selling Tesla stock. The stock's recent price movements have been volatile, and the company's upcoming earnings report could potentially impact its stock price. Investors should carefully consider all available information before making a decision on whether to buy or sell Tesla stock."",
+  ""reason"": ""Tesla stock price has been volatile in recent trading sessions, closing at $251.99 in the latest session, marking a -1.75% move from the prior day. This move lagged the broader market indices, with the S&P 500 losing 0.7%, the Dow losing 0.57%, and the tech-heavy Nasdaq losing 8.06%.\n\nAnalysts expect Tesla to report earnings of $0.79 per share when it releases its next earnings report, which would represent a year-over-year decline of 24.76%. The company currently has a Zacks Rank of #3 (Hold). Additionally, Tesla's forward P/E ratio of 73.9 is significantly higher than the industry average of 10.07, indicating that the stock may be overvalued.\n\nOverall, the news does not provide a clear indication for buying or selling Tesla stock. The stock's recent price movements have been volatile, and the company's upcoming earnings report could potentially impact its stock price. Investors should carefully consider all available information before making a decision on whether to buy or sell Tesla stock."",
   ""confidence"": 5
 }
 ",5
