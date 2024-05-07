@@ -1,8 +1,8 @@
 # CHANGE STOCK NAME IN SYSTEM PROMPT 3 TIMES
 
-FILENAME = 'tesla_news'
+FILENAME = 'nvdia_news'
 
-import os
+import time
 import numpy as np
 import pandas as pd
 import pickle
@@ -66,13 +66,13 @@ def LLM_Response(news, week_context, general_context):
     model = genai.GenerativeModel('gemini-pro')
 
     try:
-        system_prompt = """ You are an expert stock news analyser. With respect to the context news and current news provided respond with a reasons for whether you should buy or sell Tesla stock and give a confidence ranging from 0 (sell) to 9 (buy). You must ensure the following rules are followed when giving your analysis:
+        system_prompt = """ You are an expert stock news analyser. With respect to the context news and current news provided respond with a reasons for whether you should buy or sell Nvidia stock and give a confidence ranging from 0 (sell) to 9 (buy). You must ensure the following rules are followed when giving your analysis:
         RULES:
-        1. Please respond in json format: { reason: string, confidence: integer }, where reason contains the reasons for buying or selling Tesla stock, and confidence is a integer ranging from 0 (sell) to 9 (buy)
+        1. Please respond in json format: { reason: string, confidence: integer }, where reason contains the reasons for buying or selling Nvidia stock, and confidence is a integer ranging from 0 (sell) to 9 (buy)
         2. Please ensure that the NEWS is critically analysed before writing the reasons for the prediction of the stock price
         3. The LAST WEEK CONTEXT NEWS is relevant news titles from the past week along with dates. Ensure that this LAST WEEK CONTEXT NEWS is also critically analysed before writing the reasons for the prediction of the stock
         4. The GENERAL CONTEXT is relevant news titles or information in general that is relevant to the provided news along with the dates. Ensure that this GENERAL CONTEXT NEWS is also critically analysed before writing the reasons for the prediction of the stock
-        5. Try to find meaningful information that may be most detrimental to Tesla Stock price movement. This is very important!
+        5. Try to find meaningful information that may be most detrimental to Nvidia Stock price movement. This is very important!
         """
 
         ARTICLE = news
@@ -112,6 +112,9 @@ batch_size = 5
 for i in range(0, len(df)):
   if i < 9:
       continue
+  
+  time.sleep(1)
+
   try:
     general_context = find_top_k_passages(df.at[i, 'news'], triplet_df, 10)
   except:

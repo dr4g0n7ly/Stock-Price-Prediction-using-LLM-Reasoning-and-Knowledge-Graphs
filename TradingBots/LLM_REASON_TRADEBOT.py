@@ -1,5 +1,5 @@
-FILENAME = "tesla_news_2"
-stock = "TSLA"
+FILENAME = "nvdia_news"
+stock = "NVDA"
 
 # FILENAME = "nvdia_news"
 # stock = "NVDA"
@@ -22,11 +22,11 @@ from lumibot.backtesting import YahooDataBacktesting
 from lumibot.strategies import Strategy
 
 import pandas as pd
-df = pd.read_csv(FILENAME+'_with_confidence.csv')
+df = pd.read_csv(FILENAME+'_KG_confidence.csv')
 
 
 # A simple strategy that buys AAPL on the first day and hold it
-class LLM_Reasoning(Strategy):
+class LLM_KG_Reasoning(Strategy):
 
     def initialize(self, symbol:str=stock, cash_at_risk:float=.4): 
         self.symbol = symbol
@@ -61,7 +61,7 @@ class LLM_Reasoning(Strategy):
         confidence = self.get_sentiment()
 
         if cash > last_price: 
-            if confidence > 7: 
+            if confidence > 6: 
                 if self.last_trade == "sell": 
                     self.sell_all() 
                 order = self.create_order(
@@ -74,7 +74,7 @@ class LLM_Reasoning(Strategy):
                 )
                 self.submit_order(order) 
                 self.last_trade = "buy"
-            elif confidence < 3: 
+            elif confidence < 2: 
                 if self.last_trade == "buy": 
                     self.sell_all() 
                 order = self.create_order(
@@ -95,7 +95,7 @@ backtesting_start = datetime(2022, 1, 11)
 backtesting_end = datetime(2024, 3, 31)
 
 # Run the backtest
-LLM_Reasoning.backtest(
+LLM_KG_Reasoning.backtest(
     YahooDataBacktesting,
     backtesting_start,
     backtesting_end,

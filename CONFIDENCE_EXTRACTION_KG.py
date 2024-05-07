@@ -1,5 +1,5 @@
 # CHANGE FILENAME TO LLM REASON OUTPUT FILE
-FILENAME = 'tesla_news'
+FILENAME = 'nvdia_news'
 
 import pandas as pd
 import json
@@ -28,6 +28,7 @@ def check_json_format(df):
 # Call the function to check JSON format
 df = pd.read_csv(FILENAME+'_with_LLM_KG.csv')
 
+df['confidence'] = None
 df['LLM_output'] = df['LLM_output'].str.replace("```", '')
 df['LLM_output'] = df['LLM_output'].str.replace("json", '')
 df['LLM_output'] = df['LLM_output'].str.replace("JSON", '')
