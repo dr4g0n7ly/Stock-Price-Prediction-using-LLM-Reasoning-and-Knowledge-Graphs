@@ -1,6 +1,7 @@
+
+import pandas as pd
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import torch
-
 device = "cuda:0" if torch.cuda.is_available() else "cpu"
 
 tokenizer = AutoTokenizer.from_pretrained("ProsusAI/finbert")
@@ -20,11 +21,7 @@ def estimate_sentiment(news):
         return probability, sentiment
     else:
         return 0, labels[-1]
-
-
-if __name__ == "__main__":
-    queries = ['markets responded negatively to the news!','traders were displeased!']
-    tensor, sentiment = estimate_sentiment(queries)
-    print("\n\n")
-    print(queries, "\n")
-    print(tensor, sentiment)
+    
+prob, sentiment = estimate_sentiment("The investors were happy with the results")
+print("Probability: ", prob)
+print("Sentiment: ", sentiment)

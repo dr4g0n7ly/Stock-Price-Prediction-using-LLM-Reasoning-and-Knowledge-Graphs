@@ -2,7 +2,9 @@ from pyvis.network import Network
 import pandas as pd
 
 # Step 1: Read CSV file and extract data
-df = pd.read_csv('tesla_news_triplets_for_all_dates.csv')
+import pickle
+with open('EMBEDDINGS.pkl', 'rb') as f:
+  df = pickle.load(f)
 
 # Step 2: Select the first 30 rows and print head, relation, and tail
 # for index, row in df.head(200).iterrows():
@@ -15,7 +17,7 @@ df = pd.read_csv('tesla_news_triplets_for_all_dates.csv')
 net = Network()
 
 # Add nodes and edges to the network
-for index, row in df.head(355).iterrows():
+for index, row in df.head(3000).iterrows():
     try:
         head = row['head']
         relation = row['relation']

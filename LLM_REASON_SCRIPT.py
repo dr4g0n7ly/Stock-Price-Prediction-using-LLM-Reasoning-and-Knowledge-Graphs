@@ -1,6 +1,6 @@
 # CHANGE STOCK NAME IN SYSTEM PROMPT 3 TIMES
 
-FILENAME = 'tesla_news_2'
+FILENAME = 'tesla_news'
 
 import os
 import pandas as pd
@@ -43,6 +43,7 @@ def LLM_Response(news):
 
 # Load the CSV file into a pandas DataFrame
 df = pd.read_csv('tesla_news.csv')
+df.head(1)
 
 # Define the batch size (number of rows to process before saving)
 batch_size = 5
@@ -58,22 +59,24 @@ if os.path.exists(checkpoint_file):
 for i in range(start_index, len(df)):
   # Apply LLM_response function to the 'news' column
   df.at[i, 'LLM_output'] = LLM_Response(df.at[i, 'news'])
+  print("\nNEWS: ", df.at[i, 'news'][0:1000])
+  print("\nLLM OUTPUT:", df.at[i, 'LLM_output'])
 
-  # Drop the 'news' column before saving
-  df_to_save = df.drop('news', axis=1)  # axis=1 specifies dropping a column
+#   # Drop the 'news' column before saving
+#   df_to_save = df.drop('news', axis=1)  # axis=1 specifies dropping a column
 
-  # Check if it's time to save the CSV file
-  if (i + 1) % batch_size == 0:
-    # Save the DataFrame to a CSV file without the 'news' column
-    df_to_save.to_csv(FILENAME+'_with_LLM_Reason.csv', index=False)
+#   # Check if it's time to save the CSV file
+#   if (i + 1) % batch_size == 0:
+#     # Save the DataFrame to a CSV file without the 'news' column
+#     df_to_save.to_csv(FILENAME+'_with_LLM_Reason.csv', index=False)
 
-    # Update the checkpoint file with the index of the last processed row
-    with open(checkpoint_file, 'w') as f:
-      f.write(str(i + 1))
+#     # Update the checkpoint file with the index of the last processed row
+#     with open(checkpoint_file, 'w') as f:
+#       f.write(str(i + 1))
 
-    print(f"Saved {i + 1} rows.")
+#     print(f"Saved {i + 1} rows.")
 
-# Save the remaining rows (without 'news' column)
-df.drop('news', axis=1, inplace=True)  # Drop directly modifies the DataFrame
-df.to_csv(FILENAME+'_with_LLM_Reason.csv', index=False)
-print(f"Total {len(df)} rows processed and saved.")
+# # Save the remaining rows (without 'news' column)
+# df.drop('news', axis=1, inplace=True)  # Drop directly modifies the DataFrame
+# df.to_csv(FILENAME+'_with_LLM_Reason.csv', index=False)
+# print(f"Total {len(df)} rows processed and saved.")

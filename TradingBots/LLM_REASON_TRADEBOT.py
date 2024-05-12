@@ -1,8 +1,8 @@
-FILENAME = "tesla_news"
-stock = "TSLA"
+# FILENAME = "tesla_news"
+# stock = "TSLA"
 
-# FILENAME = "nvdia_news"
-# stock = "NVDA"
+FILENAME = "nvdia_news"
+stock = "NVDA"
 
 # FILENAME = "apple_news"
 # stock = "AAPL"

@@ -51,6 +51,9 @@ for index, row in df.iterrows():
 if warning_flag == False:
     for index, row in df.iterrows():
         triplets = json.loads(row['LLM_Triplet'])
+
+        if index != 57:
+            continue
         
         # Check if 'triplets' key is present
         if 'triplets' in triplets:
@@ -60,13 +63,14 @@ if warning_flag == False:
                 relation = str(triplet['relation'])
                 tail = str(triplet['tail'])
                 sentence = head + " " + relation + " " + tail
-                new_rows.append({'date': row['date'], 'triplet': triplet, 'head':head, 'relation':relation, 'tail':tail, 'sentence':sentence})
+                print("\n")
+                print({'date': row['date'], '\ntriplet': triplet, '\nhead':head, '\nrelation':relation, '\ntail':tail, '\nsentence':sentence})
         else:
             if 'error' in triplets:
                 new_rows.append({'date': row['date'], 'triplet': 'error: news blocked', 'head': '-', 'relation': '-', 'tail': '-'})
 
-    # Create a new DataFrame from the list of rows
-    new_df = pd.DataFrame(new_rows)
+    # # Create a new DataFrame from the list of rows
+    # new_df = pd.DataFrame(new_rows)
 
-    # Write the new DataFrame to a CSV file
-    new_df.to_csv(FILENAME+'_triplets_for_all_dates.csv', index=False)
+    # # Write the new DataFrame to a CSV file
+    # new_df.to_csv(FILENAME+'_triplets_for_all_dates.csv', index=False)
