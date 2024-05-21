@@ -6,7 +6,8 @@ system employs automated bots equipped with news APIs and social media APIs to g
 graphs provides contextual understanding, allowing the LLM to determine the relevance and impact of various events on stock prices. 8 selected tech stocks were used to evaluate the three
 strategies discussed. LLM KG Reasoning demonstrates the highest performance for 5 out of the 8 stocks however, this strategy also yields negative results for 2 stocks. 
 
-![image](https://github.com/dr4g0n7ly/Stock-Price-Prediction-using-LLM-Reasoning-and-Knowledge-Graphs/assets/82759046/6dc3a03c-ad05-464c-a2c2-733794971609)
+![image](https://github.com/dr4g0n7ly/Stock-Price-Prediction-using-LLM-Reasoning-and-Knowledge-Graphs/assets/82759046/fc2c4ca7-b494-4b68-8be1-f611c5488145)
+
 
 ## Modules
 
@@ -27,3 +28,25 @@ The reasoning method involves utilizing a large language model to provide a conf
 
 #### Module 6 - Embedding Generation and Semantic Search
 The system uses Google’s Embedding-001 API to generate vector embeddings from the extracted triplets. Semantic search is performed over these embeddings to find the K most relevant triplets from the past week and K most relevant triplets in general with respect to the given day's news. These extracted triplets are injected as context into the prompt, this is then used to guide the decision-making and reasoning process of the LLM.
+
+
+## Results & Discussion
+
+#### Consistency
+Before we begin comparing results between Sentiment Strategy, LLM Reasoning Strategy and LLM Reasoning with KG strategy, it is essential to determine whether the models we are using perform consistently. To perform this check, news sentiments using ‘ProsusAI/finbert’ as well as confidence scores using ‘google/geminipro’ (temperature = 0.6) were generated on retrieved Tesla stock news three times each. These sentiments and confidence scores are used to predict Tesla stock prices and the outputs are compared against each other.
+The sentiment analysis model using FinBERT performs very consistently, resulting in the same output every time the model is run on the same news. However, slight inconsistencies were noticed during price prediction using LLM Reasoning.
+LLM Reasoning is purely a text-generation task hence being highly probabilistic in nature while Sentiment Analysis is a classification task and hence has a very consistent output. The change in cumulative return has a variation of 3.08%. Nonetheless, since only three LLM Reasoning outputs have been generated to test consistency of the model, the variation in cumulative return can be approximated to about 10%. This can be considered as a consistent model due to LLM’s
+black box nature and their subjectivity to hallucination. Therefore, both models performed consistently without drastic change. Now, we can compare the performance of the 3 strategies.
+
+![image](https://github.com/dr4g0n7ly/Stock-Price-Prediction-using-LLM-Reasoning-and-Knowledge-Graphs/assets/82759046/01db28cb-396d-49f5-a7bc-84867fccc9fe)
+
+![image](https://github.com/dr4g0n7ly/Stock-Price-Prediction-using-LLM-Reasoning-and-Knowledge-Graphs/assets/82759046/f3c9f3dd-ee4d-4a06-9b67-59e9bbb96538)
+
+
+#### Performance
+Due to the vast amount of finance news available on the top tech stocks, we have considered the following eight stocks for our evaluation: AMZN (Amazon), AMD (Advanced Micro Devices), AAPL (Apple), GOOG (Alphabet Class C), JPM (JPMorgan Chase & Co), MSFT (MicroSoft), NVDA (Nvidia), TSLA (Tesla). The process of evaluation involved collecting the stock-wise news from MarketAux. The collected news is then used to perform sentiment analysis as well as extract LLM reasoning confidence scores. To extract LLM reasoning with KG confidence scores, the news is used to generate triplets and their respective embeddings. Semantic search is performed on the embeddings using the news per day as the query. Top K triplets are retrieved based on whether the triplet was generated within the past week of the news being analyzed and is injected as Last Week Context. Top K triplets in general are also extracted and injected as General Context. These contexts provide the LLM with necessary information to base its reasoning as to whether one should buy or sell a particular stock, along with its reasoning. The confidence scores generated are the LLM-KG reasoning confidence scores. These confidence scores are used to perform back-testing on the selected stocks and their cumulative return was tested.
+
+![image](https://github.com/dr4g0n7ly/Stock-Price-Prediction-using-LLM-Reasoning-and-Knowledge-Graphs/assets/82759046/0acdc295-bb73-4475-b148-7183c6320af7)
+
+#### Limitations
+The project heavily depends on the news provided and this is a major bottleneck to this research as the performance depends solely on the news. The news must be verified for its accuracy as well as its popularity must be taken into consideration which this project does not consider as of now. LLM Reasoning as well as triplet generation depend on the quality of the news provided and the news sources taken into consideration, which in-turn affect the decision making process of whether to buy or sell a certain stock. The outputs of the project are also limited to google’s Gemini Pro LLM. Any update, fine-tuning of the LLM or using a different LLM may vastly change the results. LLMs in general are subject to a black-box nature and hence hallucination. Adding financial market news as context helps resolve hallucination to some degree but as mentioned above consistency with LLMs is a challenging drawback. Moreover, Stock market prediction in general is inherently unpredictable due to the complex interplay of countless variables, including economic indicators, geopolitical events, and investor psychology. The market's inherent volatility amplifies this unpredictability, making it challenging to accurately forecast future trends. The project only accounts for news sources as of now, and does not take into consideration other variables. An integration with hard data, company fundamentals and different sources of news with the LLM KG Strategy may result in further improvements.
