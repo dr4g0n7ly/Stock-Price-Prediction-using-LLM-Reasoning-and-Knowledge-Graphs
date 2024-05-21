@@ -1,5 +1,9 @@
 # Stock Price Prediction using LLM Reasoning and Knowledge Graphs
 
+[Link to complete paper](https://github.com/dr4g0n7ly/Stock-Price-Prediction-using-LLM-Reasoning-and-Knowledge-Graphs/blob/main/Final_Report.pdf)
+
+## Abstract
+
 Predicting stock prices accurately is a paramount objective for investors, financial analysts, and traders alike, as it enables informed decision-making, risk mitigation, and potential profit maximization. Traditional methods often rely solely on historical data and technical indicators,
 overlooking the valuable insights embedded in real-time news and social media sentiments. In response, this project introduces an innovative approach leveraging knowledge graphs and Language Model (LLM) reasoning to enhance stock price prediction accuracy. The proposed
 system employs automated bots equipped with news APIs and social media APIs to gather real-time textual data. These data sources are then subjected to sentiment analysis and LLM Reasoning to gauge market sentiment accurately. Furthermore, the integration of knowledge
